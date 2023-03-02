@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
+	<title>Braves Ahuntsic Sessions</title>
+	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css" />
+	<style type="text/css" class="init"></style>
+	<script type="text/javascript" language="javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+	<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+	<script type="text/javascript" class="init">
+    var dataSet = [
+      ['1', '1', '{"drills" : [{"id" : 1, "duration" : 600 }, { "id" : 2, "duration" : 900},{ "id" : 3, "duration" : 900},{"id" : 4,"duration" : 900},{"id" : 5,"duration" : 1800}]}'],
+      ['2', '1', '{"drills" : [{"id" : 1, "duration" : 600 }, { "id" : 2, "duration" : 900},{ "id" : 3, "duration" : 900},{"id" : 4,"duration" : 900},{"id" : 5,"duration" : 1800}]}'],
+    ];
+		$(document).ready(
+			function () {
+				$('#Sessions').DataTable(
+					{
+						"pageLength": -1,
+						"lengthMenu": [ [-1, 10, 50, 250], ["ALL", 10, 50, 250] ],
+        data: dataSet,
+        columns: [
+            { title: 'ID' },
+            { title: 'Theme' },
+            { title: 'Session' },
+        ],
+						"columnDefs": [
+							{ "orderable": false, "targets": 1 }
+						]
+					}
+				);
+			}
+		);
+	</script>
+</head>
+<body>
+	<div id='viewindex'>
+		<a href="index.html">View Index</a>
+	</div>
+	<div class="demo-html">
+		<table id="Sessions" class="display" style="width:100%">
+		</table>
+	</div>
+	<div id='sessions'></div>
+</body>
+</html>
