@@ -9,10 +9,17 @@
 	<script type="text/javascript" language="javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
 	<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
 	<script type="text/javascript" class="init">
-    var dataSet = [
-      ['1', '1', '{"drills" : [{"id" : 1, "duration" : 600 }, { "id" : 2, "duration" : 900},{ "id" : 3, "duration" : 900},{"id" : 4,"duration" : 900},{"id" : 5,"duration" : 1800}]}'],
-      ['2', '1', '{"drills" : [{"id" : 1, "duration" : 600 }, { "id" : 2, "duration" : 900},{ "id" : 3, "duration" : 900},{"id" : 4,"duration" : 900},{"id" : 5,"duration" : 1800}]}'],
-    ];
+    var sample_data = '';
+$.getJSON("data.json", function (data) {
+    sample_data = data;
+    $.each(data, function (key, value) {
+        console.log(sample_data);
+    });
+});
+    //var dataSet = [
+    //  ['1', '1', '{"drills" : [{"id" : 1, "duration" : 600 }, { "id" : 2, "duration" : 900},{ "id" : 3, "duration" : 900},{"id" : 4,"duration" : 900},{"id" : 5,"duration" : 1800}]}'],
+    //  ['2', '1', '{"drills" : [{"id" : 1, "duration" : 600 }, { "id" : 2, "duration" : 900},{ "id" : 3, "duration" : 900},{"id" : 4,"duration" : 900},{"id" : 5,"duration" : 1800}]}'],
+    //];
 		$(document).ready(
 			function () {
 				$('#Sessions').DataTable(
