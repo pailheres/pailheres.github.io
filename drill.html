@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
+	<title>Braves Ahuntsic Sessions</title>
+	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css" />
+	<style type="text/css" class="init"></style>
+	<script type="text/javascript" language="javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+	<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+	<script type="text/javascript" class="init">
+		$(document).ready(
+     
+			function () {
+        const queryString = window.location.search;
+        console.log(queryString);
+        const urlParams = new URLSearchParams(queryString);
+
+        const ID = urlParams.get('ID')
+        console.log(ID);
+        //document.getElementById('Title').innerHTML = ID;
+
+
+        $.getJSON("df.json", function(json_resp) {
+          console.log(json_resp['drills']);
+          var found = getCountryByCode(ID);
+          found = found[0];  //get first
+          console.log(found);
+
+          function getCountryByCode(a_ID) {
+            return json_resp['drills'].filter(
+              function(myRecord){ return myRecord.ID == a_ID }
+            );
+          }
+          
+          //document.getElementById('ID').innerHTML = found.ID;
+          //document.getElementById('Title').innerHTML = found.Title;
+          //document.getElementById('Category').innerHTML = found.Category;
+          document.getElementById('Title').innerHTML = '<small>'+found.ID+' : </small>'+found.Title+'<small>  ('+found.Category+')</small>';
+          document.getElementById('Material').innerHTML = found.Material;
+          document.getElementById('CoachingPoints').innerHTML = found.CoachingPoints;
+          document.getElementById('Description').innerHTML = found.Description;
+          document.getElementById('Image').innerHTML = '<img src="imgs/'+found.Image+'"/>'
+        });
+
+
+/*
+        const Title = urlParams.get('Title')
+        console.log(Title);
+        //document.getElementById('Title').innerHTML = Title;
+
+        const Category = urlParams.get('Category')
+        console.log(Category);
+        //document.getElementById('Category').innerHTML = Category;
+
+        const Material = urlParams.get('Material')
+        console.log(Material);
+        document.getElementById('Material').innerHTML = Material;
+
+        const CoachingPoints = urlParams.get('CoachingPoints')
+        console.log(CoachingPoints);
+        document.getElementById('CoachingPoints').innerHTML = CoachingPoints;
+
+        const Description = urlParams.get('Description')
+        console.log(Description);
+        document.getElementById('Description').innerHTML = Description;
+
+        const Image = urlParams.get('Image')
+        console.log(Image);
+        document.getElementById('Image').innerHTML = '<img src="imgs/'+Image+'"/>';
+
+        document.getElementById('Title').innerHTML = '<small>'+ID+' : </small>'+Title+'<small>  ('+Category+')</small>';
+        */
+			}
+		);
+	</script>
+</head>
+<body>
+	<div id='viewindex'>
+		<a href="index.html">View Index</a>
+	</div>
+	<div id='drill'>
+		<h1 class="page-title" id="Title"></h1>
+		<h2 class="para-title">Material</h2>
+		<p id="Material"></p>
+		<h2 class="para-title">Coaching Points</h2>
+		<p id="CoachingPoints"></p>
+		<h2 class="para-title">Description</h2>
+		<p id="Description"></p>
+		<h2 class="para-title">Image</h2>
+		<p id="Image">
+		</p>
+	</div>
+</body>
+</html>
