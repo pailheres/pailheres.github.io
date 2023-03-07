@@ -1,9 +1,12 @@
+<?php
+#echo 'Hello World!';
+?>
 <!DOCTYPE html>
 <html>
 <head>
 	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
-	<title>Braves Ahuntsic Sessions</title>
+	<title>Braves Ahuntsic Drills</title>
 	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css" />
 	<style type="text/css" class="init"></style>
 	<script type="text/javascript" language="javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
@@ -11,23 +14,31 @@
 	<script type="text/javascript" class="init">
 		$(document).ready(
 			function () {
-				$('#Sessions').DataTable(
+				$('#Drills').DataTable(
 					{
 						"pageLength": -1,
 						"lengthMenu": [ [-1, 10, 50, 250], ["ALL", 10, 50, 250] ],
             "processing": true,
 						"serverSide": true,
 						"ajax": {
-              url: 'data.json',
-              dataSrc: 'sessions',
+              url: 'df.json',
+              dataSrc: 'drills',
             },
             columns: [
-              { data: 'id' },
-              { data: 'theme' },
+              { data: 'ID' },
+              { data: 'Title' },
+              { data: 'Category' },
+              { data: 'Material' },
+              { data: 'CoachingPoints' },
+              { data: 'Description' },
+              { "data": "Image" ,
+                "render": function (data) {return "<img src='imgs/"+data+"' width='150px'>";}
+              },
             ],
 						"columnDefs": [
-							{ "orderable": false, "targets": 1 },
+							{ "orderable": false, "targets": 6 },
               { "targets": 0, "data": "download_link", "render": function ( data, type, row, meta ) { return '<a href="'+data+'">'+data+'</a>'; } }
+              //{ "targets": 6, "data": "download_link", "render": function ( data, type, row, meta ) { return '<img src="img/'+ data +'" height="100"/>'; } }
 						]
 					}
 				);
@@ -40,9 +51,31 @@
 		<a href="index.html">View Index</a>
 	</div>
 	<div class="demo-html">
-		<table id="Sessions" class="display" style="width:100%">
+		<table id="Drills" class="display" style="width:100%">
+			<thead>
+				<tr>
+					<th>ID</th>
+					<th>Title</th>
+					<th>Category</th>
+					<th>Material</th>
+					<th>Coaching Points</th>
+					<th>Description</th>
+					<th>Image</th>
+				</tr>
+			</thead>
+			<tfoot>
+				<tr>
+					<th>ID</th>
+					<th>Title</th>
+					<th>Category</th>
+					<th>Material</th>
+					<th>Coaching Points</th>
+					<th>Description</th>
+					<th>Image</th>
+				</tr>
+			</tfoot>
 		</table>
 	</div>
-	<div id='sessions'></div>
+	<div id='drills'></div>
 </body>
 </html>

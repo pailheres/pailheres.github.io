@@ -1,0 +1,784 @@
+{
+"drills" : [
+ {
+  "ID":1,
+  "Source":"ElMehdi",
+  "Title":"Toucher de balle",
+  "Category":"Echauffement",
+  "Material":"ballons",
+  "CoachingPoints":"​​Toucher de balle<br>- Maîtrise d’un ballon aérien<br>- Amélioration du toucher de balle<br>- Equilibre<br>- Coordination",
+  "Description":"​Jonglerie :<br>Un ballon par joueur<br>Jongler en respectant les consignes de l'entraîneur<br><br>Consignes :<br>pied droit, pied gauche, alterné, tête, etc<br><br>Variantes :<br>Jongler à 2 : libre, 2 touches de balle, 1 touche de balle<br>Jongler à 3 : libre, 2 touches de balle, 1 touche de balle",
+  "Image":"00001.png"
+ },
+ {
+  "ID":2,
+  "Source":"ElMehdi",
+  "Title":"La conduite de balle",
+  "Category":"Technique",
+  "Material":"ballons",
+  "CoachingPoints":"La conduite de balle :<br>Conduite de balle avec changement de direction<br>Conduite<br>Fluidité de la conduite<br>Maîtrise du ballon en mouvement<br>",
+  "Description":"Conduite :<br>Un ballon par joueur.<br>Les joueurs conduisent leur ballon en gardant la tête haute et suivent les consignes données par l’entraîneur.<br><br>Consignes au signal de l’entraîneur :<br>- accélérer dans la direction opposée<br>- conduire que pied droit (idem que pied gauche)<br>- conduire que de l’intérieur (idem que extérieur)<br>- conduire que de la semelle<br>",
+  "Image":"00002.png"
+ },
+ {
+  "ID":3,
+  "Source":"ElMehdi",
+  "Title":"La conduite de balle",
+  "Category":"Technique",
+  "Material":"ballons",
+  "CoachingPoints":"La conduite de balle :<br>Conduite de balle avec changement de direction<br>Conduite en levant la tete<br>Fluidité de la conduite<br>Maîtrise du ballon en mouvement",
+  "Description":"La chenille :<br>Par groupes de 3 joueurs. Un ballon par joueur.<br>Les joueurs du même groupe se placent l'un derrière l'autre.<br>Le joueur de tête conduit le ballon où il veut et les autres tentent de le suivre en restant l'un derrière l'autre.<br>Au signal sonore, tous les joueurs doivent s'arrêter net pour voir si les chenilles sont encore entières.<br>Changer la tête des chenilles régulièrement.<br><br>Variantes :<br>- chenilles de 4 joueurs<br>- chenilles de 5 joueurs<br>- une chenille avec tous les joueurs",
+  "Image":"00003.png"
+ },
+ {
+  "ID":4,
+  "Source":"ElMehdi",
+  "Title":"La conduite de balle",
+  "Category":"Technique",
+  "Material":"ballons<br>plots",
+  "CoachingPoints":"La conduite de balle :<br>Conduite + tir<br>Fluidité de la conduite<br>Maîtrise du ballon en mouvement<br>Recherche d’efficacité dans le tir",
+  "Description":"Conduite + tir :<br>Le joueur conduit le ballon et tire au but en étant désaxé par rapport au but (voir dessin).<br><br>Variantes :<br>Variante 1 : conduite + tir pied droit<br>Variante 2 : conduite + tir pied gauche<br><br>Consignes :<br>- conduite + frappe : enchaînement rapide, sans temps d’arrêt avant la frappe<br>- chercher à marquer",
+  "Image":"00004.png"
+ },
+ {
+  "ID":5,
+  "Source":"ElMehdi",
+  "Title":"Jeu libre",
+  "Category":"Match",
+  "Material":"ballons<br>chasubles (2 couleurs)",
+  "CoachingPoints":"Jeu libre :",
+  "Description":"Match 7 contre 7 :<br>6 joueurs + 1 gardien par équipe.<br>Jeu libre.<br>Pas de consignes particulières",
+  "Image":"00005.png"
+ },
+ {
+  "ID":6,
+  "Source":"ElMehdi",
+  "Title":"Toucher de balle",
+  "Category":"Echauffement",
+  "Material":"ballons",
+  "CoachingPoints":"Toucher de balle :<br>Jonglerie<br>maîtrise individuelle du ballon<br>Equilibre<br>Coordination",
+  "Description":"Test de jonglerie :<br>Par 2 : un joueur jongle et l’autre compte.<br>3 essais par joueur et par type de jonglerie.<br>Noter et conserver les résultats.<br>Variantes :<br>- Pied droit<br>- Pied gauche<br>- Tête<br>- Libre",
+  "Image":"00006.png"
+ },
+ {
+  "ID":7,
+  "Source":"ElMehdi",
+  "Title":"La conduite de balle",
+  "Category":"Technique",
+  "Material":"ballons<br>plots",
+  "CoachingPoints":"La conduite de balle :<br>Conduite de balle avec changement de direction<br>Conduite<br>Fluidité de la conduite<br>Maîtrise du ballon en mouvement",
+  "Description":"Conduite :<br>Un ballon par joueur. 4 joueurs maximum par atelier.<br>Le joueur conduit le ballon en slalomant entre les plots (1m50).<br><br>Variantes :<br>- Conduite libre<br>- Conduite uniquement pied droit<br>- Conduite uniquement pied gauche<br>- Conduite uniquement intérieur du pied<br>- Conduite uniquement extérieur du pied<br>- Conduite libre rapide",
+  "Image":"00007.png"
+ },
+ {
+  "ID":8,
+  "Source":"ElMehdi",
+  "Title":"La conduite de balle",
+  "Category":"Technique",
+  "Material":"ballons<br>plots",
+  "CoachingPoints":"La conduite de balle :<br>Conduite de balle avec changement de direction<br>Conduite<br>Fluidité de la conduite<br>Maîtrise du ballon en mouvement",
+  "Description":"Course par équipe :<br>Deux équipes s’opposent sur un parcours de conduite de balle : 2 parcours identiques (un par équipe)<br>Le joueur conduit le ballon, effectue le slalom en conduite de balle puis passe le ballon à travers une porte et le récupère après avoir contourné la porte, puis il conduit le ballon à travers la deuxième porte et stoppe le ballon dans le carré<br><br>Variantes :<br>- Chaque duel gagné par un joueur rapporte un point à son équipe<br>- Relais : Quand un joueur a terminé le parcours, le suivant démarre. La première équipe qui termine a gagné",
+  "Image":"00008.png"
+ },
+ {
+  "ID":9,
+  "Source":"ElMehdi",
+  "Title":"La conduite de balle",
+  "Category":"Technique",
+  "Material":"ballons<br>plots",
+  "CoachingPoints":"La conduite de balle :<br>Conduite de balle avec changement de direction<br>Conduite + tir<br>Fluidité de la conduite<br>Maîtrise du ballon en mouvement<br>Qualité de la frappe de balle",
+  "Description":"Conduite + tir :<br>Le joueur conduit le ballon à travers un petit slalom<br>(3 plots) et tire au but.<br><br>Variantes :<br>Variante 1 : conduite + tir pied droit<br>Variante 2 : conduite + tir pied gauche<br><br>Consigne :<br>- conduite + frappe : enchaînement rapide, sans temps d’arrêt avant la frappe",
+  "Image":"00009.png"
+ },
+ {
+  "ID":10,
+  "Source":"ElMehdi",
+  "Title":"Exercice technique",
+  "Category":"Echauffement",
+  "Material":"ballons<br>plots<br>chasubles (2 couleurs)",
+  "CoachingPoints":"Exercice technique :<br>Conduire le ballon<br>Arrêter le ballon<br>Garder la maîtrise du ballon",
+  "Description":"Jeu de conduite :<br>2 équipes de 4 joueurs (ou plus) se trouvent chacune dans leur maison (carré de 5x5m).<br>Une zone avec tous les ballons se trouvent à 15m des 2 maisons.<br>Au signal, les joueurs courent chercher les ballons et les ramènent en conduite de balle dans leur maison.<br>Quand il n'y a plus de ballons, l'équipe qui en a le plus dans sa maison a gagné.<br>Faire plusieurs manches.<br><br>Consignes :<br>- un ballon à la fois par joueur<br>- passe interdite<br><br>Variantes :<br>- contourner le plot avant d'amener le ballon dans sa maison<br>- désigner un (ou plus) voleur dans chaque équipe qui peut aller prendre des ballons dans la maison adverse",
+  "Image":"00010.png"
+ },
+ {
+  "ID":11,
+  "Source":"ElMehdi",
+  "Title":"La conduite de balle",
+  "Category":"Technique",
+  "Material":"ballons<br>plots (3 couleurs)",
+  "CoachingPoints":"La conduite de balle :<br>Conduite de balle avec changement de rythme<br>Conduite<br>Fluidité de la conduite<br>Maîtrise du ballon en mouvement",
+  "Description":"Conduite de balle avec changement de rythme :<br>Un ballon par joueur. Evoluer sur le parcours en respectant les consignes suivantes<br>Un plot jaune signifie conduite lente<br>un bleu signifie conduite rapide<br>le rouge signifie stop.<br>Le joueur conduit le ballon tout droit en changeant de rythme en fonction de la couleur du plot.<br>A la fin du parcours, retour en conduite de balle lente.<br><br>Parcours :<br>Conduite lente sur 8m<br>conduite rapide sur 15m<br>stop<br>conduite lente sur 8m<br>conduite rapide sur 15m<br>stop (fin du parcours et retour au départ)",
+  "Image":"00011.png"
+ },
+ {
+  "ID":12,
+  "Source":"ElMehdi",
+  "Title":"La conduite de balle",
+  "Category":"Technique",
+  "Material":"ballons<br>plots",
+  "CoachingPoints":"La conduite de balle :<br>Conduite de balle avec changement de rythme<br>Conduite<br>Fluidité de la conduite<br>Maîtrise du ballon en mouvement",
+  "Description":"Parcours chronométré :<br>Un ballon par joueur. Le joueur évolue le plus rapidement possible sur le parcours suivant<br>Le joueur part en conduite (démarrage du chronomètre), arrête le ballon dans le carré, court en slalomant entre les 2 plots, revient récupérer son ballon, passe la petite porte (1m d’intervalle) en conduite et termine en arrêtant le ballon dans le deuxième carré.<br><br>Consigne :<br>Plusieurs essais. Le joueur le plus rapide a gagné.",
+  "Image":"00012.png"
+ },
+ {
+  "ID":13,
+  "Source":"ElMehdi",
+  "Title":"La conduite de balle",
+  "Category":"Technique",
+  "Material":"ballons<br>plots",
+  "CoachingPoints":"La conduite de balle :<br>Conduite de balle avec changement de rythme<br>Conduite<br>Fluidité de la conduite<br>Maîtrise du ballon en mouvement",
+  "Description":"Relais par 4 :<br>Par groupes de 4 joueurs. Un ballon pour 4.<br>Le joueur conduit le ballon le plus vite possible en respectant le parcours puis passe le ballon à son partenaire qui réalise le même parcours en sens inverse.<br>Mettre en place plusieurs parcours.<br>Une équipe par parcours.<br><br>Variante :<br>- simple<br>- concours : quelle équipe termine première? (après un passage par joueurs ; après 2 passages par joueur ; etc.)",
+  "Image":"00013.png"
+ },
+ {
+  "ID":14,
+  "Source":"ElMehdi",
+  "Title":"Jeux réduits",
+  "Category":"Echauffement",
+  "Material":"ballons<br>plots<br>chasubles (2 couleurs)",
+  "CoachingPoints":"Jeux réduits :<br>- effectifs réduits<br>- surface réduite",
+  "Description":"Match 4 contre 4 :<br>Terrain de 35x20m avec petits buts (2m ou plus grand suivant la catégorie) se trouvant à l’intérieur<br>du terrain.<br>On peut marquer des 2 côtés.<br>Match à 4c4 ; 3’ par match.<br>Changer d’adversaire s’il y a plusieurs terrains.<br><br>Consignes :<br>- jeu libre<br>- jouer les touches aux pieds",
+  "Image":"00014.png"
+ },
+ {
+  "ID":15,
+  "Source":"ElMehdi",
+  "Title":"La conduite de balle",
+  "Category":"Technique",
+  "Material":"ballons<br>plots",
+  "CoachingPoints":"La conduite de balle :<br>Conduite de balle avec changement de direction<br>Conduite<br>Fluidité de la conduite<br>Maîtrise du ballon en mouvement",
+  "Description":"Conduite avec la semelle :<br>Un ballon par joueur.<br>Conduite de balle sous forme d’aller-retour sur 20m.<br><br>Respecter les consignes de l'entraîneur :<br>- Conduite latérale avec la semelle pied droit<br>- Conduite latérale avec la semelle pied gauche<br>- Conduite vers l’avant semelles pied droit et pied gauche<br>- Conduite vers l’arrière semelles pied droit et pied gauche",
+  "Image":"00015.png"
+ },
+ {
+  "ID":16,
+  "Source":"ElMehdi",
+  "Title":"La conduite de balle",
+  "Category":"Technique",
+  "Material":"ballons<br>plots",
+  "CoachingPoints":"La conduite de balle :<br>Conduite de balle avec changement de direction<br>Conduite<br>Fluidité de la conduite<br>Maîtrise du ballon en mouvement",
+  "Description":"Conduite :<br>Un ballon par joueur. 4 joueurs maximum par atelier.<br>Le joueur conduit le ballon en slalomant entre les plots (1m50).<br><br>Variantes :<br>- Conduite libre<br>- Conduite uniquement pied droit<br>- Conduite uniquement pied gauche<br>- Conduite uniquement intérieur du pied<br>- Conduite uniquement extérieur du pied<br>- Conduite libre rapide",
+  "Image":"00016.png"
+ },
+ {
+  "ID":17,
+  "Source":"ElMehdi",
+  "Title":"La conduite de balle",
+  "Category":"Technique",
+  "Material":"ballons<br>plots",
+  "CoachingPoints":"La conduite de balle :<br>Conduite de balle avec changement de direction<br>Conduite + tir<br>Conduite<br>Fluidité de la conduite<br>maîtrise du ballon en mouvement<br>qualité de la frappe de balle",
+  "Description":"Parcours conduite + tir :<br>Les buts sont face à face à 25m l’un de l’autre.<br>Le joueur en A conduit le ballon en suivant le parcours délimité par les plots et tire au but.<br>Il récupère un ballon et va en B.<br>B fait comme A de l'autre côté puis va en A après son tir.<br>Parcours en continu, sans temps mort.<br><br>Consignes :<br>- recherche d'efficacité dans les tirs<br>- travailler les deux pieds : frappes pied droit et pied gauche",
+  "Image":"00017.png"
+ },
+ {
+  "ID":18,
+  "Source":"ElMehdi",
+  "Title":"Exercice technique",
+  "Category":"Echauffement",
+  "Material":"ballons<br>plots",
+  "CoachingPoints":"Exercice technique :<br>Conduire le ballon<br>Techniques de dribble<br>Chercher les espaces libres<br>Prendre ses informations",
+  "Description":"Conduite en levant la tête :<br>Terrain de 20x20m.<br>Tous les joueurs se trouvent à l’intérieur du terrain.<br>Ils ont tous un ballon sauf le défenseur (A).<br>A tente de faire sortir les ballons de l’aire de jeu.<br>Quand un joueur perd le ballon, il devient défenseur avec A.<br>Le vainqueur est le dernier joueur à toujours avoir son ballon.<br>Faire plusieurs manches.<br><br>Variantes :<br>- augmenter la taille du terrain<br>- diminuer la taille du terrain",
+  "Image":"00018.png"
+ },
+ {
+  "ID":19,
+  "Source":"ElMehdi",
+  "Title":"Les techniques de dribble et de débordement",
+  "Category":"Technique",
+  "Material":"ballons<br>plots",
+  "CoachingPoints":"Les techniques de dribble et de débordement :<br><br>Les crochets :<br>Insister sur la notion de changement de direction.<br>Le crochet (geste technique + accélération) doit permettre au joueur de changer rapidement de direction.<br><br>Crochets à réaliser :<br>intérieur pied droit<br>extérieur pied droit<br>intérieur derrière la jambe d'appui<br>double-contacts<br>etc.<br><br>Idem pied gauche.",
+  "Description":"Crochets :<br>Un ballon par joueur. Des coupelles sont éparpillées sur le terrain.<br>Les joueurs conduisent leur ballon et effectuent les crochets demandés par l'entraîneur.<br>Pas de signal, chaque joueur évolue à son rythme.<br>Il conduit son ballon vers une coupelle et change de direction (crochet) au dernier moment, juste devant<br>celle-ci.<br><br>Consignes :<br>- s'appliquer sur chaque crochet<br>- le crochet doit être un changement de direction net",
+  "Image":"00019.png"
+ },
+ {
+  "ID":20,
+  "Source":"ElMehdi",
+  "Title":"Les techniques de dribble et de débordement",
+  "Category":"Technique",
+  "Material":"ballons<br>plots",
+  "CoachingPoints":"Les techniques de dribble et de débordement :<br><br>Les crochets :<br>Insister sur la notion de changement de direction.<br>Le crochet (geste technique + accélération) doit permettre au joueur de changer rapidement de direction.<br><br>Crochets à réaliser :<br>intérieur pied droit<br>extérieur pied droit<br>intérieur derrière la jambe d'appui<br>double-contacts<br>etc.<br><br>Idem pied gauche.",
+  "Description":"Crochet - jeu 1c1 :<br>Par groupes de 2 joueurs. Un ballon pour 2.<br>1 contre 1 avec 3 petits buts (2m) situés à 7m l'un de l'autre (voir dessin).<br>Pour marquer, stopper le ballon sur la ligne d’un des 3 buts.<br>Mettre en place plusieurs terrains.<br>Changer d'adversaire régulièrement.<br><br>Consignes :<br>- utiliser les différents types de crochets pour déséquilibrer l’adversaire<br>- crochet + accélération",
+  "Image":"00020.png"
+ },
+ {
+  "ID":21,
+  "Source":"ElMehdi",
+  "Title":"Le dribble et les duels",
+  "Category":"Tactique",
+  "Material":"ballons<br>plots<br>chasubles (2 couleurs)",
+  "CoachingPoints":"Le dribble et les duels :<br>Le dribble est associé aux notions de tromperie, de faire semblant.<br>Le joueur fait croire à l'adversaire qu'il va dans une direction et va dans une autre.<br>- apprécier la position, la vitesse et l'angle de course de l'adversaire<br>- ne pas déclencher son dribble trop tard<br>- apporter vitesse et changement de rythme pour déséquilibrer l'adversaire<br>- protéger son ballon (avec les épaules, le buste, les pieds, ...)",
+  "Description":"Duel 1 contre 1 :<br>Terrain de 15x15m avec 2 petits buts (2m).<br>L'exercice se présente comme sur le dessin.<br>Un attaquant se présente face à un défenseur et tente de l'éliminer pour aller marquer sur un des deux<br>buts.<br>Pour marquer, A doit conduire le ballon à travers l’un des deux buts défendus par B.<br>Changer les rôles après 4'.<br>Faire plusieurs manches.<br><br>Consignes :<br>- un point par but marqué<br>- utiliser les techniques de dribble et de débordement",
+  "Image":"00021.png"
+ },
+ {
+  "ID":22,
+  "Source":"ElMehdi",
+  "Title":"Jeux réduits",
+  "Category":"Echauffement",
+  "Material":"ballons<br>plots<br>chasubles (2 couleurs)",
+  "CoachingPoints":"Jeux réduits :<br>- effectifs réduits<br>- surface réduite",
+  "Description":"Match 4 contre 4 :<br>Terrain de 25x25m avec 4 petits buts (2m ou plus grand suivant la catégorie).<br>2 buts de chaque côté.<br>Chaque équipe défend et attaque 2 buts.<br>Match à 4c4 ; 3’ par match.<br>Changer d’adversaire s’il y a plusieurs terrains.<br><br>Consignes :<br>- jeu libre<br>- jouer les touches aux pieds",
+  "Image":"00022.png"
+ },
+ {
+  "ID":23,
+  "Source":"ElMehdi",
+  "Title":"Les techniques de dribble et de débordement",
+  "Category":"Technique",
+  "Material":"ballons<br>plots",
+  "CoachingPoints":"Les techniques de dribble et de débordement :<br><br>Les crochets :<br>Insister sur la notion de changement de direction.<br>Le crochet (geste technique + accélération) doit permettre au joueur de changer rapidement de direction.<br><br>Crochets à réaliser :<br>intérieur pied droit<br>extérieur pied droit<br>intérieur derrière la jambe d'appui<br>double-contacts<br>etc.<br><br>Idem pied gauche.",
+  "Description":"Crochets - Relais :<br>3 joueurs par atelier.<br>Un ballon pour 3.<br>A conduit le ballon et effectue un crochet devant chaque coupelle puis passe à B ; B fait de même dans le sens inverse et passe à C ; etc.<br>Mettre en place plusieurs parcours.<br><br>Variantes :<br>- crochet libre<br>- crochet demandé par l'entraîneur<br>- crochet différent à chaque coupelle",
+  "Image":"00023.png"
+ },
+ {
+  "ID":24,
+  "Source":"ElMehdi",
+  "Title":"Les techniques de dribble et de débordement",
+  "Category":"Technique",
+  "Material":"ballons<br>plots",
+  "CoachingPoints":"Les techniques de dribble et de débordement :<br><br>Les crochets :<br>Insister sur la notion de changement de direction.<br>Le crochet (geste technique + accélération) doit permettre au joueur de changer rapidement de direction.<br><br>Crochets à réaliser :<br>intérieur pied droit<br>extérieur pied droit<br>intérieur derrière la jambe d'appui<br>double-contacts<br>etc.<br><br>Idem pied gauche.",
+  "Description":"Crochet + tir :<br>Le joueur conduit son ballon puis effectue un  crochet devant chaque coupelle et tire au but à la sortie du dernier crochet.<br><br>Variantes :<br>- crochet libre<br>- crochet demandé par l'entraîneur<br>- crochet différent à chaque coupelle <br><br>Consigne :<br>- enchaînement rapide crochet + frappe à la dernière coupelle",
+  "Image":"00024.png"
+ },
+ {
+  "ID":25,
+  "Source":"ElMehdi",
+  "Title":"Exercice technique",
+  "Category":"Echauffement",
+  "Material":"ballons<br>plots<br>chasubles (1 couleur)",
+  "CoachingPoints":"Exercice technique :<br>Conduire le ballon<br>Protéger son ballon<br>Jouer dans les espaces libres<br>Prendre ses informations",
+  "Description":"Conduite en levant la tête :<br>Des petits buts (2m) sont éparpillés sur un terrain (25x25m).<br>8 joueurs ont un ballon et 4 joueurs n’ont pas de ballon.<br>Pour marquer, les joueurs avec ballon (Bleu) doivent passer à travers un but balle au pied.<br>Les défenseurs (Rouge) tentent de les empêcher de marquer.<br>1 point par but marqué.<br>Le vainqueur est celui qui marque le plus de buts en 1’30’.<br>Faire plusieurs manches en changeant les taureaux à chaque fois.<br><br>Consignes :<br>- garder le ballon dans les pieds<br>- conduire en levant la tête",
+  "Image":"00025.png"
+ },
+ {
+  "ID":26,
+  "Source":"ElMehdi",
+  "Title":"Le dribble et les duels",
+  "Category":"Tactique",
+  "Material":"ballons<br>plots",
+  "CoachingPoints":"Le dribble et les duels :<br>Le dribble est associé aux notions de tromperie, de faire semblant.<br>Le joueur fait croire à l'adversaire qu'il va dans une direction et va dans une autre.<br>- apprécier la position, la vitesse et l'angle de course de l'adversaire<br>- ne pas déclencher son dribble trop tard<br>- apporter vitesse et changement de rythme pour déséquilibrer l'adversaire<br>- protéger son ballon (avec les épaules, le buste, les pieds, ...)",
+  "Description":"Protection du ballon 1 contre 1 :<br>Plusieurs terrains de 5x5m.<br>Duel 1 contre 1 sur chaque terrain.<br>Le joueur qui a le ballon tente de le conserver en le protégeant.<br>Changer d'adversaire régulièrement.<br><br>Consignes :<br>- utiliser tout son corps pour protéger le ballon<br>- toujours se trouver entre le ballon et son adversaire",
+  "Image":"00026.png"
+ },
+ {
+  "ID":27,
+  "Source":"ElMehdi",
+  "Title":"Le dribble et les duels",
+  "Category":"Tactique",
+  "Material":"ballons<br>plots",
+  "CoachingPoints":"Le dribble et les duels :<br>Le dribble est associé aux notions de tromperie, de faire semblant.<br>Le joueur fait croire à l'adversaire qu'il va dans une direction et va dans une autre.<br>- apprécier la position, la vitesse et l'angle de course de l'adversaire<br>- ne pas déclencher son dribble trop tard<br>- apporter vitesse et changement de rythme pour déséquilibrer l'adversaire<br>- protéger son ballon (avec les épaules, le buste, les pieds, ...)",
+  "Description":"Duel 1 contre 1 stop-ball :<br>Plusieurs terrains de 12x6m avec une zone de 2m aux deux extrémités.<br>Duels 1 contre 1 sur chaque terrain.<br>Pour marquer, le joueur doit stopper le ballon dans l’en-but adverse.<br>Matchs de 1’30.<br>Système de montée\/descente : le vainqueur monte et le perdant descend.<br><br>Système de montée\/descente :<br>- les vainqueurs montent (vers le terrain 1) et les perdants descendent (vers le terrain 4)<br>- le vainqueur du terrain 1 et le perdant du terrain 4 ne changent pas de terrain",
+  "Image":"00027.png"
+ },
+ {
+  "ID":28,
+  "Source":"ElMehdi",
+  "Title":"Le dribble et les duels",
+  "Category":"Tactique",
+  "Material":"ballons<br>plots<br>chasubles (2 couleurs)",
+  "CoachingPoints":"Le dribble et les duels :<br>Le dribble est associé aux notions de tromperie, de faire semblant.<br>Le joueur fait croire à l'adversaire qu'il va dans une direction et va dans une autre.<br>- apprécier la position, la vitesse et l'angle de course de l'adversaire<br>- ne pas déclencher son dribble trop tard<br>- apporter vitesse et changement de rythme pour déséquilibrer l'adversaire<br>- protéger son ballon (avec les épaules, le buste, les pieds, ...)",
+  "Description":"Matchs 2 contre 2 :<br>Terrains de 20x10m avec une zone de 2m aux extrémités.<br>Faire des équipes de 2 joueurs et mettre en place plusieurs terrains l'un à côté de l'autre.<br>Matchs 2 contre 2 : pour marquer, arrêter le ballon dans l’en-but adverse.<br>3’ par match.<br>Système de montée\/descente : l’équipe qui gagne monte et l’équipe qui perd descend.<br><br>Système de montée\/descente :<br>- les vainqueurs montent (vers le terrain 1) et les perdants descendent (vers le terrain 4).<br>- le vainqueur du terrain 1 et le perdant du terrain 4 ne changent pas de terrain.<br><br>Consignes :<br>- passe vers l’avant interdite ; passes en retrait et latérales autorisées<br>- inciter au dribble et à jouer les situations de 1 contre 1<br>- demander aux joueurs de prendre des risques",
+  "Image":"00028.png"
+ },
+ {
+  "ID":29,
+  "Source":"ElMehdi",
+  "Title":"Jeux réduits",
+  "Category":"Echauffement",
+  "Material":"ballons<br>plots<br>chasubles (2 couleurs)",
+  "CoachingPoints":"Jeux réduits :<br>- effectifs réduits<br>- surface réduite",
+  "Description":"Match 3 contre 3 :<br>Deux terrains de 30x20m avec buts (2m ou plus grand suivant la catégorie) sans gardien.<br>Match à 3c3 ; 3’ par match<br>les vainqueurs se rencontrent.<br><br>Consignes :<br>- jeu libre<br>- jouer les touches aux pieds",
+  "Image":"00029.png"
+ },
+ {
+  "ID":30,
+  "Source":"ElMehdi",
+  "Title":"Les techniques de dribble et de débordement",
+  "Category":"Technique",
+  "Material":"ballons<br>plots",
+  "CoachingPoints":"Les techniques de dribble et de débordement :<br>Les feintes<br>Insister sur les notions de faire croire, faire semblant.<br>Prétendre d’aller dans une direction et aller dans une autre.<br>Déséquilibrer l'adversaire.<br><br>Feintes à réaliser :<br>feinte de corps<br>feinte de frappe<br>passement de jambe<br>passement de jambe inversé<br>double passement de jambe<br>etc.<br><br>A faire pied droit et pied gauche.",
+  "Description":"Feintes :<br>Un ballon par joueur.<br>Conduite de balle sous forme d’aller-retour sur 20 m.<br>Répéter plusieurs fois les feintes démontrées par l’entraîneur.<br><br>Consignes :<br>- s'appliquer sur chaque feinte<br>- mettre de la vérité dans la feinte",
+  "Image":"00030.png"
+ },
+ {
+  "ID":31,
+  "Source":"ElMehdi",
+  "Title":"Les techniques de dribble et de débordement",
+  "Category":"Technique",
+  "Material":"ballons<br>plots<br>chasubles (2 couleurs)",
+  "CoachingPoints":"Les techniques de dribble et de débordement :<br>Les feintes<br>Insister sur les notions de faire croire, faire semblant.<br>Prétendre d’aller dans une direction et aller dans une autre.<br>Déséquilibrer l'adversaire.<br><br>Feintes à réaliser :<br>feinte de corps<br>feinte de frappe<br>passement de jambe<br>passement de jambe inversé<br>double passement de jambe<br>etc.<br><br>A faire pied droit et pied gauche.",
+  "Description":"Feintes :<br>Deux équipes s'opposent comme sur le dessin.<br>Duels entre un joueur de chaque équipe.<br>A a le ballon devant ses pieds.<br>Pour marquer, A doit conduire le ballon à travers l’un des 2 buts.<br>B tente d’empêcher A de marquer.<br>Ca joue dès que A a touché le ballon.<br><br>Consigne :<br>- A multiplie les feintes sans toucher le ballon pour déséquilibrer B et aller marquer dans le but opposé.<br><br>Variantes :<br>- le défenseur marque s'il reprend le ballon à l'attaquant<br>- le défenseur marque s'il touche l'attaquant",
+  "Image":"00031.png"
+ },
+ {
+  "ID":32,
+  "Source":"ElMehdi",
+  "Title":"Le dribble et les duels",
+  "Category":"Tactique",
+  "Material":"ballons<br>plots<br>chasubles (2 couleurs)",
+  "CoachingPoints":"Le dribble et les duels :<br>Le dribble est associé aux notions de tromperie, de faire semblant.<br>Le joueur fait croire à l'adversaire qu'il va dans une direction et va dans une autre.<br>- apprécier la position, la vitesse et l'angle de course de l'adversaire<br>- ne pas déclencher son dribble trop tard<br>- apporter vitesse et changement de rythme pour déséquilibrer l'adversaire<br>- protéger son ballon (avec les épaules, le buste, les pieds, ...)",
+  "Description":"1 contre 1 + duel avec le gardien :<br>Terrain de 15x15m avec 2 petits buts (2m) situé devant la surface de réparation.<br>L'exercice se présente comme sur le dessin.<br>A marque 2 points quand il réussit à conduire le ballon à travers l’un des 2 buts (2m) défendus par B.<br>A peut marquer 1 point de bonus s’il réussit à marquer dans le grand but gardé par un gardien.<br>Faire plusieurs manches de 3-4' en alternant le rôle des rouges et des jaunes.<br><br>Consignes :<br>- à la sortie du duel avec B, A est en face à face avec le gardien<br>- si A n’arrive pas à conduire le ballon à travers l’un des 2 buts, il joue quand même le face à face avec le gardien",
+  "Image":"00032.png"
+ },
+ {
+  "ID":33,
+  "Source":"ElMehdi",
+  "Title":"Exercice technique",
+  "Category":"Echauffement",
+  "Material":"ballons<br>plots",
+  "CoachingPoints":"Exercice technique :<br>Conduire le ballon<br>Techniques de dribble<br>Chercher les espaces libres<br>Prendre ses informations",
+  "Description":"Conduite en levant la tête :<br>Terrain de 20x20m. Tous les joueurs se trouvent à l’intérieur du terrain.<br>Ils ont tous un ballon sauf le défenseur (A).<br>A tente de récupérer un ballon.<br>Quand A récupère un ballon il devient attaquant<br>Le joueur qui perd le ballon devient défenseur.<br><br>Variantes :<br>- 2 défenseurs<br>- 3 défenseurs<br>- 4 défenseurs",
+  "Image":"00033.png"
+ },
+ {
+  "ID":34,
+  "Source":"ElMehdi",
+  "Title":"Les techniques de dribble et de débordement",
+  "Category":"Technique",
+  "Material":"ballons<br>plots",
+  "CoachingPoints":"Les techniques de dribble et de débordement :<br>Les feintes<br>Insister sur les notions de faire croire, faire semblant.<br>Prétendre d’aller dans une direction et aller dans une autre.<br>Déséquilibrer l'adversaire.<br><br>Feintes à réaliser :<br>feinte de corps<br>feinte de frappe<br>passement de jambe<br>passement de jambe inversé<br>double passement de jambe<br>etc.<br><br>A faire pied droit et pied gauche.",
+  "Description":"Feintes :<br>Un ballon par joueur.<br>Les joueurs conduisent leur ballon.<br>Au signal, ils effectuent la feinte demandée par l'entraîneur.<br>Faire les feintes à vide : pas de plots ni d'adversaires.<br><br>Consignes :<br>- s'appliquer sur chaque feinte<br>- mettre de la vérité dans la feinte",
+  "Image":"00034.png"
+ },
+ {
+  "ID":35,
+  "Source":"ElMehdi",
+  "Title":"Les techniques de dribble et de débordement",
+  "Category":"Technique",
+  "Material":"ballons<br>plots",
+  "CoachingPoints":"Les techniques de dribble et de débordement :<br>Les feintes<br>Insister sur les notions de faire croire, faire semblant.<br>Prétendre d’aller dans une direction et aller dans une autre.<br>Déséquilibrer l'adversaire.<br><br>Feintes à réaliser :<br>feinte de corps<br>feinte de frappe<br>passement de jambe<br>passement de jambe inversé<br>double passement de jambe<br>etc.<br><br>A faire pied droit et pied gauche.",
+  "Description":"Feintes - jeu 1c1 :<br>Par groupes de 2 joueurs. Un ballon pour 2.<br>Un groupe par terrain de 10x10m.<br>1 contre 1 : pour marquer, stopper le ballon derrière la ligne de but gardée par l’adversaire.<br>Mettre en place plusieurs terrains et changer d'adversaires régulièrement.<br><br>Consignes :<br>- utiliser les feintes pour éliminer l’adversaire<br>- un point par but marqué",
+  "Image":"00035.png"
+ },
+ {
+  "ID":36,
+  "Source":"ElMehdi",
+  "Title":"Le dribble et les duels",
+  "Category":"Tactique",
+  "Material":"ballons<br>plots<br>chasubles (2 couleurs)",
+  "CoachingPoints":"Le dribble et les duels :<br>Le dribble est associé aux notions de tromperie, de faire semblant.<br>Le joueur fait croire à l'adversaire qu'il va dans une direction et va dans une autre.<br>- apprécier la position, la vitesse et l'angle de course de l'adversaire<br>- ne pas déclencher son dribble trop tard<br>- apporter vitesse et changement de rythme pour déséquilibrer l'adversaire<br>- protéger son ballon (avec les épaules, le buste, les pieds, ...)",
+  "Description":"Succession de duels 1 contre 1 :<br>Terrain de 25x10m divisé en 5 zones de 5m de large (voir dessin).<br>L’attaquant tente de conduire le ballon jusqu’à la zone5.<br>Les zones 1,2,3 et 4 sont chacune défendues par un joueur.<br>Si le joueur perd le ballon en zone 1 : il marque 1 point ; 2 points s’il perd le ballon en zone2 ; etc<br>5 points s’il arrive en zone 5.<br>L’équipe qui marque le plus de points a gagné.<br>Après 3’, changer attaquants et défenseurs. Faire<br>plusieurs manches.<br><br>Consigne :<br>- utiliser les techniques de dribble et de débordement",
+  "Image":"00036.png"
+ },
+ {
+  "ID":37,
+  "Source":"ElMehdi",
+  "Title":"Jeux réduits",
+  "Category":"Echauffement",
+  "Material":"ballons<br>plots<br>chasubles (2 couleurs)",
+  "CoachingPoints":"Jeux réduits :<br>- effectifs réduits<br>- surface réduite",
+  "Description":"Match 3 contre 3 :<br>Terrain de 30x20m avec petits buts (2m ou plus grand suivant la catégorie) et une zone impénétrable devant les buts (2x3m).<br>Pour marquer il faut être dans la moitié de terrain adverse.<br>Personne ne peut pénétrer dans la zone devant le but.<br>Match à 3c3 ; 3’ par match.<br>Changer d’adversaire s’il y a plusieurs terrains.<br><br>Consignes :<br>- jeu libre<br>- jouer les touches aux pieds",
+  "Image":"00037.png"
+ },
+ {
+  "ID":38,
+  "Source":"ElMehdi",
+  "Title":"Les techniques de dribble et de débordement",
+  "Category":"Technique",
+  "Material":"ballons<br>plots",
+  "CoachingPoints":"Les techniques de dribble et de débordement :<br>Les feintes<br>Insister sur les notions de faire croire, faire semblant.<br>Prétendre d’aller dans une direction et aller dans une autre.<br>Déséquilibrer l'adversaire.<br><br>Feintes à réaliser :<br>feinte de corps<br>feinte de frappe<br>passement de jambe<br>passement de jambe inversé<br>double passement de jambe<br>etc.<br><br>A faire pied droit et pied gauche.",
+  "Description":"Feintes + 1c1 + tir :<br>Un défenseur se trouve juste devant une zone de tir dans laquelle il n' a pas le droit de pénétrer.<br>L'attaquant tente d'éliminer le défenseur et doit tirer au but quand il est dans la zone de tir (3m).<br><br>Consignes :<br>- utiliser des feintes pour éliminer son adversaire<br>- le défenseur est actif<br>- chercher à marquer",
+  "Image":"00038.png"
+ },
+ {
+  "ID":39,
+  "Source":"ElMehdi",
+  "Title":"Le dribble et les duels",
+  "Category":"Tactique",
+  "Material":"ballons<br>plots",
+  "CoachingPoints":"Le dribble et les duels :<br>Le dribble est associé aux notions de tromperie, de faire semblant.<br>Le joueur fait croire à l'adversaire qu'il va dans une direction et va dans une autre.<br>- apprécier la position, la vitesse et l'angle de course de l'adversaire<br>- ne pas déclencher son dribble trop tard<br>- apporter vitesse et changement de rythme pour déséquilibrer l'adversaire<br>- protéger son ballon (avec les épaules, le buste, les pieds, ...)",
+  "Description":"Duel 1 contre 1 :<br>Par groupes de 4 joueurs.<br>Terrains de 19x10m avec une zone de 3m au milieu (voir dessin).<br>A conduit le ballon, tente d'éliminer B et passe à C.<br>C fait de même dans l'autre sens.<br>Le défenseur doit rester dans sa zone.<br>L'attaquant qui perd le ballon devient le défenseur.<br><br>Consignes :<br>- varier les techniques de dribble utilisées pour éliminer l'adversaire<br>- apporter vitesse et changement de rythme pour passer l'adversaire",
+  "Image":"00039.png"
+ },
+ {
+  "ID":40,
+  "Source":"ElMehdi",
+  "Title":"Le dribble et les duels",
+  "Category":"Tactique",
+  "Material":"ballons<br>plots<br>chasubles (3 couleurs)",
+  "CoachingPoints":"Le dribble et les duels :<br>Le dribble est associé aux notions de tromperie, de faire semblant.<br>Le joueur fait croire à l'adversaire qu'il va dans une direction et va dans une autre.<br>- apprécier la position, la vitesse et l'angle de course de l'adversaire<br>- ne pas déclencher son dribble trop tard<br>- apporter vitesse et changement de rythme pour déséquilibrer l'adversaire<br>- protéger son ballon (avec les épaules, le buste, les pieds, ...)",
+  "Description":"Matchs 2 contre 2 :<br>Par groupes de 6 joueurs avec un ballon par groupe.<br>Un terrain de 20x20m avec petits buts (2m) par groupe.<br>Trois équipes de 2 joueurs par terrain.<br>Match 2 contre 2 : pour marquer, conduire le ballon à travers l’un des 2 buts adverses.<br>Deux équipes s’opposent et la troisième équipe est en attente.<br>But en or, la première équipe qui marque gagne et reste sur le terrain.<br>Le perdant sort et l'équipe en attente rentre.<br><br>Consignes :<br>- passe vers l’avant interdite ; passes en retrait et latérales autorisées<br>- inciter au dribble et à jouer les situations de 1 contre 1<br>- demander aux joueurs de prendre des risques",
+  "Image":"00040.png"
+ },
+ {
+  "ID":41,
+  "Source":"ElMehdi",
+  "Title":"Exercice technique",
+  "Category":"Echauffement",
+  "Material":"ballons<br>plots",
+  "CoachingPoints":"Exercice technique :<br>Une-deux<br>Appel de balle<br>Remise en une touche de balle",
+  "Description":"Le une-deux :<br>Les joueurs évoluent sur un terrain de 30x20m.<br>La moitié des joueurs a un ballon.<br>Les porteurs de balle sollicitent des une-deux auprès des joueurs sans ballon.<br>A passe à B puis fait un appel de balle en sprintant<br>B lui remet dans la course en une touche de balle.<br>Si après sa passe le joueur (C) ne fait pas d'appel de balle, son partenaire (D) conserve le ballon et devient joueur porteur de balle.<br>(exemple : C et D sur le dessin)<br><br>Consignes :<br>- passes dosées et précises<br>- les joueurs sans ballon trottinent et sollicitent le ballon<br>- application dans les remises sans contrôle<br>",
+  "Image":"00041.png"
+ },
+ {
+  "ID":42,
+  "Source":"ElMehdi",
+  "Title":"Attaquer en 2 contre 1",
+  "Category":"Tactique",
+  "Material":"ballons<br>plots",
+  "CoachingPoints":"Attaquer en 2 contre 1 :<br>Profiter de la supériorité numérique pour créer le doute et l’incertitude chez l'adversaire.<br>Insister sur la notion de fixation : fixer son adversaire et passer<br>Fixer son adversaire et dribbler<br>Utiliser les techniques de dribble et le démarquage pour déborder son adversaire<br>Coordination des courses des 2 joueurs pour déborder un adversaire<br>Ne pas être hors-jeu.",
+  "Description":"Jeu à 2 contre 1 :<br>Terrain de 10x6m avec 2 zones (1m) aux 2 extrémités<br>A tente d’amener le ballon d’une zone à l’autre, avec ou sans l’aide de B, contre un défenseur<br><br>Variantes :<br>- jeu libre pour B<br>- B a 2 touches de balle maximum<br>- B est limité à une touche de balle<br><br>Consigne :<br>- aller fixer le défenseur",
+  "Image":"00042.png"
+ },
+ {
+  "ID":43,
+  "Source":"ElMehdi",
+  "Title":"Attaquer en 2 contre 1",
+  "Category":"Tactique",
+  "Material":"ballons<br>plots",
+  "CoachingPoints":"Attaquer en 2 contre 1 :<br>Profiter de la supériorité numérique pour créer le doute et l’incertitude chez l'adversaire.<br>Insister sur la notion de fixation : fixer son adversaire et passer<br>Fixer son adversaire et dribbler<br>Utiliser les techniques de dribble et le démarquage pour déborder son adversaire<br>Coordination des courses des 2 joueurs pour déborder un adversaire<br>Ne pas être hors-jeu.",
+  "Description":"Jeu à 2 contre 1 :<br>Terrain de 10x8m avec 2 zones (4x1m) aux 2 extrémités.<br>C joue toujours avec le joueur en possession du ballon.<br>Pour marquer, stopper le ballon dans la zone opposée.<br>Dessin : A et C tente de marquer dans la zone défendue par B.<br>Changer C régulièrement.<br>",
+  "Image":"00043.png"
+ },
+ {
+  "ID":44,
+  "Source":"ElMehdi",
+  "Title":"Attaquer en 2 contre 1",
+  "Category":"Tactique",
+  "Material":"ballons<br>plots<br>but",
+  "CoachingPoints":"Attaquer en 2 contre 1 :<br>Profiter de la supériorité numérique pour créer le doute et l’incertitude chez l'adversaire.<br>Insister sur la notion de fixation : fixer son adversaire et passer<br>Fixer son adversaire et dribbler<br>Utiliser les techniques de dribble et le démarquage pour déborder son adversaire<br>Coordination des courses des 2 joueurs pour déborder un adversaire<br>Ne pas être hors-jeu.",
+  "Description":"Attaquer en 2 contre 1 devant le but (1) :<br>Maximum de 8 joueurs par atelier.<br>A et B setrouvent à 25-30 mètres du but.<br>Deux joueurs tentent de marquer sur un but protégépar un gardien et un défenseur.<br>Le jeu commence quand A touche le ballon.<br><br>Consignes :<br>- jeu libre<br>- respecter la règle du hors-jeu",
+  "Image":"00044.png"
+ },
+ {
+  "ID":45,
+  "Source":"ElMehdi",
+  "Title":"Jeux réduits",
+  "Category":"Echauffement",
+  "Material":"ballons<br>plots<br>chasubles (2 couleurs)",
+  "CoachingPoints":"Jeux réduits :<br>- effectifs réduits<br>- surface réduite",
+  "Description":"Match 4 contre 4 :<br>Terrain de 35x20 avec buts (2m ou plus grand suivant la catégorie) sans gardien.<br>Match à 4c4 ; 3’ par match.<br>Changer d’adversaire s’il y a plusieurs terrains.<br><br>Consignes :<br>- jeu libre<br>- jouer les touches aux pieds<br><br>Variantes :<br>- Deux buts de chaque coté, aux coins, au lieu d'un seul. Alors, chaque équipe défend et attaque 2 buts.",
+  "Image":"00045.png"
+ },
+ {
+  "ID":46,
+  "Source":"ElMehdi",
+  "Title":"Attaquer en 2 contre 1",
+  "Category":"Tactique",
+  "Material":"ballons<br>plots",
+  "CoachingPoints":"Attaquer en 2 contre 1 :<br>Profiter de la supériorité numérique pour créer le doute et l’incertitude chez l'adversaire.<br>Insister sur la notion de fixation : fixer son adversaire et passer<br>Fixer son adversaire et dribbler<br>Utiliser les techniques de dribble et le démarquage pour déborder son adversaire<br>Coordination des courses des 2 joueurs pour déborder un adversaire<br>Ne pas être hors-jeu.",
+  "Description":"Jeu à 2 contre 1 :<br>Par groupes de 3 joueurs.<br>Un terrain de 10x8m avec 2 petits buts (2m) par groupe.<br>C joue toujours avec le joueur en possession du ballon.<br>Changer C régulièrement.<br><br>Consigne :<br>- jeu libre<br>- respecter la règle du hors-jeu",
+  "Image":"00046.png"
+ },
+ {
+  "ID":47,
+  "Source":"ElMehdi",
+  "Title":"Attaquer en 2 contre 1",
+  "Category":"Tactique",
+  "Material":"ballons<br>plots<br>but",
+  "CoachingPoints":"Attaquer en 2 contre 1 :<br>Profiter de la supériorité numérique pour créer le doute et l’incertitude chez l'adversaire.<br>Insister sur la notion de fixation : fixer son adversaire et passer<br>Fixer son adversaire et dribbler<br>Utiliser les techniques de dribble et le démarquage pour déborder son adversaire<br>Coordination des courses des 2 joueurs pour déborder un adversaire<br>Ne pas être hors-jeu.",
+  "Description":"Attaquer en 2 contre 1 devant le but (4) :<br>Maximum de 8 joueurs par atelier.<br>A et B se trouvent à 25-30 mètres du but.<br>Deux joueurs tentent de marquer sur un but protégé par un gardien et un défenseur.<br>Le jeu commence quand A touche le ballon.<br><br>Consignes :<br>- A va fixer le défenseur et B court dans son dos<br>- respecter la règle du hors-jeu<br>",
+  "Image":"00047.png"
+ },
+ {
+  "ID":48,
+  "Source":"ElMehdi",
+  "Title":"Les contrôles orientés au sol à 90°",
+  "Category":"Technique",
+  "Material":"ballons<br>plots",
+  "CoachingPoints":"Les contrôles orientés au sol à 90° :<br>Les contrôles orientés pour changer de direction et pour se dégager de l’adversaire<br>Contrôle + passe<br>Se concentrer sur la qualité de la prise de balle et de la passe.<br><br>Contrôles à réaliser : <br>intérieur pied droit vers la droite<br>intérieur pied droit vers la gauche<br>extérieur pied droit<br>etc<br>Idem pied gauche",
+  "Description":"Contrôle + passe en triangle :<br>Par groupes de 3 joueurs. Un ballon pour 3.<br>En triangle, contrôle + passe.<br>Les joueurs peuvent changer le sens de circulation<br>du ballon quand ils le souhaitent.<br><br>Consignes :<br>- distance entre les joueurs : 7-8 m<br>- être sur ses appuis<br>- attaquer son ballon<br>- contrôler en direction du joueur à qui on va passer le ballon",
+  "Image":"00048.png"
+ },
+ {
+  "ID":49,
+  "Source":"ElMehdi",
+  "Title":"Les contrôles orientés au sol à 90°",
+  "Category":"Technique",
+  "Material":"ballons<br>plots",
+  "CoachingPoints":"Les contrôles orientés au sol à 90° :<br>Les contrôles orientés pour changer de direction et pour se dégager de l’adversaire<br>Contrôle + passe<br>Se concentrer sur la qualité de la prise de balle et de la passe.<br><br>Contrôles à réaliser : <br>intérieur pied droit vers la droite<br>intérieur pied droit vers la gauche<br>extérieur pied droit<br>etc<br>Idem pied gauche",
+  "Description":"Passe et suit :<br>Par groupes de 4 joueurs avec un ballon par groupe.<br>A passe à B<br>B redonne dans la course de A<br>A passe à C et va en C<br>C passe à B<br>etc. (voir dessin).<br>Toujours contrôler le ballon avant de passer.<br><br>Consignes :<br>- être sur ses appuis<br>- attaquer son ballon",
+  "Image":"00049.png"
+ },
+ {
+  "ID":50,
+  "Source":"ElMehdi",
+  "Title":"Les contrôles orientés au sol à 90°",
+  "Category":"Technique",
+  "Material":"ballons<br>plots<br>but",
+  "CoachingPoints":"Les contrôles orientés au sol à 90° :<br>Les contrôles orientés pour changer de direction et pour se dégager de l’adversaire<br>Contrôle + tir<br>Se concentrer sur la qualité de la prise de balle et de la frappe de balle.<br><br>Contrôles à réaliser :<br>intérieur pied droit vers la droite<br>intérieur pied droit vers la gauche<br>extérieur pied droit<br>etc<br>Idem pied gauche",
+  "Description":"Contrôle + tir :<br>A passe à B<br>B attaque le ballon, contrôle vers le but et tire.<br><br>Variantes :<br>Variante 1 : le ballon vient de la droite + frappe pied droit (voir dessin)<br>Variante 2 : le ballon vient de la gauche + frappe pied gauche<br><br>Consignes :<br>- Contrôle libre<br>- Rechercher une prise de balle rapide, vers le but<br>- Qualité dans la frappe de balle",
+  "Image":"00050.png"
+ },
+ {
+  "ID":51,
+  "Source":"ElMehdi",
+  "Title":"Exercice technique",
+  "Category":"Echauffement",
+  "Material":"ballons<br>plots",
+  "CoachingPoints":"Exercice technique :<br>Contrôle<br>Passe<br>Précision",
+  "Description":"Contrôle + Passe :<br>Par groupes de 2 joueurs avec un ballon pour 2.<br>Un petit but d'1m50 entre les 2 joueurs.<br>Match sous forme de duel 1 contre 1 en respectant les règles du jeu.<br><br>Règles :<br>- toutes les passes se font au sol et à travers le but<br>- 2 touches de balle obligatoires<br>- une faute donne un point à l'adversaire<br><br>Variantes :<br>- n'utiliser que le deuxième pied<br>- diminuer la taille du but<br>- changer d'adversaire",
+  "Image":"00051.png"
+ },
+ {
+  "ID":52,
+  "Source":"ElMehdi",
+  "Title":"Les contrôles orientés au sol à 90°",
+  "Category":"Technique",
+  "Material":"ballons",
+  "CoachingPoints":"Les contrôles orientés au sol à 90° :<br>Les contrôles orientés pour changer de direction et pour se dégager de l’adversaire<br>Contrôle + passe<br>Se concentrer sur la qualité de la prise de balle et de la passe.<br><br>Contrôles à réaliser : <br>intérieur pied droit vers la droite<br>intérieur pied droit vers la gauche<br>extérieur pied droit<br>etc<br>Idem pied gauche",
+  "Description":"Contrôle + passe face à face :<br>Par groupes de 2 joueurs face à face avec un ballon.<br>Les joueurs contrôlent et passent le ballon.<br><br>Consignes :<br>- distance entre les joueurs : 7-8 m<br>- être sur ses appuis<br>- attaquer son ballon",
+  "Image":"00052.png"
+ },
+ {
+  "ID":53,
+  "Source":"ElMehdi",
+  "Title":"Les contrôles orientés au sol à 90°",
+  "Category":"Technique",
+  "Material":"ballons",
+  "CoachingPoints":"Les contrôles orientés au sol à 90° :<br>Les contrôles orientés pour changer de direction et pour se dégager de l’adversaire<br>Contrôle + passe<br>Se concentrer sur la qualité de la prise de balle et de la passe.<br><br>Contrôles à réaliser : <br>intérieur pied droit vers la droite<br>intérieur pied droit vers la gauche<br>extérieur pied droit<br>etc<br>Idem pied gauche",
+  "Description":"Contrôle + passe + déplacement :<br>Par groupes de 4 joueurs. Un ballon pour 4.<br>En triangle, contrôle + passe + déplacement.<br>Le joueur prend la place du partenaire à qui il vient de passer le ballon.<br><br>Consignes :<br>- distance entre les joueurs : 7-8 m<br>- être sur ses appuis<br>- attaquer son ballon<br>- contrôler en direction du joueur à qui on va passer le ballon",
+  "Image":"00053.png"
+ },
+ {
+  "ID":54,
+  "Source":"ElMehdi",
+  "Title":"Les contrôles orientés au sol à 90°",
+  "Category":"Technique",
+  "Material":"ballons<br>plots<br>but",
+  "CoachingPoints":"Les contrôles orientés au sol à 90° :<br>Les contrôles orientés pour changer de direction et pour se dégager de l’adversaire<br>Contrôle + tir<br>Se concentrer sur la qualité de la prise de balle et de la frappe de balle.<br><br>Contrôles à réaliser :<br>intérieur pied droit vers la droite<br>intérieur pied droit vers la gauche<br>extérieur pied droit<br>etc<br>Idem pied gauche",
+  "Description":"Parcours technique :<br>Deux buts se trouvent face à face à environ 25m l’un de l’autre.<br>Enchaînements de contrôles, de passes et de tirs.<br>A passe à B qui contrôle et passe à C<br>C contrôle et passe à D<br>D contrôle et tire au but.<br><br>Après sa passe, le joueur se déplace au poste suivant<br>A va en B<br>B va en C<br>C va en D<br>D va en A’<br>etc.<br><br>Doubler les postes en fonction du nombre de<br>joueurs pour avoir un minimum de temps morts.<br><br>Consignes :<br>- être sur ses appuis<br>- attaquer son ballon",
+  "Image":"00054.png"
+ },
+ {
+  "ID":55,
+  "Source":"ElMehdi",
+  "Title":"Les contrôles orientés au sol à 90°",
+  "Category":"Technique",
+  "Material":"ballons<br>plots",
+  "CoachingPoints":"Les contrôles orientés au sol à 90° :<br>Les contrôles orientés pour changer de direction et pour se dégager de l’adversaire<br>Contrôle + passe<br>Se concentrer sur la qualité de la prise de balle et de la passe.<br><br>Contrôles à réaliser : <br>intérieur pied droit vers la droite<br>intérieur pied droit vers la gauche<br>extérieur pied droit<br>etc<br>Idem pied gauche",
+  "Description":"Contrôle orienté + passe :<br>Par groupes de 5 joueurs(ou plus) avec 2 ballons.<br>Les joueurs se placent comme sur le dessin, à environ 7m l'un de l'autre et à 2m derrière leur plot.<br>A passe à B qui fait un contrôle orienté et passe à C.<br>Dans le même temps, C passe à D qui fait un contrôle orienté et passe à E<br>etc.<br>Deux ballons en jeu en même temps.<br><br>Consignes :<br>- dosage et précision dans les passes<br>- effectuer les contrôles orientés demandés par l'entraîneur<br>- être sur ses appuis",
+  "Image":"00055.png"
+ },
+ {
+  "ID":56,
+  "Source":"ElMehdi",
+  "Title":"Les contrôles orientés au sol à 90°",
+  "Category":"Technique",
+  "Material":"ballons<br>plots",
+  "CoachingPoints":"Les contrôles orientés au sol à 90° :<br>Les contrôles orientés pour changer de direction et pour se dégager de l’adversaire<br>Contrôle + passe<br>Se concentrer sur la qualité de la prise de balle et de la passe.<br><br>Contrôles à réaliser : <br>intérieur pied droit vers la droite<br>intérieur pied droit vers la gauche<br>extérieur pied droit<br>etc<br>Idem pied gauche",
+  "Description":"Taureau 4 contre 1 :<br>Par groupes de 5 joueurs. Un ballon pour 5.<br>Quatre joueurs tentent de garder la maîtrise du ballon contre un défenseur.<br>Le joueur qui perd le ballon devient défenseur.<br><br>Consignes :<br>- 2 touches de balle obligatoires<br>- ne pas s’éloigner à plus de 1m de son plot<br><br>Variantes :<br>- Carré de 10m de côté<br>- Carré de 7m de côté",
+  "Image":"00056.png"
+ },
+ {
+  "ID":57,
+  "Source":"ElMehdi",
+  "Title":"Les contrôles orientés au sol à 90°",
+  "Category":"Technique",
+  "Material":"ballons<br>plots",
+  "CoachingPoints":"Les contrôles orientés au sol à 90° :<br>Les contrôles orientés pour changer de direction et pour se dégager de l’adversaire<br>Contrôle + passe<br>Contrôle + tir<br>Se concentrer sur la qualité de la prise de balle et de la passe.<br>Contrôles à réaliser : intérieur pied droit vers la droite ; intérieur pied droit vers la gauche ; extérieur pied droit ; etc.<br>Idem pied gauche.",
+  "Description":"Parcours technique :<br>Enchaînement de contrôles, de passes et de tirs.<br>Disposition comme sur le dessin.<br>A passe à B qui contrôle puis passe à C<br>C contrôle puis passe à D<br>D contrôle et passe à E<br>E contrôle et tire au but.<br>Les joueurs effectuent un contrôle orienté à la réception de chaque passe.<br>Après sa passe le joueur se déplace au poste suivant : A va en B, B en C, ..., E en A.<br>Doubler les postes si nécessaire.<br><br>Consignes :<br>- dosage et précision dans les passes<br>- effectuer les contrôles orientés demandés par l'entraîneur<br>- être sur ses appuis",
+  "Image":"00057.png"
+ },
+ {
+  "ID":58,
+  "Source":"ElMehdi",
+  "Title":"Jeux réduits",
+  "Category":"Echauffement",
+  "Material":"ballons<br>plots",
+  "CoachingPoints":"Jeux réduits :<br>- effectifs réduits<br>- surface réduite",
+  "Description":"Match 3 contre 3 :<br>Terrain de 30x20m avec petits buts (2m ou plus grand suivant la catégorie) et une zone impénétrable devant les buts (2x3m).<br>Pour marquer il faut être dans la moitié de terrain adverse.<br>Personne ne peut pénétrer dans la zone devant le but.<br>Match à 3c3.<br>3’ par match.<br>Changer d’adversaire s’il y a plusieurs terrains.<br><br>Consignes :<br>- jeu libre<br>- jouer les touches aux pieds",
+  "Image":"00058.png"
+ },
+ {
+  "ID":59,
+  "Source":"ElMehdi",
+  "Title":"Les contrôles orientés au sol à 90°",
+  "Category":"Technique",
+  "Material":"ballons<br>plots",
+  "CoachingPoints":"Les contrôles orientés au sol à 90° :<br>Les contrôles orientés pour changer de direction et pour se dégager de l’adversaire<br>Contrôle + passe<br>Se concentrer sur la qualité de la prise de balle et de la passe.<br><br>Contrôles à réaliser : <br>intérieur pied droit vers la droite<br>intérieur pied droit vers la gauche<br>extérieur pied droit<br>etc<br>Idem pied gauche",
+  "Description":"Contrôle orienté + passe :<br>Diviser les joueurs en 2 groupes (rouge et jaune).<br>Disposer les rouges comme sur le dessin.<br><br>A passe le ballon à D qui lui remet dans les pieds<br>puis A effectue un contrôle orienté vers E et passe à E<br>E lui remet dans les pieds<br>etc.<br><br>Quand E a remis à A, B démarre et fait comme A (B passe à D, etc.)<br>Quand tous les jaunes sont passés A recommence dans l'autre sens.<br>Inverser les rôles des rouges et jaunes après chaque aller-retour.<br><br>Consignes :<br>- après une passe, le joueur reste presque sur place en étant sur ses appuis<br>- le joueur n'avance que grâce à son contrôle orienté<br>- effectuer les contrôles orientés demandés par l'entraîneur",
+  "Image":"00059.png"
+ },
+ {
+  "ID":60,
+  "Source":"ElMehdi",
+  "Title":"Les contrôles orientés au sol à 90°",
+  "Category":"Technique",
+  "Material":"ballons<br>plots<br>but",
+  "CoachingPoints":"Les contrôles orientés au sol à 90° :<br>Les contrôles orientés pour changer de direction et pour se dégager de l’adversaire<br>Contrôle + passe<br>Contrôle + tir<br>Se concentrer sur la qualité de la prise de balle et de la passe.<br>Contrôles à réaliser : intérieur pied droit vers la droite ; intérieur pied droit vers la gauche ; extérieur pied droit ; etc.<br>Idem pied gauche.",
+  "Description":"Contrôle + tir :<br>A passe à B<br>B attaque le ballon, contrôle vers le but et tire.<br><br>Variantes :<br>Variante 1 : source arrière + frappe pied droit (voir dessin)<br>Variante 2 : source arrière + frappe pied gauche<br><br>Consignes :<br>- Contrôle libre<br>- Rechercher une prise de balle rapide, vers le but<br>- Qualité dans la frappe de balle.",
+  "Image":"00060.png"
+ },
+ {
+  "ID":61,
+  "Source":"ElMehdi",
+  "Title":"Les contrôles orientés au sol à 180°",
+  "Category":"Technique",
+  "Material":"ballons<br>plots",
+  "CoachingPoints":"Les contrôles orientés au sol à 180° :<br>Les contrôles orientés pour jouer vers l’avant (sans protection du ballon)<br><br>Contrôle + passe<br>Se concentrer sur la qualité de la prise de balle et de la passe.<br><br>Contrôles à réaliser : <br>stopper intérieur pied droit et emmener intérieur pied gauche<br>intérieur pied droit derrière la jambe d'appui et emmener intérieur pied droit<br>etc.<br>Idem pied gauche.",
+  "Description":"Contrôle + passe :<br>Par groupes de 2 joueurs avec un ballon par groupe(voir dessin).<br>A passe à B<br>B effectue un contrôle orienté et conduit le ballon autour de la coupelle<br>B passe à A qui effectue un contrôle orienté et conduit le ballon autour de la coupelle<br>etc.<br><br>Consignes :<br>- distance entre les joueurs : 7-8 m<br>- être sur ses appuis<br>- attaquer son ballon<br>- s’appliquer sur chacune des passes afin que le joueur à qui on passe le ballon puisse travailler correctement les contrôles orientés.",
+  "Image":"00061.png"
+ },
+ {
+  "ID":62,
+  "Source":"ElMehdi",
+  "Title":"Les contrôles orientés au sol à 180°",
+  "Category":"Technique",
+  "Material":"ballons<br>plots<br>but",
+  "CoachingPoints":"Les contrôles orientés au sol à 180° :<br>Les contrôles orientés pour jouer vers l’avant (sans protection du ballon)<br>Contrôle + tir<br>Se concentrer sur la qualité de la prise de balle et de la frappe.<br>Contrôles à réaliser : stopper intérieur pied droit et emmener intérieur pied gauche<br>intérieur pied droit derrière la jambe d'appui et emmener intérieur pied droit<br>etc.<br>Idem pied gauche.",
+  "Description":"Contrôle + tir :<br>A passe à B ; B attaque le ballon, contrôle vers le but et tire.<br><br>Variantes :<br>Variante 1 : contrôle + tir pied droit (voir dessin).<br>Variante 2 : contrôle + tir pied gauche.<br><br>Consignes :<br>- être sur ses appuis<br>- attaquer son ballon",
+  "Image":"00062.png"
+ },
+ {
+  "ID":63,
+  "Source":"ElMehdi",
+  "Title":"Exercice technique",
+  "Category":"Echauffement",
+  "Material":"ballons",
+  "CoachingPoints":"Exercice technique :<br>Conduire le ballon<br>Prendre ses informations<br>Contrôle<br>Passe",
+  "Description":"Conduite + Passe :<br>Diviser l’ensemble des joueurs en groupes de 6 joueurs ou plus.<br>Les joueurs forment un cercle d’environ 12m de diamètre.<br>Un joueur a un ballon.<br>Le joueur qui a le ballon conduit sur quelques mètres, passe à un partenaire sans ballon puis prend sa place.<br>Celui-ci contrôle le ballon, conduit, passe à un autre joueur et prend sa place.<br>Ajouter un deuxième puis troisième ballon (ou plus) pour obliger les joueurs à lever la tête lorsqu'ils conduisent le ballon.<br><br>Variantes :<br>- demander au joueur d’effectuer une feinte avant de passer<br>- 2 touches (contrôle + passe)",
+  "Image":"00063.png"
+ },
+ {
+  "ID":64,
+  "Source":"ElMehdi",
+  "Title":null,
+  "Category":null,
+  "Material":null,
+  "CoachingPoints":null,
+  "Description":null,
+  "Image":"00064.png"
+ },
+ {
+  "ID":65,
+  "Source":"ElMehdi",
+  "Title":null,
+  "Category":null,
+  "Material":null,
+  "CoachingPoints":null,
+  "Description":null,
+  "Image":"00065.png"
+ },
+ {
+  "ID":66,
+  "Source":"ElMehdi",
+  "Title":null,
+  "Category":null,
+  "Material":null,
+  "CoachingPoints":null,
+  "Description":null,
+  "Image":"00066.png"
+ },
+ {
+  "ID":67,
+  "Source":"ElMehdi",
+  "Title":null,
+  "Category":null,
+  "Material":null,
+  "CoachingPoints":null,
+  "Description":null,
+  "Image":"00067.png"
+ },
+ {
+  "ID":68,
+  "Source":"ElMehdi",
+  "Title":null,
+  "Category":null,
+  "Material":null,
+  "CoachingPoints":null,
+  "Description":null,
+  "Image":"00068.png"
+ },
+ {
+  "ID":69,
+  "Source":"ElMehdi",
+  "Title":null,
+  "Category":null,
+  "Material":null,
+  "CoachingPoints":null,
+  "Description":null,
+  "Image":"00069.png"
+ },
+ {
+  "ID":70,
+  "Source":"ElMehdi",
+  "Title":null,
+  "Category":null,
+  "Material":null,
+  "CoachingPoints":null,
+  "Description":null,
+  "Image":"00070.png"
+ },
+ {
+  "ID":71,
+  "Source":"ElMehdi",
+  "Title":null,
+  "Category":null,
+  "Material":null,
+  "CoachingPoints":null,
+  "Description":null,
+  "Image":"00071.png"
+ },
+ {
+  "ID":72,
+  "Source":"ElMehdi",
+  "Title":null,
+  "Category":null,
+  "Material":null,
+  "CoachingPoints":null,
+  "Description":null,
+  "Image":"00072.png"
+ },
+ {
+  "ID":73,
+  "Source":"ElMehdi",
+  "Title":null,
+  "Category":null,
+  "Material":null,
+  "CoachingPoints":null,
+  "Description":null,
+  "Image":"00073.png"
+ },
+ {
+  "ID":74,
+  "Source":"ElMehdi",
+  "Title":null,
+  "Category":null,
+  "Material":null,
+  "CoachingPoints":null,
+  "Description":null,
+  "Image":"00074.png"
+ },
+ {
+  "ID":75,
+  "Source":"Concordia",
+  "Title":"Se Démarquer pour conserver et progresser",
+  "Category":"Technique",
+  "Material":"ballons<br>plots",
+  "CoachingPoints":"Se déplacer pour être disponible (temps et espace) et accessible (ligne de passe)<br>S'orienter vers les joueurs cibles sur la 1ère touche<br>",
+  "Description":"Organisation :<br>terrain de 15x15m <br>3v3 à l'intérieur 1 appui par coté les rouges conservent horizontalement les bleus conservent verticalement<br><br>Règlements :<br>1pt marqué si l'équipe est capable d'effectuer des Aller\/retour entre les 2 appuis en conservant le ballon au sol<br>2pts marqués si l'équipe est capable de complèter 3 passes à l'intérieur de l'espace de jeu les appuis sont inattaquables<br>",
+  "Image":"00075.png"
+ },
+ {
+  "ID":76,
+  "Source":"Christian",
+  "Title":"Echauffement avant match",
+  "Category":"Echauffement",
+  "Material":"ballons<br>plots",
+  "CoachingPoints":null,
+  "Description":"Echauffement typique avant match :<br><br>Tous en ligne :<br>jogging leve les genoux<br>jogging talon-fesse<br>pas chassées<br>etc<br><br>par colonnes (plusieurs), jusqu'au cone (revient en marchant):<br>peut faire les échauffements précédant ici.<br>courses avec acceleration<br>etc<br><br>deux collones (de 4-5 joueurs) faces a faces :<br>passes et suit.",
+  "Image":"00076.png"
+ },
+ {
+  "ID":77,
+  "Source":"Christian",
+  "Title":"Corners",
+  "Category":"Tactique",
+  "Material":"But",
+  "CoachingPoints":"The objective of this drill is for your team to know a simple corner kick setup.<br>This way, your team will be organised and know what to do when executing a corner kick.<br><br>Players positioning :<br>Players will know where to stand in a real game scenario.<br>This is definitely the case for attacking players.<br>Defensive players will have to improvise as opposing teams will use different tactics.<br>However, the two men staying at the posts will be nominated before the game to avoid discussions during the match. The remaining defenders will take one on one marks.<br><br>Finishing :<br>Touches are limited to three<br>Therefore attacking players must finish quickly.<br><br>Transitioning from defence to attack:<br>Since limited touches are allowed, defensive players need to circulate the ball in an orderly fashion to score in the small goals.<br><br>Playing as a team: <br>Although individual skills play a part in the game, limiting the time players can hold the ball forces everyone to play as a team.",
+  "Description":"Setup:<br><br>For this drill, you will need half of an 11 aside pitch and 3 small goals.<br>The small goals will be evenly distributed in the midfield line.<br>The exercise is played with 9 players attacking, 9 players defending and a goalkeeper.<br><br>This drill is based on stats from another study.<br>Most goals scored in corner kicks come from the centre of the box and the near post.<br>Therefore, the setup of the attacking team is simple: a player outside the box ready to receive a pass on the first post and three players grouped in the penalty spot.<br><br>The remaining attacking players are arranged this way:<br>Two players close to the goal line blocking the goalkeeper, one outside the box in line with the penalty spot and a player staying back halfway between the box and the midfield.<br>Defensive players mark one on one, except two players that stay covering the posts.<br><br>Instructions :<br>The main objective of this drill is to practice corner kicks, both in defence and attack.<br>For attackers, the aim is to score.<br>For defenders is to protect the goal and to transition into attack quickly.<br><br>2 teams of 9 players.<br>1 goalkeeper.<br>It is a competitive drill where both teams can score, and a tally is kept.<br>The attacking team scores in the standard size goal.<br>The defensive team scores in the small goals.<br>Play always starts with players arranged as shown in the picture above.<br>Only 3 touches are allowed (e.g., 1 touch to control the ball, 1 touch to change direction and 1 touch to pass the ball).<br>If the ball goes out, start the game again.<br>Execute series of 5 corner kicks from each side of the field.<br>Other than the above, all official football rules apply.<br>You may want to consider some variations, such as defenders needing to complete several passes before scoring in the midfield goals.<br>Again, be creative and add your own rules.",
+  "Image":"00077.png"
+ },
+ {
+  "ID":78,
+  "Source":"Christian",
+  "Title":"Coup Franc",
+  "Category":"Tactique",
+  "Material":"But",
+  "CoachingPoints":"Recap :<br>The number one priority is to make sure that set pieces are organized prior to the game.<br>For example, who will be in the wall?<br>Who will be closing the ball down on an indirect free kick?<br>Who is marking players or are you going to play a zonal defense?<br>These are all the responsibility of the goalkeeper and what they are comfortable with. Play to the keeper’s ability.",
+  "Description":"Free-kicks – the different types :<br>There is no difference between defending an indirect or a direct free kick. However, the defending team must understand the definition between the two types of kicks.<br>Indirect (8 types): <br>four for the field player and four for the goalie) A free kick from which a goal can not be scored until the ball touches another player of either team. Referee will physically hold one arm up in the air, signaling the indirect kick.<br>Direct (10 types):<br>A free kick from which a goal may be scored without a second player touching the ball. The referee need not physically signal a direct free kick, other than pointing direction.Understanding the definitions can give the defending team an advantage.<br><br>Basics of setting up a wall :<br><br>Think about building a wall quickly – ideally within 10 seconds. The referee will not wait until you’re ready, the attacking team will have the advantage.<br>Decide how many players in the wall based on where the kick is taken from. Use a simple “clock face” to judge. At 9pm you need only 1 defender, between 9-10pm use 2, at 11pm use 3 and at 12 use 4 – repeat the other side: use 3 at 1pm, 2 at 2pm and only 1 at 3pm.<br>Line up the wall – have a defender who faces you while others face the ball – they’re the “anchorman”. It should be someone you hand-picked before the game, someone who will listen and work with you. Move them all as a unit – you direct the anchorman – line him up with the near post and the ball – when lined up signal to the anchor – he turns and faces the ball.<br>Take position yourself – go toward the other post and cover the side of the goal not protected by the wall, making sure you can see the ball.<br>Practice setting up the set-pieces using your defenders – build cohesion between GK and central defenders in particular.<br>Assign players for “wall duty” and the key defensive zones in a corner.<br>practice speedy execution, and assign a player to “ensure” the ten yards are “walked”, buying time<br>Details on making The Wall:​ ​<br>As you can see, the player number #1 is outside the line of the post. So we “burn” one player. This will compensate for the shooter who has the ability to bend the ball. Players #2, #3, #4, are in the line of the goal. Player #5 is in line with the other post. This wall would be called a​ split wall.​ In this case, the goalie would be asking for “four plus one”.<br><br>Other points to remember:<br>Closest player should front ball but all players are responsible for guarding against quick kick.<br>Keeper determines the number of players in the wall. A general formula is six-person wall for a ball spotted eighteen yards from goal. Every three yards further, you may take a person out of the wall. Below is a general rule of thumb outline for how many players should be in the wall.<br><br>Forward lines up wall (GK can take over when referee determines that play cannot resume prior to a whistle). GK initially can line wall up from middle of goal.<br>The wall has other responsibilities other than just being a wall. Organizing the other defenders and deciding as a unit if encroachment is worthwhile, i.e. the free kick is dangerous, the score, the skill of the shooter, etc. If a yellow card is issued, change that individual out of the wall. The wall should then decide as a unit if encroachment is once again worthwhile.<br>The wall must look for clues the opposition could be giving. Examples: two on the ball, is there a potential pass, shooters angle of approach, backs sent forward, etc.<br>In general, keepers with a poor vertical reach should start inside the goal, i.e. U11’s.<br>It is important that the players in the wall are paying attention to how the goalkeeper lines up the wall and that they listen to his\/her instructions. The instructions that are given should be telling the wall to go either left or right, how many players are in the wall, and they have to be LOUD and FORCEFUL. The wall should be lined up with the near post and between the two players that are covering that near post. An example of this is below.<br><br>The goalkeeper then should place themselves in a position to where they can have a good view of the ball. This is usually more towards the central area of the goal, so he\/she can cover the far post area, but not too far as to not be able to get back across to the near post. The keeper wants to stay in a central location as much as possible and tighter to the goal line.<br>The keeper should also be aware of the space in front of him\/herself. You do not want the defensive line dropping too far back into the box and making the area crowded. This only makes it more difficult to come off the line and receive a clean ball. Again, a general rule of thumb is to have your defensive line just the wall. This is dependent on how far out the free kick is given.",
+  "Image":"00078.png"
+ }
+]
+}

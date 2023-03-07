@@ -28,9 +28,41 @@
       }
      ]
     }
+  },
+  {
+   "id" : 2,
+   "theme" : 1,
+   "session" : 
+   {
+    "drills" : [
+     {
+       "id" : 6,
+       "duration" : 600
+     },
+     {
+       "id" : 7,
+       "duration" : 900
+     },
+     {
+       "id" : 8,
+       "duration" : 900
+     },
+     {
+       "id" : 9,
+       "duration" : 900
+     },
+     {
+       "id" : 5,
+       "duration" : 1800
+     }
+    ]
+   }
   }
  ]
 }
+
+
+
 
 
 
