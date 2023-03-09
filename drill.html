@@ -3,7 +3,7 @@
 <head>
 	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
-	<title>Braves Ahuntsic Sessions</title>
+	<title>Braves Ahuntsic Drill</title>
 	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css" />
 	<style type="text/css" class="init"></style>
 	<script type="text/javascript" language="javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
@@ -21,14 +21,14 @@
         //document.getElementById('Title').innerHTML = ID;
 
 
-        $.getJSON("df.json", function(json_resp) {
-          console.log(json_resp['drills']);
-          var found = getCountryByCode(ID);
+        $.getJSON("cdc.json", function(json_resp) {
+          console.log(json_resp['Drills']);
+          var found = getDrillBy(ID);
           found = found[0];  //get first
           console.log(found);
 
-          function getCountryByCode(a_ID) {
-            return json_resp['drills'].filter(
+          function getDrillBy(a_ID) {
+            return json_resp['Drills'].filter(
               function(myRecord){ return myRecord.ID == a_ID }
             );
           }

@@ -1,0 +1,29 @@
+{
+"Locations" : [
+ {
+  "id":1,
+  "name":"Centre Sportif Val-Des-Arbres",
+  "frame":"<iframe width=\"425\" height=\"350\" frameborder=\"0\" scrolling=\"no\" marginheight=\"0\" marginwidth=\"0\" src=\"https:\/\/www.openstreetmap.org\/export\/embed.html?bbox=-73.72581481933595%2C45.5764713438112%2C-73.66916656494142%2C45.60656223697993&amp;layer=mapnik&amp;marker=45.5915188070219%2C-73.69749069213867\" style=\"border: 1px solid black\"><\/iframe><br\/><small><a href=\"https:\/\/www.openstreetmap.org\/?mlat=45.5915&amp;mlon=-73.6975#map=15\/45.5915\/-73.6975&amp;layers=N\">View Larger Map<\/a><\/small>"
+ },
+ {
+  "id":2,
+  "name":"Centre Sportif Sophie-Barat",
+  "frame":"<iframe width=\"425\" height=\"350\" frameborder=\"0\" scrolling=\"no\" marginheight=\"0\" marginwidth=\"0\" src=\"https:\/\/www.openstreetmap.org\/export\/embed.html?bbox=-73.66967886686326%2C45.56108181829745%2C-73.6661383509636%2C45.5627381410003&amp;layer=mapnik&amp;marker=45.56190998575263%2C-73.66790860891342\" style=\"border: 1px solid black\"><\/iframe><br\/><small><a href=\"https:\/\/www.openstreetmap.org\/?mlat=45.56191&amp;mlon=-73.66791#map=14\/45.56191\/-73.66791&amp;layers=N\">View Larger Map<\/a><\/small>"
+ },
+ {
+  "id":3,
+  "name":"Stade de soccer de Montréal",
+  "frame":"<iframe width=\"425\" height=\"350\" frameborder=\"0\" scrolling=\"no\" marginheight=\"0\" marginwidth=\"0\" src=\"https:\/\/www.openstreetmap.org\/export\/embed.html?bbox=-73.64697933197023%2C45.559579442548745%2C-73.6328172683716%2C45.56620461754148&amp;layer=mapnik&amp;marker=45.56289212770492%2C-73.6398983001709\" style=\"border: 1px solid black\"><\/iframe><br\/><small><a href=\"https:\/\/www.openstreetmap.org\/?mlat=45.56289&amp;mlon=-73.63990#map=14\/45.56289\/-73.63990&amp;layers=N\">View Larger Map<\/a><\/small>"
+ },
+ {
+  "id":4,
+  "name":"Parc Auteuil",
+  "frame":"<iframe width=\"425\" height=\"350\" frameborder=\"0\" scrolling=\"no\" marginheight=\"0\" marginwidth=\"0\" src=\"https:\/\/www.openstreetmap.org\/export\/embed.html?bbox=-73.68513107299806%2C45.53539317822235%2C-73.62848281860353%2C45.56190059616734&amp;layer=mapnik&amp;marker=45.548648449767086%2C-73.65680694580078\" style=\"border: 1px solid black\"><\/iframe><br\/><small><a href=\"https:\/\/www.openstreetmap.org\/?mlat=45.5486&amp;mlon=-73.6568#map=15\/45.5486\/-73.6568\">View Larger Map<\/a><\/small>"
+ },
+ {
+  "id":5,
+  "name":"Collège Mont St-Louis",
+  "frame":"<iframe width=\"425\" height=\"350\" frameborder=\"0\" scrolling=\"no\" marginheight=\"0\" marginwidth=\"0\" src=\"https:\/\/www.openstreetmap.org\/export\/embed.html?bbox=-73.66188168525697%2C45.56668908097486%2C-73.65480065345766%2C45.570151558438155&amp;layer=cyclemap\" style=\"border: 1px solid black\"><\/iframe><br\/><small><a href=\"https:\/\/www.openstreetmap.org\/#map=18\/45.56842\/-73.65834&amp;layers=C\">View Larger Map<\/a><\/small>"
+ }
+]
+}

@@ -18,16 +18,23 @@
             "processing": true,
 						"serverSide": true,
 						"ajax": {
-              url: 'data.json',
-              dataSrc: 'sessions',
+              url: 'cdc.json',
+              dataSrc: 'Sessions',
             },
             columns: [
-              { data: 'id' },
-              { data: 'theme' },
+              { data: 'id',
+                render: function (data, type, row, meta) {
+                  return  '<a href="session.html?ID='+row.id+'">' + data + '</a>';
+                },
+              },
+              { data: 'theme'},
+              { data: 'drills',
+                render: function (data) {return "bla";}
+              },
             ],
 						"columnDefs": [
 							{ "orderable": false, "targets": 1 },
-              { "targets": 0, "data": "download_link", "render": function ( data, type, row, meta ) { return '<a href="'+data+'">'+data+'</a>'; } }
+              //{ "targets": 0, "data": "download_link", "render": function ( data, type, row, meta ) { return '<a href="'+data+'">'+data+'</a>'; } }
 						]
 					}
 				);
@@ -41,6 +48,20 @@
 	</div>
 	<div class="demo-html">
 		<table id="Sessions" class="display" style="width:100%">
+			<thead>
+				<tr>
+					<th>ID</th>
+					<th>Theme</th>
+					<th>Drills</th>
+				</tr>
+			</thead>
+			<tfoot>
+				<tr>
+					<th>ID</th>
+					<th>Theme</th>
+					<th>Drills</th>
+				</tr>
+			</tfoot>
 		</table>
 	</div>
 	<div id='sessions'></div>

@@ -1,0 +1,28 @@
+{
+"Themes" : [
+ {
+  "id":1,
+  "technique":"La Conduite de balle",
+  "tactique":"Phase Offensive",
+  "objectif":"Conduite de balle avec changement de direction.<br>Fluidité de la conduite.<br>Maîtrise du ballon en mouvement."
+ },
+ {
+  "id":2,
+  "technique":"Les Dribbles et duels",
+  "tactique":"Transition Défensive",
+  "objectif":"Les crochets.<br>Insister sur la notion de changement de direction."
+ },
+ {
+  "id":3,
+  "technique":"Attaquer 2 c 1",
+  "tactique":"Phase défensive",
+  "objectif":"Profiter de la supériorité numérique.<br>Fixer son adversaire et passer.<br>Utiliser les techniques de dribble et le démarquage pour déborder son adversaire.<br>Coordination des courses des 2 joueurs pour déborder un adversaire"
+ },
+ {
+  "id":4,
+  "technique":"les contrôles sur ballons au sol ",
+  "tactique":"Transition offensive",
+  "objectif":"Contrôles orientés à 90°.<br>Contrôles orientés à 180°.<br>Contrôles en course.<br>Contrôles pour changer de direction."
+ }
+]
+}

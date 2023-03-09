@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
+	<title>Braves Ahuntsic Sessions</title>
+	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css" />
+	<style type="text/css" class="init"></style>
+	<script type="text/javascript" language="javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+	<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+	<script type="text/javascript" class="init">
+		$(document).ready(
+     
+			function () {
+        const queryString = window.location.search;
+        //console.log(queryString);
+        const urlParams = new URLSearchParams(queryString);
+
+        const ID = urlParams.get('ID')
+        //console.log(ID);
+        //document.getElementById('Title').innerHTML = ID;
+
+
+        $.getJSON("cdc.json", function(json_resp) {
+          //console.log(json_resp['Sessions']);
+
+          var found_session = getSessionByID(ID);
+          found_session = found_session[0];  //get first
+          //console.log(found_session);
+
+          var found_theme = getThemeByID(found_session.theme);
+          found_theme = found_theme[0];  //get first
+          //console.log(found_theme);
+
+          function getSessionByID(a_ID) {
+            return json_resp['Sessions'].filter(
+              function(myRecord){ return myRecord.id == a_ID }
+            );
+          }
+
+          function getThemeByID(a_ID) {
+            return json_resp['Themes'].filter(
+              function(myRecord){ return myRecord.id == a_ID }
+            );
+          }
+          
+          document.getElementById('PageTitle').innerHTML = "Session ID : " + found_session.id;
+          document.getElementById('PageTitle2').innerHTML = document.getElementById('PageTitle').innerHTML;
+
+          document.getElementById('SessionThemeTech').innerHTML = found_theme.technique;
+          document.getElementById('SessionThemeTact').innerHTML = found_theme.tactique;
+          document.getElementById('SessionThemeObj').innerHTML = found_theme.objectif;
+
+          var table_drills = document.getElementById("myTableDrills");
+          let tableRef = document.getElementById("myTableDrills");
+          for (const [key, value] of Object.entries(found_session.drills)) {
+            console.log(key);
+            console.log(value);
+            let newRow = tableRef.insertRow(-1);
+            // Insert a cell in the row at index 0
+            let newCell1 = newRow.insertCell(-1);
+            // Append a text node to the cell
+            var a = document.createElement('a');
+            var linkText1 = document.createTextNode(value.id);
+            a.appendChild(linkText1);
+            a.title = value.id;
+            a.href = 'drill.html?ID='+value.id;
+            //let newText = document.createTextNode('<a href="drill.html?ID=</a>');
+            newCell1.appendChild(a);
+            let newCell2 = newRow.insertCell(-1);
+            newCell2.appendChild(document.createTextNode(value.duration/60));
+          }
+        });
+			}
+		);
+	</script>
+  <title id="PageTitle"></title>
+  <style>
+    .table_fill {
+      border-collapse: separate;
+      border-spacing: 0 15px;
+    }
+    .table_fill td:last-child {
+      width:100%;
+    }
+    #theme {
+      font-size: 150%;
+      font-weight: bold;
+    }
+    table {
+      border-collapse: separate;
+      border-spacing: 0 15px;
+      width:auto;
+    }
+    th {
+      background-color: #4287f5;
+      color: white;
+      text-align: left;
+    }
+    th,
+    td {
+      width: 180px;
+      text-align: center;
+      border: 1px solid black;
+      padding: 5px;
+  font-size: 150%;
+  text-align: left;
+    }
+    h2 {
+      color: #4287f5;
+    }
+  </style>
+</head>
+<body>
+    <div id='viewIndex'>
+		<a href="index.html">View Index</a>
+	</div>
+	<div class="main-html">
+  	<h1 class="page-title">
+  		<small id="PageTitle2"></small>
+  	</h1>
+ 
+    <h2 class="para-title">Session Themes</h2>
+    <table class="table_fill">
+      <tr>
+        <th>Technique</th><th>Tactique</th><th>Objectifs</th>
+      </tr>
+      <tr>
+        <td id="SessionThemeTech"></td>
+        <td id="SessionThemeTact"></td>
+        <td id="SessionThemeObj"></td>
+      </tr>
+    </table>
+
+  	<h2 class="para-title">Session Summary</h2>
+    <div id='session_summary'>
+      <table id="myTableDrills">
+        <tr>
+          <th>Drill #</th><th>#minutes</th>
+        </tr>
+      </table>
+    </div>
+	</div>
+</body>
+</html>

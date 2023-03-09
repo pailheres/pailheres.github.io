@@ -1,0 +1,89 @@
+{
+"Sessions" : [
+ {
+  "id":1,
+  "theme":1,
+  "session":"{<br> \"drills\" : [<br>  {<br>    \"id\" : 1,<br>    \"duration\" : 600<br>  },<br>  {<br>    \"id\" : 2,<br>    \"duration\" : 900<br>  },<br>  {<br>    \"id\" : 3,<br>    \"duration\" : 900<br>  },<br>  {<br>    \"id\" : 4,<br>    \"duration\" : 900<br>  },<br>  {<br>    \"id\" : 5,<br>    \"duration\" : 1800<br>  }<br> ]<br>}"
+ },
+ {
+  "id":2,
+  "theme":1,
+  "session":"{<br> \"drills\" : [<br>  {<br>    \"id\" : 6,<br>    \"duration\" : 600<br>  },<br>  {<br>    \"id\" : 7,<br>    \"duration\" : 900<br>  },<br>  {<br>    \"id\" : 8,<br>    \"duration\" : 900<br>  },<br>  {<br>    \"id\" : 9,<br>    \"duration\" : 900<br>  },<br>  {<br>    \"id\" : 5,<br>    \"duration\" : 1800<br>  }<br> ]<br>}"
+ },
+ {
+  "id":3,
+  "theme":1,
+  "session":"{<br> \"drills\" : [<br>  {<br>    \"id\" : 10,<br>    \"duration\" : 600<br>  },<br>  {<br>    \"id\" : 11,<br>    \"duration\" : 900<br>  },<br>  {<br>    \"id\" : 12,<br>    \"duration\" : 900<br>  },<br>  {<br>    \"id\" : 13,<br>    \"duration\" : 900<br>  },<br>  {<br>    \"id\" : 5,<br>    \"duration\" : 1800<br>  }<br> ]<br>}"
+ },
+ {
+  "id":4,
+  "theme":1,
+  "session":"{<br> \"drills\" : [<br>  {<br>    \"id\" : 14,<br>    \"duration\" : 600<br>  },<br>  {<br>    \"id\" : 15,<br>    \"duration\" : 900<br>  },<br>  {<br>    \"id\" : 7,<br>    \"duration\" : 900<br>  },<br>  {<br>    \"id\" : 17,<br>    \"duration\" : 900<br>  },<br>  {<br>    \"id\" : 5,<br>    \"duration\" : 1800<br>  }<br> ]<br>}"
+ },
+ {
+  "id":5,
+  "theme":2,
+  "session":"{<br> \"drills\" : [<br>  {<br>    \"id\" : 18,<br>    \"duration\" : 600<br>  },<br>  {<br>    \"id\" : 19,<br>    \"duration\" : 900<br>  },<br>  {<br>    \"id\" : 20,<br>    \"duration\" : 900<br>  },<br>  {<br>    \"id\" : 21,<br>    \"duration\" : 900<br>  },<br>  {<br>    \"id\" : 5,<br>    \"duration\" : 1800<br>  }<br> ]<br>}"
+ },
+ {
+  "id":6,
+  "theme":2,
+  "session":"{<br> \"drills\" : [<br>  {<br>    \"id\" : 22,<br>    \"duration\" : 600<br>  },<br>  {<br>    \"id\" : 19,<br>    \"duration\" : 900<br>  },<br>  {<br>    \"id\" : 23,<br>    \"duration\" : 900<br>  },<br>  {<br>    \"id\" : 24,<br>    \"duration\" : 900<br>  },<br>  {<br>    \"id\" : 5,<br>    \"duration\" : 1800<br>  }<br> ]<br>}"
+ },
+ {
+  "id":7,
+  "theme":2,
+  "session":"{<br> \"drills\" : [<br>  {<br>    \"id\" : 25,<br>    \"duration\" : 600<br>  },<br>  {<br>    \"id\" : 26,<br>    \"duration\" : 900<br>  },<br>  {<br>    \"id\" : 27,<br>    \"duration\" : 900<br>  },<br>  {<br>    \"id\" : 28,<br>    \"duration\" : 900<br>  },<br>  {<br>    \"id\" : 5,<br>    \"duration\" : 1800<br>  }<br> ]<br>}"
+ },
+ {
+  "id":8,
+  "theme":2,
+  "session":"{<br> \"drills\" : [<br>  {<br>    \"id\" : 29,<br>    \"duration\" : 600<br>  },<br>  {<br>    \"id\" : 30,<br>    \"duration\" : 900<br>  },<br>  {<br>    \"id\" : 31,<br>    \"duration\" : 900<br>  },<br>  {<br>    \"id\" : 32,<br>    \"duration\" : 900<br>  },<br>  {<br>    \"id\" : 5,<br>    \"duration\" : 1800<br>  }<br> ]<br>}"
+ },
+ {
+  "id":9,
+  "theme":2,
+  "session":"{<br> \"drills\" : [<br>  {<br>    \"id\" : 33,<br>    \"duration\" : 600<br>  },<br>  {<br>    \"id\" : 34,<br>    \"duration\" : 900<br>  },<br>  {<br>    \"id\" : 35,<br>    \"duration\" : 900<br>  },<br>  {<br>    \"id\" : 36,<br>    \"duration\" : 900<br>  },<br>  {<br>    \"id\" : 5,<br>    \"duration\" : 1800<br>  }<br> ]<br>}"
+ },
+ {
+  "id":10,
+  "theme":2,
+  "session":"{<br> \"drills\" : [<br>  {<br>    \"id\" : 37,<br>    \"duration\" : 600<br>  },<br>  {<br>    \"id\" : 38,<br>    \"duration\" : 900<br>  },<br>  {<br>    \"id\" : 39,<br>    \"duration\" : 900<br>  },<br>  {<br>    \"id\" : 40,<br>    \"duration\" : 900<br>  },<br>  {<br>    \"id\" : 5,<br>    \"duration\" : 1800<br>  }<br> ]<br>}"
+ },
+ {
+  "id":11,
+  "theme":3,
+  "session":"{<br> \"drills\" : [<br>  {<br>    \"id\" : 41,<br>    \"duration\" : 600<br>  },<br>  {<br>    \"id\" : 42,<br>    \"duration\" : 900<br>  },<br>  {<br>    \"id\" : 43,<br>    \"duration\" : 900<br>  },<br>  {<br>    \"id\" : 44,<br>    \"duration\" : 900<br>  },<br>  {<br>    \"id\" : 5,<br>    \"duration\" : 1800<br>  }<br> ]<br>}"
+ },
+ {
+  "id":12,
+  "theme":3,
+  "session":"{<br> \"drills\" : [<br>  {<br>    \"id\" : 45,<br>    \"duration\" : 600<br>  },<br>  {<br>    \"id\" : 42,<br>    \"duration\" : 900<br>  },<br>  {<br>    \"id\" : 46,<br>    \"duration\" : 900<br>  },<br>  {<br>    \"id\" : 47,<br>    \"duration\" : 900<br>  },<br>  {<br>    \"id\" : 5,<br>    \"duration\" : 1800<br>  }<br> ]<br>}"
+ },
+ {
+  "id":13,
+  "theme":4,
+  "session":"{<br> \"drills\" : [<br>  {<br>    \"id\" : 45,<br>    \"duration\" : 600<br>  },<br>  {<br>    \"id\" : 48,<br>    \"duration\" : 900<br>  },<br>  {<br>    \"id\" : 49,<br>    \"duration\" : 900<br>  },<br>  {<br>    \"id\" : 50,<br>    \"duration\" : 900<br>  },<br>  {<br>    \"id\" : 5,<br>    \"duration\" : 1800<br>  }<br> ]<br>}"
+ },
+ {
+  "id":14,
+  "theme":4,
+  "session":"{<br> \"drills\" : [<br>  {<br>    \"id\" : 51,<br>    \"duration\" : 600<br>  },<br>  {<br>    \"id\" : 52,<br>    \"duration\" : 900<br>  },<br>  {<br>    \"id\" : 53,<br>    \"duration\" : 900<br>  },<br>  {<br>    \"id\" : 54,<br>    \"duration\" : 900<br>  },<br>  {<br>    \"id\" : 5,<br>    \"duration\" : 1800<br>  }<br> ]<br>}"
+ },
+ {
+  "id":15,
+  "theme":4,
+  "session":"{<br> \"drills\" : [<br>  {<br>    \"id\" : 45,<br>    \"duration\" : 600<br>  },<br>  {<br>    \"id\" : 55,<br>    \"duration\" : 900<br>  },<br>  {<br>    \"id\" : 56,<br>    \"duration\" : 900<br>  },<br>  {<br>    \"id\" : 57,<br>    \"duration\" : 900<br>  },<br>  {<br>    \"id\" : 5,<br>    \"duration\" : 1800<br>  }<br> ]<br>}"
+ },
+ {
+  "id":16,
+  "theme":4,
+  "session":"{<br> \"drills\" : [<br>  {<br>    \"id\" : 45,<br>    \"duration\" : 600<br>  },<br>  {<br>    \"id\" : 59,<br>    \"duration\" : 900<br>  },<br>  {<br>    \"id\" : 49,<br>    \"duration\" : 900<br>  },<br>  {<br>    \"id\" : 60,<br>    \"duration\" : 900<br>  },<br>  {<br>    \"id\" : 5,<br>    \"duration\" : 1800<br>  }<br> ]<br>}"
+ },
+ {
+  "id":17,
+  "theme":4,
+  "session":"{<br> \"drills\" : [<br>  {<br>    \"id\" : 45,<br>    \"duration\" : 600<br>  },<br>  {<br>    \"id\" : 48,<br>    \"duration\" : 900<br>  },<br>  {<br>    \"id\" : 61,<br>    \"duration\" : 900<br>  },<br>  {<br>    \"id\" : 62,<br>    \"duration\" : 900<br>  },<br>  {<br>    \"id\" : 5,<br>    \"duration\" : 1800<br>  }<br> ]<br>}"
+ }
+]
+}

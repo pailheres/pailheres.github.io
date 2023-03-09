@@ -22,8 +22,8 @@
             "processing": true,
 						"serverSide": true,
 						"ajax": {
-              url: 'df.json',
-              dataSrc: 'drills',
+              url: 'cdc.json',
+              dataSrc: 'Drills',
             },
             columns: [
               { data: 'ID' ,
@@ -38,6 +38,7 @@
                   //return  '<a href="drill.html?ID='+row.ID+'&Title='+row.Title+'&Category='+row.Category+'&Material='+row.Material+'&CoachingPoints='+row.CoachingPoints+'&Description='+row.Description+'&Image='+row.Image+'">' + data + '</a>';
                   return  '<a href="drill.html?ID='+row.ID+'">' + data + '</a>';
                 },
+                "orderable": true
               },
               { data: 'Title' },
               { data: 'Category' },
@@ -45,14 +46,15 @@
               { data: 'CoachingPoints' },
               { data: 'Description' },
               { data: 'Image' ,
-                render: function (data) {return "<img src='imgs/"+data+"' width='150px'>";}
+                render: function (data) {return "<img src='imgs/"+data+"' width='150px'>";},
+                "orderable": false
               },
             ],
-						"columnDefs": [
-							{ "orderable": false, "targets": 6 },
-              //{ "targets": 0, "data": "download_link", "render": function ( data, type, row, meta ) { return '<a href="'+data+'">'+data+'</a>'; } }
-              //{ "targets": 6, "data": "download_link", "render": function ( data, type, row, meta ) { return '<img src="img/'+ data +'" height="100"/>'; } }
-						]
+						//"columnDefs": [
+						//	{ "orderable": false, "targets": 6 },
+            //  //{ "targets": 0, "data": "download_link", "render": function ( data, type, row, meta ) { return '<a href="'+data+'">'+data+'</a>'; } }
+            //  //{ "targets": 6, "data": "download_link", "render": function ( data, type, row, meta ) { return '<img src="img/'+ data +'" height="100"/>'; } }
+						//]
 					}
 				);
         

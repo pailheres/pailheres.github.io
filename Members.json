@@ -1,0 +1,18 @@
+{
+"Members" : [
+ {
+  "id":1,
+  "passeport":1170255,
+  "firstName":"Christian",
+  "lastName":"Mercier",
+  "groups":"Coach;Parent",
+  "email1":"ch.mercier@gmail.com",
+  "email2":null,
+  "email3":null,
+  "guardian":null,
+  "phoneCell":5143850453,
+  "phoneHome":null,
+  "phoneWork":null
+ }
+]
+}
