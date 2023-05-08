@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0" />
 	<title>Braves Ahuntsic Drill</title>
 	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css" />
 	<style type="text/css" class="init"></style>
@@ -19,7 +19,6 @@
         const ID = urlParams.get('ID')
         console.log(ID);
         //document.getElementById('Title').innerHTML = ID;
-
 
         $.getJSON("cdc.json", function(json_resp) {
           console.log(json_resp['Drills']);
@@ -40,37 +39,8 @@
           document.getElementById('Material').innerHTML = found.Material;
           document.getElementById('CoachingPoints').innerHTML = found.CoachingPoints;
           document.getElementById('Description').innerHTML = found.Description;
-          document.getElementById('Image').innerHTML = '<img src="imgs/'+found.Image+'"/>'
+          document.getElementById('Image').innerHTML = '<img style="max-width: 100%;" src="imgs/'+found.Image+'"/>'
         });
-
-
-/*
-        const Title = urlParams.get('Title')
-        console.log(Title);
-        //document.getElementById('Title').innerHTML = Title;
-
-        const Category = urlParams.get('Category')
-        console.log(Category);
-        //document.getElementById('Category').innerHTML = Category;
-
-        const Material = urlParams.get('Material')
-        console.log(Material);
-        document.getElementById('Material').innerHTML = Material;
-
-        const CoachingPoints = urlParams.get('CoachingPoints')
-        console.log(CoachingPoints);
-        document.getElementById('CoachingPoints').innerHTML = CoachingPoints;
-
-        const Description = urlParams.get('Description')
-        console.log(Description);
-        document.getElementById('Description').innerHTML = Description;
-
-        const Image = urlParams.get('Image')
-        console.log(Image);
-        document.getElementById('Image').innerHTML = '<img src="imgs/'+Image+'"/>';
-
-        document.getElementById('Title').innerHTML = '<small>'+ID+' : </small>'+Title+'<small>  ('+Category+')</small>';
-        */
 			}
 		);
 	</script>
