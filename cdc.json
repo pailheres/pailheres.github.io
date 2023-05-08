@@ -7,8 +7,8 @@
   "Title":"Toucher de balle",
   "Category":"Echauffement",
   "Material":"ballons",
-  "CoachingPoints":"​​Toucher de balle<br>- Maîtrise d’un ballon aérien<br>- Amélioration du toucher de balle<br>- Equilibre<br>- Coordination",
-  "Description":"​Jonglerie :<br>Un ballon par joueur<br>Jongler en respectant les consignes de l'entraîneur<br><br>Consignes :<br>pied droit, pied gauche, alterné, tête, etc<br><br>Variantes :<br>Jongler à 2 : libre, 2 touches de balle, 1 touche de balle<br>Jongler à 3 : libre, 2 touches de balle, 1 touche de balle",
+  "CoachingPoints":"​​Toucher de balle<br>Maîtrise d’un ballon aérien<br>Amélioration du toucher de balle<br>Equilibre<br>Coordination",
+  "Description":"​Jonglerie :<br>Un ballon par joueur<br>- jongler en respectant les consignes de l'entraîneur<br><br>Consignes :<br>pied droit, pied gauche, alterné, tête, etc<br><br>Variantes :<br>- jongler à 2 : libre, 2 touches de balle, 1 touche de balle<br>Jongler à 3 : libre, 2 touches de balle, 1 touche de balle",
   "Image":"00001.png"
  },
  {
@@ -780,6 +780,56 @@
   "CoachingPoints":"Recap :<br>The number one priority is to make sure that set pieces are organized prior to the game.<br>For example, who will be in the wall?<br>Who will be closing the ball down on an indirect free kick?<br>Who is marking players or are you going to play a zonal defense?<br>These are all the responsibility of the goalkeeper and what they are comfortable with. Play to the keeper’s ability.",
   "Description":"Free-kicks – the different types :<br>There is no difference between defending an indirect or a direct free kick. However, the defending team must understand the definition between the two types of kicks.<br>Indirect (8 types): <br>four for the field player and four for the goalie) A free kick from which a goal can not be scored until the ball touches another player of either team. Referee will physically hold one arm up in the air, signaling the indirect kick.<br>Direct (10 types):<br>A free kick from which a goal may be scored without a second player touching the ball. The referee need not physically signal a direct free kick, other than pointing direction.Understanding the definitions can give the defending team an advantage.<br><br>Basics of setting up a wall :<br><br>Think about building a wall quickly – ideally within 10 seconds. The referee will not wait until you’re ready, the attacking team will have the advantage.<br>Decide how many players in the wall based on where the kick is taken from. Use a simple “clock face” to judge. At 9pm you need only 1 defender, between 9-10pm use 2, at 11pm use 3 and at 12 use 4 – repeat the other side: use 3 at 1pm, 2 at 2pm and only 1 at 3pm.<br>Line up the wall – have a defender who faces you while others face the ball – they’re the “anchorman”. It should be someone you hand-picked before the game, someone who will listen and work with you. Move them all as a unit – you direct the anchorman – line him up with the near post and the ball – when lined up signal to the anchor – he turns and faces the ball.<br>Take position yourself – go toward the other post and cover the side of the goal not protected by the wall, making sure you can see the ball.<br>Practice setting up the set-pieces using your defenders – build cohesion between GK and central defenders in particular.<br>Assign players for “wall duty” and the key defensive zones in a corner.<br>practice speedy execution, and assign a player to “ensure” the ten yards are “walked”, buying time<br>Details on making The Wall:​ ​<br>As you can see, the player number #1 is outside the line of the post. So we “burn” one player. This will compensate for the shooter who has the ability to bend the ball. Players #2, #3, #4, are in the line of the goal. Player #5 is in line with the other post. This wall would be called a​ split wall.​ In this case, the goalie would be asking for “four plus one”.<br><br>Other points to remember:<br>Closest player should front ball but all players are responsible for guarding against quick kick.<br>Keeper determines the number of players in the wall. A general formula is six-person wall for a ball spotted eighteen yards from goal. Every three yards further, you may take a person out of the wall. Below is a general rule of thumb outline for how many players should be in the wall.<br><br>Forward lines up wall (GK can take over when referee determines that play cannot resume prior to a whistle). GK initially can line wall up from middle of goal.<br>The wall has other responsibilities other than just being a wall. Organizing the other defenders and deciding as a unit if encroachment is worthwhile, i.e. the free kick is dangerous, the score, the skill of the shooter, etc. If a yellow card is issued, change that individual out of the wall. The wall should then decide as a unit if encroachment is once again worthwhile.<br>The wall must look for clues the opposition could be giving. Examples: two on the ball, is there a potential pass, shooters angle of approach, backs sent forward, etc.<br>In general, keepers with a poor vertical reach should start inside the goal, i.e. U11’s.<br>It is important that the players in the wall are paying attention to how the goalkeeper lines up the wall and that they listen to his\/her instructions. The instructions that are given should be telling the wall to go either left or right, how many players are in the wall, and they have to be LOUD and FORCEFUL. The wall should be lined up with the near post and between the two players that are covering that near post. An example of this is below.<br><br>The goalkeeper then should place themselves in a position to where they can have a good view of the ball. This is usually more towards the central area of the goal, so he\/she can cover the far post area, but not too far as to not be able to get back across to the near post. The keeper wants to stay in a central location as much as possible and tighter to the goal line.<br>The keeper should also be aware of the space in front of him\/herself. You do not want the defensive line dropping too far back into the box and making the area crowded. This only makes it more difficult to come off the line and receive a clean ball. Again, a general rule of thumb is to have your defensive line just the wall. This is dependent on how far out the free kick is given.",
   "Image":"00078.png"
+ },
+ {
+  "ID":200,
+  "Source":"ElMehdi",
+  "Title":"Les contrôles",
+  "Category":"Match",
+  "Material":"ballons<br>chasubles (2 couleurs).",
+  "CoachingPoints":"Les contrôles :<br>La passe<br>Le tir",
+  "Description":"Match 8 contre 8 :<br>7 joueurs + 1 gardien par équipe.<br>S'appliquer sur les prises de balle.<br>Qualité dans les enchaînements contrôle + passe et contrôle + tir.",
+  "Image":"00074.png"
+ },
+ {
+  "ID":201,
+  "Source":"ElMehdi",
+  "Title":"Vitesse-coordination",
+  "Category":"Physique",
+  "Material":"lattes<br>plots",
+  "CoachingPoints":"Vitesse-coordination :<br>Techniques de course<br>Sauts<br>Vitesse de course",
+  "Description":"Techniques de course + sprint :<br>Disposer 8 lattes espacées de 50cm.<br>Les joueurs passent 2 par 2 sur le parcours en respectant les consignes de l’entraîneur : chaque passage est suivi de 10m de sprint.<br><br>Consignes des passages :<br>- un appui entre les lattes: très rapide<br>- 2 appuis (PG + PD) entre les lattes : très rapide<br>- sauts pieds joints entre les lattes<br>- sauts verticaux avec genoux levés en changeant d’appuis à chaque saut<br>- course latérale : 2 appuis rapides entre les lattes<br>- cloche pied droit<br>- cloche pied gauche",
+  "Image":"00201.png"
+ },
+ {
+  "ID":202,
+  "Source":"ElMehdi",
+  "Title":"Les contrôles orientés au sol à 90°",
+  "Category":"Technique",
+  "Material":"ballons<br>plots",
+  "CoachingPoints":"Les contrôles orientés au sol à 90° :<br>Les contrôles orientés pour changer de direction et pour se dégager de l’adversaire<br>Contrôle + tir<br>Se concentrer sur la qualité de la prise de balle et de la frappe de balle.<br>Contrôles à réaliser :<br>intérieur pied droit vers la droite.<br>intérieur pied droit vers la gauche.<br>extérieur pied droit.<br>etc.<br>Idem pied gauche.",
+  "Description":"Contrôle + tir :<br>A passe à B ; B attaque le ballon, contrôle vers le but et tire.<br>Variantes :<br>Variante 1 : le ballon vient de la gauche + frappe pied droit. (voir dessin)<br>Variante 2 : le ballon vient de la droite + frappe pied gauche.<br>Consignes :<br>- Contrôle libre<br>- Rechercher une prise de balle rapide, vers le but<br>- Qualité dans la frappe de balle",
+  "Image":"00202.png"
+ },
+ {
+  "ID":203,
+  "Source":"ElMehdi",
+  "Title":"Vitesse",
+  "Category":"Physique",
+  "Material":"plots<br>un décamètre.",
+  "CoachingPoints":"Vitesse de course",
+  "Description":"Tests de vitesse :<br>Premier test : 40m chronométré.<br>Deuxième test : navette 4x10m chronométré.<br>Un passage sur chaque parcours.<br>Noter les temps pour les comparer aux tests précédents.",
+  "Image":"00203.png"
+ },
+ {
+  "ID":10000,
+  "Source":"ElMehdi",
+  "Title":"",
+  "Category":"",
+  "Material":"",
+  "CoachingPoints":"",
+  "Description":"",
+  "Image":"00001.png"
  }
 ],
 "Events" : [
@@ -1704,7 +1754,68 @@
     "duration":1800
    }
   ]
+ },
+ {
+  "id":201,
+  "theme":1,
+  "drills":[
+   {
+    "id":1,
+    "duration":720
+   },
+   {
+    "id":201,
+    "duration":720
+   },
+   {
+    "id":52,
+    "duration":720
+   },
+   {
+    "id":48,
+    "duration":720
+   },
+   {
+    "id":202,
+    "duration":720
+   },
+   {
+    "id":200,
+    "duration":1800
+   }
+  ]
+ },
+ {
+  "id":202,
+  "theme":1,
+  "drills":[
+   {
+    "id":6,
+    "duration":720
+   },
+   {
+    "id":203,
+    "duration":720
+   },
+   {
+    "id":49,
+    "duration":720
+   },
+   {
+    "id":53,
+    "duration":720
+   },
+   {
+    "id":57,
+    "duration":720
+   },
+   {
+    "id":200,
+    "duration":1800
+   }
+  ]
  }
+
 ],
 "Themes" : [
  {
