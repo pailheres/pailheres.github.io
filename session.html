@@ -53,6 +53,12 @@
               function(myRecord){ return myRecord.id == a_ID }
             );
           }
+
+          function getDrillByID(a_ID) {
+            return json_resp['Drills'].filter(
+              function(myRecord){ return myRecord.ID == a_ID }
+            );
+          }
           
           document.getElementById('PageTitle').innerHTML = "Session ID : " + found_session.id;
           document.getElementById('PageTitle2').innerHTML = document.getElementById('PageTitle').innerHTML;
@@ -79,6 +85,15 @@
             newCell1.appendChild(a);
             let newCell2 = newRow.insertCell(-1);
             newCell2.appendChild(document.createTextNode(value.duration/60));
+
+            var found_drill = getDrillByID(value.id);
+            found_drill = found_drill[0];  //get first
+            //console.log(found_drill);
+
+            let newCell3 = newRow.insertCell(-1);
+            newCell3.appendChild(document.createTextNode(found_drill.Title));
+            let newCell4 = newRow.insertCell(-1);
+            newCell4.appendChild(document.createTextNode(found_drill.Category));
           }
         });
 			}
@@ -142,7 +157,7 @@
     <div id='session_summary'>
       <table id="myTableDrills">
         <tr>
-          <th>Drill #</th><th>#minutes</th>
+          <th>Drill #</th><th>#mins</th><th>Titre</th><th>Categorie</th>
         </tr>
       </table>
     </div>
