@@ -30,35 +30,35 @@
                     return  '<a href="session.html?ID='+row.id+'">' + data + '</a>';
                   },
                 },
-                { data: 'theme_tech',
-                  render: function (data, type, row, meta) {
-                    function getThemeTechByID(a_ID) {
-                      //console.log(a_ID);
-                      return json_resp['Themes_tech'].filter(
-                        function(myRecord){ return myRecord.id == a_ID }
-                      );
-                    }
-
-                     var found_theme_tech = getThemeTechByID(row.theme_tech);
-                     found_theme_tech = found_theme_tech[0];  //get first
-                     //console.log(found_theme_tech);
-                    return found_theme_tech.technique;
-                  },
+                { data: 'theme_tech'//,
+                  //render: function (data, type, row, meta) {
+                  //  function getThemeTechByID(a_ID) {
+                  //    //console.log(a_ID);
+                  //    return json_resp['Themes_tech'].filter(
+                  //      function(myRecord){ return myRecord.id == a_ID }
+                  //    );
+                  //  }
+                  //
+                  //   var found_theme_tech = getThemeTechByID(row.theme_tech);
+                  //   found_theme_tech = found_theme_tech[0];  //get first
+                  //   //console.log(found_theme_tech);
+                  //  return found_theme_tech.technique;
+                  //},
                 },
-                { data: 'theme_tact',
-                  render: function (data, type, row, meta) {
-                    function getThemeTactByID(a_ID) {
-                      //console.log(a_ID);
-                      return json_resp['Themes_tact'].filter(
-                        function(myRecord){ return myRecord.id == a_ID }
-                      );
-                    }
-
-                     var found_theme_tact = getThemeTactByID(row.theme_tact);
-                     found_theme_tact = found_theme_tact[0];  //get first
-                     //console.log(found_theme_tact);
-                    return found_theme_tact.tactique;
-                  },
+                { data: 'theme_tact'//,
+                  //render: function (data, type, row, meta) {
+                  //  function getThemeTactByID(a_ID) {
+                  //    //console.log(a_ID);
+                  //    return json_resp['Themes_tact'].filter(
+                  //      function(myRecord){ return myRecord.id == a_ID }
+                  //    );
+                  //  }
+                  //
+                  //   var found_theme_tact = getThemeTactByID(row.theme_tact);
+                  //   found_theme_tact = found_theme_tact[0];  //get first
+                  //   //console.log(found_theme_tact);
+                  //  return found_theme_tact.tactique;
+                  //},
                 },
                 { data: 'drills',
                   render: function (data) {return "bla";}
