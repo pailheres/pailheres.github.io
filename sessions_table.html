@@ -11,33 +11,66 @@
 	<script type="text/javascript" class="init">
 		$(document).ready(
 			function () {
-				$('#Sessions').DataTable(
-					{
-						"pageLength": -1,
-						"lengthMenu": [ [-1, 10, 50, 250], ["ALL", 10, 50, 250] ],
-            "processing": true,
-						"serverSide": true,
-						"ajax": {
-              url: 'cdc.json',
-              dataSrc: 'Sessions',
-            },
-            columns: [
-              { data: 'id',
-                render: function (data, type, row, meta) {
-                  return  '<a href="session.html?ID='+row.id+'">' + data + '</a>';
+        $.getJSON("cdc.json", function(json_resp) {
+
+          
+          $('#Sessions').DataTable(
+            {
+              "pageLength": -1,
+              "lengthMenu": [ [-1, 10, 50, 250], ["ALL", 10, 50, 250] ],
+              "processing": true,
+              "serverSide": true,
+              "ajax": {
+                url: 'cdc.json',
+                dataSrc: 'Sessions',
+              },
+              columns: [
+                { data: 'id',
+                  render: function (data, type, row, meta) {
+                    return  '<a href="session.html?ID='+row.id+'">' + data + '</a>';
+                  },
                 },
-              },
-              { data: 'theme'},
-              { data: 'drills',
-                render: function (data) {return "bla";}
-              },
-            ],
-						"columnDefs": [
-							{ "orderable": false, "targets": 1 },
-              //{ "targets": 0, "data": "download_link", "render": function ( data, type, row, meta ) { return '<a href="'+data+'">'+data+'</a>'; } }
-						]
-					}
-				);
+                { data: 'theme_tech',
+                  render: function (data, type, row, meta) {
+                    function getThemeTechByID(a_ID) {
+                      //console.log(a_ID);
+                      return json_resp['Themes_tech'].filter(
+                        function(myRecord){ return myRecord.id == a_ID }
+                      );
+                    }
+
+                     var found_theme_tech = getThemeTechByID(row.theme_tech);
+                     found_theme_tech = found_theme_tech[0];  //get first
+                     //console.log(found_theme_tech);
+                    return found_theme_tech.technique;
+                  },
+                },
+                { data: 'theme_tact',
+                  render: function (data, type, row, meta) {
+                    function getThemeTactByID(a_ID) {
+                      //console.log(a_ID);
+                      return json_resp['Themes_tact'].filter(
+                        function(myRecord){ return myRecord.id == a_ID }
+                      );
+                    }
+
+                     var found_theme_tact = getThemeTactByID(row.theme_tact);
+                     found_theme_tact = found_theme_tact[0];  //get first
+                     //console.log(found_theme_tact);
+                    return found_theme_tact.tactique;
+                  },
+                },
+                { data: 'drills',
+                  render: function (data) {return "bla";}
+                },
+              ],
+              "columnDefs": [
+                { "orderable": false, "targets": 1 },
+                //{ "targets": 0, "data": "download_link", "render": function ( data, type, row, meta ) { return '<a href="'+data+'">'+data+'</a>'; } }
+              ]
+            }
+          );
+        });
 			}
 		);
 	</script>
@@ -51,14 +84,16 @@
 			<thead>
 				<tr>
 					<th>ID</th>
-					<th>Theme</th>
+					<th>Theme Tech</th>
+					<th>Theme Tact</th>
 					<th>Drills</th>
 				</tr>
 			</thead>
 			<tfoot>
 				<tr>
 					<th>ID</th>
-					<th>Theme</th>
+					<th>Theme Tech</th>
+					<th>Theme Tact</th>
 					<th>Drills</th>
 				</tr>
 			</tfoot>

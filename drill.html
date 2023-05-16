@@ -13,7 +13,7 @@
      
 			function () {
         const queryString = window.location.search;
-        console.log(queryString);
+        //console.log(queryString);
         const urlParams = new URLSearchParams(queryString);
 
         const ID = urlParams.get('ID')
@@ -21,10 +21,10 @@
         //document.getElementById('Title').innerHTML = ID;
 
         $.getJSON("cdc.json", function(json_resp) {
-          console.log(json_resp['Drills']);
+          //console.log(json_resp['Drills']);
           var found = getDrillBy(ID);
           found = found[0];  //get first
-          console.log(found);
+          //console.log(found);
 
           function getDrillBy(a_ID) {
             return json_resp['Drills'].filter(

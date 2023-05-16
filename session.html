@@ -28,9 +28,13 @@
           found_session = found_session[0];  //get first
           //console.log(found_session);
 
-          var found_theme = getThemeByID(found_session.theme);
-          found_theme = found_theme[0];  //get first
-          //console.log(found_theme);
+          var found_theme_tech = getThemeTechByID(found_session.theme_tech);
+          found_theme_tech = found_theme_tech[0];  //get first
+          //console.log(found_theme_tech);
+
+          var found_theme_tact = getThemeTactByID(found_session.theme_tact);
+          found_theme_tact = found_theme_tact[0];  //get first
+          //console.log(found_theme_tact);
 
           function getSessionByID(a_ID) {
             return json_resp['Sessions'].filter(
@@ -38,8 +42,14 @@
             );
           }
 
-          function getThemeByID(a_ID) {
-            return json_resp['Themes'].filter(
+          function getThemeTechByID(a_ID) {
+            return json_resp['Themes_tech'].filter(
+              function(myRecord){ return myRecord.id == a_ID }
+            );
+          }
+          
+          function getThemeTactByID(a_ID) {
+            return json_resp['Themes_tact'].filter(
               function(myRecord){ return myRecord.id == a_ID }
             );
           }
@@ -47,15 +57,15 @@
           document.getElementById('PageTitle').innerHTML = "Session ID : " + found_session.id;
           document.getElementById('PageTitle2').innerHTML = document.getElementById('PageTitle').innerHTML;
 
-          document.getElementById('SessionThemeTech').innerHTML = found_theme.technique;
-          document.getElementById('SessionThemeTact').innerHTML = found_theme.tactique;
-          document.getElementById('SessionThemeObj').innerHTML = found_theme.objectif;
+          document.getElementById('SessionThemeTech').innerHTML = found_theme_tech.technique;
+          document.getElementById('SessionThemeTact').innerHTML = found_theme_tact.tactique;
+          document.getElementById('SessionThemeObj').innerHTML = found_theme_tech.objectif;
 
           var table_drills = document.getElementById("myTableDrills");
           let tableRef = document.getElementById("myTableDrills");
           for (const [key, value] of Object.entries(found_session.drills)) {
-            console.log(key);
-            console.log(value);
+            //console.log(key);
+            //console.log(value);
             let newRow = tableRef.insertRow(-1);
             // Insert a cell in the row at index 0
             let newCell1 = newRow.insertCell(-1);

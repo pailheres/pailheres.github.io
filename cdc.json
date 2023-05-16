@@ -822,6 +822,46 @@
   "Image":"00203.png"
  },
  {
+  "ID":204,
+  "Source":"ElMehdi",
+  "Title":"Les contrôles orientés au sol à 90°",
+  "Category":"Technique",
+  "Material":"ballons<br>plots",
+  "CoachingPoints":"Les contrôles orientés au sol à 90° :<br>Les contrôles orientés pour changer de direction et pour se dégager de l’adversaire<br>Contrôle + passe<br>Se concentrer sur la qualité de la prise de balle et de la passe.<br>Contrôles à réaliser : intérieur pied droit<br>vers la droite<br>intérieur pied droit vers la gauche<br>extérieur pied droit<br>etc.<br>Idem pied gauche.",
+  "Description":"Contrôle + passe :<br>Par groupes de 4 joueurs avec 2 ballons par groupe.<br>Sous forme de carré, contrôle + passe avec 2 ballons en jeu en même temps.<br>Les deux ballons circulent dans le même sens.<br>Effectuer les contrôles demandés par l'entraîneur.<br><br>Consignes :<br>- distance entre les joueurs : 7-8 m<br>- être sur ses appuis<br>- attaquer son ballon<br>- contrôler en direction du joueur à qui on va passer le ballon",
+  "Image":"00204.png"
+ },
+ {
+  "ID":205,
+  "Source":"ElMehdi",
+  "Title":"Les contrôles orientés au sol à 90°",
+  "Category":"Technique",
+  "Material":"ballons<br>plots",
+  "CoachingPoints":"Les contrôles orientés au sol à 90° :<br>Les contrôles orientés pour changer de direction et pour se dégager de l’adversaire<br>Contrôle + passe<br>Se concentrer sur la qualité de la prise de balle et de la passe.<br>Contrôles à réaliser : intérieur pied droit<br>vers la droite<br>intérieur pied droit vers la gauche<br>extérieur pied droit<br>etc.<br>Idem pied gauche.",
+  "Description":"Contrôle + tir :<br>A passe à B ; B attaque le ballon, contrôle vers le but et tire.<br><br>Variantes :<br>Variante 1 : ballon venant de la gauche + frappe pied gauche (voir dessin)<br>Variante 2 : ballon venant de la droite + frappe pied droit<br><br>Consignes :<br>- Contrôle libre<br>- Rechercher une prise de balle rapide, vers le but<br>- Qualité dans la frappe de balle",
+  "Image":"00205.png"
+ },
+ {
+  "ID":206,
+  "Source":"ElMehdi",
+  "Title":"Vitesse",
+  "Category":"Physique",
+  "Material":"ballons<br>plots",
+  "CoachingPoints":"Vitesse :<br>Vitesse de course<br>Vitesse gestuelle",
+  "Description":"Sprint + tir :<br>2 buts face à face (26m) avec gardiens.<br>Former 2 équipes de joueurs.<br>A passe le ballon pour B et B passe le ballon pour A.<br>Après leur passe, A et B sprintent pour récupérer le ballon de leur adversaire et tirent au but (sans contrôle).<br>Un point pour le joueur dont le ballon rentre dans le but en premier. Après le tir, A va derrière les bleus et B derrière les rouges.<br><br>Variantes :<br>- passer devant soi + sprint en diagonale (dessin)<br>- passer en diagonale + sprint tout droit",
+  "Image":"00206.png"
+ },
+ {
+  "ID":207,
+  "Source":"ElMehdi",
+  "Title":"Les contrôles orientés au sol à 90°",
+  "Category":"Technique",
+  "Material":"ballons<br>plots",
+  "CoachingPoints":"Les contrôles orientés au sol à 90° :<br>Les contrôles orientés pour changer de direction et pour se dégager de l’adversaire<br>Contrôle + passe<br>Se concentrer sur la qualité de la prise de balle et de la passe.<br>Contrôles à réaliser : intérieur pied droit<br>vers la droite<br>intérieur pied droit vers la gauche<br>extérieur pied droit<br>etc.<br>Idem pied gauche.",
+  "Description":"Contrôle orienté + passe :<br>Par groupes de 4 joueurs avec 2 ballons par groupe.<br>A passe à B qui effectue un contrôle orienté, conduit et passe à C ; C redonne à B ; B refait la même chose dans l'autre sens.<br>Quand A donne à B, C donne à D qui fait comme B de l'autre côté.<br>Changer les postes régulièrement.<br><br>Consignes :<br>- dosage et précision dans les passes<br>- effectuer les contrôles orientés demandés par l'entraîneur<br>- être sur ses appuis",
+  "Image":"00207.png"
+ },
+ {
   "ID":10000,
   "Source":"ElMehdi",
   "Title":"",
@@ -1315,7 +1355,8 @@
 "Sessions" : [
  {
   "id":1,
-  "theme":1,
+  "theme_tech":1,
+  "theme_tact":1,
   "drills":[
    {
     "id":1,
@@ -1341,7 +1382,8 @@
  },
  {
   "id":2,
-  "theme":1,
+  "theme_tech":1,
+  "theme_tact":1,
   "drills":[
    {
     "id":6,
@@ -1367,7 +1409,8 @@
  },
  {
   "id":3,
-  "theme":1,
+  "theme_tech":1,
+  "theme_tact":1,
   "drills":[
    {
     "id":10,
@@ -1393,7 +1436,8 @@
  },
  {
   "id":4,
-  "theme":1,
+  "theme_tech":1,
+  "theme_tact":1,
   "drills":[
    {
     "id":14,
@@ -1419,7 +1463,8 @@
  },
  {
   "id":5,
-  "theme":2,
+  "theme_tech":2,
+  "theme_tact":2,
   "drills":[
    {
     "id":18,
@@ -1445,7 +1490,8 @@
  },
  {
   "id":6,
-  "theme":2,
+  "theme_tech":2,
+  "theme_tact":2,
   "drills":[
    {
     "id":22,
@@ -1471,7 +1517,8 @@
  },
  {
   "id":7,
-  "theme":2,
+  "theme_tech":2,
+  "theme_tact":2,
   "drills":[
    {
     "id":25,
@@ -1497,7 +1544,8 @@
  },
  {
   "id":8,
-  "theme":2,
+  "theme_tech":2,
+  "theme_tact":2,
   "drills":[
    {
     "id":29,
@@ -1523,7 +1571,8 @@
  },
  {
   "id":9,
-  "theme":2,
+  "theme_tech":2,
+  "theme_tact":2,
   "drills":[
    {
     "id":33,
@@ -1549,7 +1598,8 @@
  },
  {
   "id":10,
-  "theme":2,
+  "theme_tech":2,
+  "theme_tact":2,
   "drills":[
    {
     "id":37,
@@ -1575,7 +1625,8 @@
  },
  {
   "id":11,
-  "theme":3,
+  "theme_tech":3,
+  "theme_tact":3,
   "drills":[
    {
     "id":41,
@@ -1601,7 +1652,8 @@
  },
  {
   "id":12,
-  "theme":3,
+  "theme_tech":3,
+  "theme_tact":3,
   "drills":[
    {
     "id":45,
@@ -1627,7 +1679,8 @@
  },
  {
   "id":13,
-  "theme":4,
+  "theme_tech":4,
+  "theme_tact":4,
   "drills":[
    {
     "id":45,
@@ -1653,7 +1706,8 @@
  },
  {
   "id":14,
-  "theme":4,
+  "theme_tech":4,
+  "theme_tact":4,
   "drills":[
    {
     "id":51,
@@ -1679,7 +1733,8 @@
  },
  {
   "id":15,
-  "theme":4,
+  "theme_tech":4,
+  "theme_tact":4,
   "drills":[
    {
     "id":45,
@@ -1705,7 +1760,8 @@
  },
  {
   "id":16,
-  "theme":4,
+  "theme_tech":4,
+  "theme_tact":4,
   "drills":[
    {
     "id":45,
@@ -1731,7 +1787,8 @@
  },
  {
   "id":17,
-  "theme":4,
+  "theme_tech":4,
+  "theme_tact":4,
   "drills":[
    {
     "id":45,
@@ -1757,10 +1814,15 @@
  },
  {
   "id":201,
-  "theme":1,
+  "theme_tech":4,
+  "theme_tact":1,
   "drills":[
    {
     "id":1,
+    "duration":720
+   },
+   {
+    "id":45,
     "duration":720
    },
    {
@@ -1787,10 +1849,15 @@
  },
  {
   "id":202,
-  "theme":1,
+  "theme_tech":4,
+  "theme_tact":1,
   "drills":[
    {
     "id":6,
+    "duration":720
+   },
+   {
+    "id":45,
     "duration":720
    },
    {
@@ -1814,33 +1881,264 @@
     "duration":1800
    }
   ]
+ },
+ {
+  "id":203,
+  "theme_tech":4,
+  "theme_tact":1,
+  "drills":[
+   {
+    "id":201,
+    "duration":720
+   },
+   {
+    "id":45,
+    "duration":720
+   },
+   {
+    "id":49,
+    "duration":720
+   },
+   {
+    "id":204,
+    "duration":720
+   },
+   {
+    "id":205,
+    "duration":720
+   },
+   {
+    "id":200,
+    "duration":1800
+   }
+  ]
+ },
+ {
+  "id":204,
+  "theme_tech":4,
+  "theme_tact":1,
+  "drills":[
+   {
+    "id":63,
+    "duration":720
+   },
+   {
+    "id":45,
+    "duration":720
+   },
+   {
+    "id":206,
+    "duration":720
+   },
+   {
+    "id":48,
+    "duration":720
+   },
+   {
+    "id":207,
+    "duration":720
+   },
+   {
+    "id":54,
+    "duration":720
+   },
+   {
+    "id":200,
+    "duration":1800
+   }
+  ]
+ },
+ {
+  "id":205,
+  "theme_tech":4,
+  "theme_tact":2,
+  "drills":[
+   {
+    "id":1,
+    "duration":720
+   },
+   {
+    "id":45,
+    "duration":720
+   },
+   {
+    "id":201,
+    "duration":720
+   },
+   {
+    "id":52,
+    "duration":720
+   },
+   {
+    "id":48,
+    "duration":720
+   },
+   {
+    "id":202,
+    "duration":720
+   },
+   {
+    "id":200,
+    "duration":1800
+   }
+  ]
+ },
+ {
+  "id":206,
+  "theme_tech":2,
+  "theme_tact":2,
+  "drills":[
+  ]
+ },
+ {
+  "id":207,
+  "theme_tech":2,
+  "theme_tact":2,
+  "drills":[
+  ]
+ },
+ {
+  "id":208,
+  "theme_tech":2,
+  "theme_tact":2,
+  "drills":[
+  ]
+ },
+ {
+  "id":209,
+  "theme_tech":2,
+  "theme_tact":3,
+  "drills":[
+  ]
+ },
+ {
+  "id":210,
+  "theme_tech":2,
+  "theme_tact":3,
+  "drills":[
+  ]
+ },
+ {
+  "id":211,
+  "theme_tech":5,
+  "theme_tact":3,
+  "drills":[
+  ]
+ },
+ {
+  "id":212,
+  "theme_tech":5,
+  "theme_tact":3,
+  "drills":[
+  ]
+ },
+ {
+  "id":213,
+  "theme_tech":6,
+  "theme_tact":4,
+  "drills":[
+  ]
+ },
+ {
+  "id":214,
+  "theme_tech":6,
+  "theme_tact":4,
+  "drills":[
+  ]
+ },
+ {
+  "id":215,
+  "theme_tech":6,
+  "theme_tact":4,
+  "drills":[
+  ]
+ },
+ {
+  "id":216,
+  "theme_tech":6,
+  "theme_tact":4,
+  "drills":[
+  ]
+ },
+ {
+  "id":217,
+  "theme_tech":6,
+  "theme_tact":5,
+  "drills":[
+  ]
+ },
+ {
+  "id":218,
+  "theme_tech":7,
+  "theme_tact":5,
+  "drills":[
+  ]
+ },
+ {
+  "id":219,
+  "theme_tech":7,
+  "theme_tact":5,
+  "drills":[
+  ]
  }
-
 ],
-"Themes" : [
+"Themes_tech" : [
  {
   "id":1,
   "technique":"La Conduite de balle",
-  "tactique":"Phase Offensive",
   "objectif":"Conduite de balle avec changement de direction.<br>Fluidité de la conduite.<br>Maîtrise du ballon en mouvement."
  },
  {
   "id":2,
   "technique":"Les Dribbles et duels",
-  "tactique":"Transition Défensive",
   "objectif":"Les crochets.<br>Insister sur la notion de changement de direction."
  },
  {
   "id":3,
   "technique":"Attaquer 2 c 1",
-  "tactique":"Phase défensive",
   "objectif":"Profiter de la supériorité numérique.<br>Fixer son adversaire et passer.<br>Utiliser les techniques de dribble et le démarquage pour déborder son adversaire.<br>Coordination des courses des 2 joueurs pour déborder un adversaire"
  },
  {
   "id":4,
-  "technique":"les contrôles sur ballons au sol ",
-  "tactique":"Transition offensive",
+  "technique":"Les contrôles sur ballons au sol",
   "objectif":"Contrôles orientés à 90°.<br>Contrôles orientés à 180°.<br>Contrôles en course.<br>Contrôles pour changer de direction."
+ },
+ {
+  "id":5,
+  "technique":"Démarquage",
+  "objectif":""
+ },
+ {
+  "id":6,
+  "technique":"Jeu sans controle",
+  "objectif":""
+ },
+ {
+  "id":7,
+  "technique":"Orientation de jeu",
+  "objectif":""
+ }
+],
+"Themes_tact" : [
+ {
+  "id":1,
+  "tactique":"Phase Offensive"
+ },
+ {
+  "id":2,
+  "tactique":"Transition Défensive"
+ },
+ {
+  "id":3,
+  "tactique":"Phase défensive"
+ },
+ {
+  "id":4,
+  "tactique":"Transition offensive"
+ },
+ {
+  "id":5,
+  "tactique":"Ballon arrêtés"
  }
 ]
 }
