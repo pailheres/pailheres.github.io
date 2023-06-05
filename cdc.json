@@ -862,6 +862,46 @@
   "Image":"00207.png"
  },
  {
+  "ID":208,
+  "Source":"ElMehdi",
+  "Title":"Vitesse",
+  "Category":"Physique",
+  "Material":"ballons<br>plots<br>chasubles (2 couleurs).",
+  "CoachingPoints":"Vitesse :<br>Vivacité<br>Maîtrise des appuis<br>Vitesse",
+  "Description":"Duel pour le ballon :<br>Former 2 équipes de joueurs. Intervalles de 5m<br>entre les coupelles.<br>Au signal sonore, les joueurs sprintent en allant toucher les coupelles du slalom avec la main : le premier arrivé au ballon tire.<br>1 point rapporté à l’équipe par tir et un point de bonus par but marqué.<br><br>Variantes :<br>- départ debout<br>- départ assis<br>- départ allongé",
+  "Image":"00208.png"
+ },
+ {
+  "ID":209,
+  "Source":"ElMehdi",
+  "Title":"Les techniques de dribble et de débordement",
+  "Category":"Technique",
+  "Material":"ballons<br>plots",
+  "CoachingPoints":"Les techniques de dribble et de débordement :<br><br>Les crochets :<br>Insister sur la notion de changement de direction.<br>Le crochet (geste technique + accélération) doit permettre au joueur de changer rapidement de direction.<br><br>Crochets à réaliser :<br>intérieur pied droit<br>extérieur pied droit<br>intérieur derrière la jambe d'appui<br>double-contacts<br>etc.<br><br>Idem pied gauche.",
+  "Description":"Crochets :<br>4 joueurs maximum par atelier.<br>Un ballon par joueur.<br>Le joueur conduit son ballon et effectue le geste technique demandé devant les coupelles jaunes<br>(coupelle = adversaire).<br>Mettre en place plusieurs parcours.<br><br>Consignes :<br>- s'appliquer sur chaque crochet<br>- le crochet doit être un changement net de direction",
+  "Image":"00209.png"
+ },
+ {
+  "ID":210,
+  "Source":"ElMehdi",
+  "Title":"Les techniques de dribble et de débordement",
+  "Category":"Technique",
+  "Material":"ballons<br>plots",
+  "CoachingPoints":"Les techniques de dribble et de débordement :<br><br>Les crochets :<br>Insister sur la notion de changement de direction.<br>Le crochet (geste technique + accélération) doit permettre au joueur de changer rapidement de direction.<br><br>Crochets à réaliser :<br>intérieur pied droit<br>extérieur pied droit<br>intérieur derrière la jambe d'appui<br>double-contacts<br>etc.<br><br>Idem pied gauche.",
+  "Description":"Crochets - Relais :<br>3 joueurs par atelier.<br>Un ballon pour 3.<br>A conduit le ballon et effectue un crochet devant chaque coupelle puis passe à B<br>B fait de même dans le sens inverse et passe à C<br>etc.<br>Mettre en place plusieurs parcours.<br><br>Variantes :<br>- crochet libre<br>- crochet demandé par l'entraîneur<br>- crochet différent à chaque coupelle",
+  "Image":"00210.png"
+ },
+ {
+  "ID":211,
+  "Source":"ElMehdi",
+  "Title":"Les techniques de dribble et de débordement",
+  "Category":"Technique",
+  "Material":"ballons<br>plots",
+  "CoachingPoints":"Les techniques de dribble et de débordement :<br><br>Les crochets :<br>Insister sur la notion de changement de direction.<br>Le crochet (geste technique + accélération) doit permettre au joueur de changer rapidement de direction.<br><br>Crochets à réaliser :<br>intérieur pied droit<br>extérieur pied droit<br>intérieur derrière la jambe d'appui<br>double-contacts<br>etc.<br><br>Idem pied gauche.",
+  "Description":"Crochet + tir :<br>Le joueur conduit son ballon puis effectue un crochet devant chaque coupelle et tire au but à la sortie du dernier crochet.<br><br>Variantes :<br>- crochet libre<br>- crochet demandé par l'entraîneur<br>- crochet différent à chaque coupelle<br><br>Consigne :<br>- enchaînement rapide crochet + frappe à la dernière coupelle",
+  "Image":"00211.png"
+ },
+ {
   "ID":10000,
   "Source":"ElMehdi",
   "Title":"",
@@ -1988,6 +2028,30 @@
   "theme_tech":2,
   "theme_tact":2,
   "drills":[
+   {
+    "id":45,
+    "duration":720
+   },
+   {
+    "id":208,
+    "duration":720
+   },
+   {
+    "id":209,
+    "duration":720
+   },
+   {
+    "id":210,
+    "duration":720
+   },
+   {
+    "id":211,
+    "duration":720
+   },
+   {
+    "id":200,
+    "duration":1800
+   }
   ]
  },
  {

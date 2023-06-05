@@ -10,21 +10,67 @@
 	<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
 	<script type="text/javascript" class="init">
 		$(document).ready(
-     
 			function () {
         const queryString = window.location.search;
         //console.log(queryString);
         const urlParams = new URLSearchParams(queryString);
 
         const ID = urlParams.get('ID')
-        console.log(ID);
+        //console.log(ID);
         //document.getElementById('Title').innerHTML = ID;
 
+        $.ajax({
+          cache: false,  //will force resend of the file
+          dataType: "json",
+          url: "cdc.json",
+          success: function(json_resp) {
+            //console.log(json_resp['Drills']);
+            var found = getDrillBy(ID);
+            found = found[0];  //get first
+            //console.log(found);
+
+            function getDrillBy(a_ID) {
+              return json_resp['Drills'].filter(
+                function(myRecord){ return myRecord.ID == a_ID }
+              );
+            }
+            
+            //document.getElementById('ID').innerHTML = found.ID;
+            //document.getElementById('Title').innerHTML = found.Title;
+            //document.getElementById('Category').innerHTML = found.Category;
+            document.getElementById('Title').innerHTML = '<small>'+found.ID+' : </small>'+found.Title+'<small>  ('+found.Category+')</small>';
+            document.getElementById('Material').innerHTML = found.Material;
+            document.getElementById('CoachingPoints').innerHTML = found.CoachingPoints;
+            document.getElementById('Description').innerHTML = found.Description;
+            document.getElementById('Image').innerHTML = '<img style="max-width: 100%;" src="imgs/'+found.Image+'"/>'
+          },
+          error: function (jqXHR, exception) {
+            console.log("error");
+            var msg = '';
+            if (jqXHR.status === 0) {
+                msg = 'Not connect.\n Verify Network.';
+            } else if (jqXHR.status == 404) {
+                msg = 'Requested page not found. [404]';
+            } else if (jqXHR.status == 500) {
+                msg = 'Internal Server Error [500].';
+            } else if (exception === 'parsererror') {
+                msg = 'Requested JSON parse failed.';
+            } else if (exception === 'timeout') {
+                msg = 'Time out error.';
+            } else if (exception === 'abort') {
+                msg = 'Ajax request aborted.';
+            } else {
+                msg = 'Uncaught Error.\n' + jqXHR.responseText;
+            }
+            $('#post').html(msg);
+          }
+        });
+/*
         $.getJSON("cdc.json", function(json_resp) {
-          //console.log(json_resp['Drills']);
+          console.log(json_resp['Drills']);
           var found = getDrillBy(ID);
           found = found[0];  //get first
-          //console.log(found);
+          console.log(found);
 
           function getDrillBy(a_ID) {
             return json_resp['Drills'].filter(
@@ -41,6 +87,7 @@
           document.getElementById('Description').innerHTML = found.Description;
           document.getElementById('Image').innerHTML = '<img style="max-width: 100%;" src="imgs/'+found.Image+'"/>'
         });
+        */
 			}
 		);
 	</script>
