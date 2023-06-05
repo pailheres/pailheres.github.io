@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
+	<title>Braves Ahuntsic Events</title>
+	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css" />
+	<style type="text/css" class="init"></style>
+	<script type="text/javascript" language="javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+	<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+	<script type="text/javascript" class="init">
+    function myFunction()
+    {
+      alert("You have called the function from a anchor tag inside a datatable. Make sure it is outside $document.Ready(function)")        
+    }
+		$(document).ready(
+			function () {
+				var table = $('#Events').DataTable(
+					{
+						"pageLength": -1,
+						"lengthMenu": [ [-1, 10, 50, 250], ["ALL", 10, 50, 250] ],
+            "processing": true,
+						"serverSide": true,
+						"ajax": {
+              url: 'cdc.json',
+              dataSrc: 'Events',
+            },
+            columns: [
+              { data: 'id' ,
+                render: function (data, type, row, meta) {
+                  return  '<a href="event.html?ID='+row.id+'&nocache=123">' + data + '</a>';
+                },
+                "orderable": true
+              },
+              { data: 'title' },
+              { data: 'session', 
+                render: function (data, type, row, meta) {
+                  return  '<a href="session.html?ID='+row.session+'&nocache=123">' + data + '</a>';
+                },              
+              },
+              { data: 'assignation' },
+            ]
+					}
+				);
+			}
+		);
+	</script>
+</head>
+<body>
+	<div id='viewindex'>
+		<a href="index.html">View Index</a>
+	</div>
+	<div class="demo-html">
+		<table id="Events" class="display" style="width:100%">
+			<thead>
+				<tr>
+					<th>ID</th>
+					<th>Title</th>
+					<th>Session</th>
+					<th>Assignation</th>
+				</tr>
+			</thead>
+			<tfoot>
+				<tr>
+					<th>ID</th>
+					<th>Title</th>
+					<th>Session</th>
+					<th>Assignation</th>
+				</tr>
+			</tfoot>
+		</table>
+	</div>
+	<div id='events'></div>
+</body>
+</html>

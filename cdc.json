@@ -7,8 +7,8 @@
   "Title":"Toucher de balle",
   "Category":"Echauffement",
   "Material":"ballons",
-  "CoachingPoints":"​​Toucher de balle<br>Maîtrise d’un ballon aérien<br>Amélioration du toucher de balle<br>Equilibre<br>Coordination",
-  "Description":"​Jonglerie :<br>Un ballon par joueur<br>- jongler en respectant les consignes de l'entraîneur<br><br>Consignes :<br>pied droit, pied gauche, alterné, tête, etc<br><br>Variantes :<br>- jongler à 2 : libre, 2 touches de balle, 1 touche de balle<br>Jongler à 3 : libre, 2 touches de balle, 1 touche de balle",
+  "CoachingPoints":"Toucher de balle<br>Maîtrise d’un ballon aérien<br>Amélioration du toucher de balle<br>Equilibre<br>Coordination",
+  "Description":"Jonglerie :<br>Un ballon par joueur<br>- jongler en respectant les consignes de l'entraîneur<br><br>Consignes :<br>pied droit, pied gauche, alterné, tête, etc<br><br>Variantes :<br>- jongler à 2 : libre, 2 touches de balle, 1 touche de balle<br>Jongler à 3 : libre, 2 touches de balle, 1 touche de balle",
   "Image":"00001.png"
  },
  {
@@ -914,346 +914,35 @@
 ],
 "Events" : [
  {
-  "id":1,
-  "title":"CDC U09M du Mardi",
-  "description":null,
-  "session":"{<br> \"id\": 1,<br> \"theme\" : \"Controle de balle au sol\",<br> \"drills\" : [<br>  {<br>    \"id\" : 76,<br>    \"plateau\" : \"Echauffement\",<br>    \"duration\" : 720,<br>    \"coachs\" : [1]<br>  },<br>  {<br>    \"id\" : 51,<br>    \"plateau\" : \"A\",<br>    \"duration\" : 720,<br>    \"coachs\" : [1]<br>  },<br>  {<br>    \"id\" : 45,<br>    \"plateau\" : \"B\",<br>    \"duration\" : 720,<br>    \"coachs\" : [2]<br>  },<br>  {<br>    \"id\" : 49,<br>    \"plateau\" : \"C\",<br>    \"duration\" : 720,<br>    \"coachs\" : [3]<br>  },<br>  {<br>    \"id\" : 53,<br>    \"plateau\" : \"D\",<br>    \"duration\" : 720,<br>    \"coachs\" : [5]<br>  },<br>  {<br>    \"id\" : 5,<br>    \"plateau\" : \"Match\",<br>    \"duration\" : 1800,<br>    \"coachs\" : [0]<br>  }<br> ]<br>}",
-  "start":1646764200000,
-  "end":1646769300000,
-  "location_id":2
- },
- {
-  "id":2,
-  "title":"CDC U09M du Samedi",
-  "description":null,
-  "session":"{<br> \"id\": 1,<br> \"theme\" : \"Controle de balle au sol\",<br> \"drills\" : [<br>  {<br>    \"id\" : 76,<br>    \"plateau\" : \"Echauffement\",<br>    \"duration\" : 720,<br>    \"coachs\" : [1]<br>  },<br>  {<br>    \"id\" : 57,<br>    \"plateau\" : \"A\",<br>    \"duration\" : 720,<br>    \"coachs\" : [3,4]<br>  },<br>  {<br>    \"id\" : 62,<br>    \"plateau\" : \"B\",<br>    \"duration\" : 720,<br>    \"coachs\" : [5]<br>  },<br>  {<br>    \"id\" : 45,<br>    \"plateau\" : \"C\",<br>    \"duration\" : 720,<br>    \"coachs\" : [1]<br>  },<br>  {<br>    \"id\" : 5,<br>    \"plateau\" : \"Match\",<br>    \"duration\" : 1800,<br>    \"coachs\" : [0]<br>  }<br> ]<br>}",
-  "start":1647075600000,
-  "end":1647081000000,
-  "location_id":1
- },
- {
-  "id":3,
-  "title":"CDC U09M du Mardi",
-  "description":null,
-  "session":"{<br> \"id\": 0,<br> \"theme\" : \"Attaquer à 2 vs 1\",<br> \"drills\" : [<br>  {<br>    \"id\" : 76,<br>    \"plateau\" : \"Echauffement\",<br>    \"duration\" : 720,<br>    \"coachs\" : [1]<br>  },<br>  {<br>    \"id\" : 45,<br>    \"plateau\" : \"A et B\",<br>    \"duration\" : 900,<br>    \"coachs\" : [3,4]<br>  },<br>  {<br>    \"id\" : 42,<br>    \"plateau\" : \"C\",<br>    \"duration\" : 900,<br>    \"coachs\" : [2]<br>  },<br>  {<br>    \"id\" : 44,<br>    \"plateau\" : \"D\",<br>    \"duration\" : 900,<br>    \"coachs\" : [5]<br>  },<br>  {<br>    \"id\" : 5,<br>    \"plateau\" : \"Match\",<br>    \"duration\" : 1800,<br>    \"coachs\" : [0]<br>  }<br> ]<br>}",
-  "start":1647369000000,
-  "end":1647374100000,
-  "location_id":2
- },
- {
-  "id":4,
-  "title":"CDC U09M du Samedi",
-  "description":null,
-  "session":"{<br> \"id\": 0,<br> \"theme\" : \"Attaquer à 2 vs 1\",<br> \"drills\" : [<br>  {<br>    \"id\" : 76,<br>    \"plateau\" : \"Echauffement\",<br>    \"duration\" : 300,<br>    \"coachs\" : [1]<br>  },<br>  {<br>    \"id\" : 44,<br>    \"plateau\" : \"A et B\",<br>    \"duration\" : 1500,<br>    \"coachs\" : [3,4]<br>  },<br>  {<br>    \"id\" : 75,<br>    \"plateau\" : \"C\",<br>    \"duration\" : 1500,<br>    \"coachs\" : [1]<br>  },<br>  {<br>    \"id\" : 5,<br>    \"plateau\" : \"Match\",<br>    \"duration\" : 1800,<br>    \"coachs\" : [0]<br>  }<br> ]<br>}",
-  "start":1647680400000,
-  "end":1647685800000,
-  "location_id":1
- },
- {
-  "id":5,
-  "title":"CDC U09M du Mardi",
-  "description":null,
-  "session":"{<br> \"id\": 0,<br> \"theme\" : \"Attaquer à 2 vs 1\",<br> \"drills\" : [<br>  {<br>    \"id\" : 41,<br>    \"plateau\" : \"Echauffement\",<br>    \"duration\" : 720,<br>    \"coachs\" : [1]<br>  },<br>  {<br>    \"id\" : 43,<br>    \"plateau\" : \"A et B\",<br>    \"duration\" : 900,<br>    \"coachs\" : [3,4]<br>  },<br>  {<br>    \"id\" : 75,<br>    \"plateau\" : \"C\",<br>    \"duration\" : 900,<br>    \"coachs\" : [1]<br>  },<br>  {<br>    \"id\" : 47,<br>    \"plateau\" : \"D\",<br>    \"duration\" : 900,<br>    \"coachs\" : [5]<br>  },<br>  {<br>    \"id\" : 5,<br>    \"plateau\" : \"Match\",<br>    \"duration\" : 1800,<br>    \"coachs\" : [0]<br>  }<br> ]<br>}",
-  "start":1647973800000,
-  "end":1647978900000,
-  "location_id":2
- },
- {
   "id":6,
-  "title":"CDC U09M du Samedi",
-  "description":null,
-  "session":"{<br> \"id\": 0,<br> \"theme\" : \"Phases de jeu arrêté\",<br> \"drills\" : [<br>  {<br>    \"id\" : 76,<br>    \"plateau\" : \"Echauffement\",<br>    \"duration\" : 600,<br>    \"coachs\" : [1]<br>  },<br>  {<br>    \"id\" : 78,<br>    \"plateau\" : \"A et B\",<br>    \"duration\" : 1500,<br>    \"coachs\" : [3,4]<br>  },<br>  {<br>    \"id\" : 77,<br>    \"plateau\" : \"C et D\",<br>    \"duration\" : 1500,<br>    \"coachs\" : [1,5]<br>  },<br>  {<br>    \"id\" : 5,<br>    \"plateau\" : \"Match\",<br>    \"duration\" : 1800,<br>    \"coachs\" : [0]<br>  }<br> ]<br>}",
-  "start":1648285200000,
-  "end":1648290600000,
-  "location_id":1
- },
- {
-  "id":7,
-  "title":"CDC#1 Mardi 2012M",
-  "description":null,
-  "session":"{<br> \"id\": 0,<br> \"theme\" : \"La Conduite de balle\",<br> \"themeTactique\" : \"Phase Offensive\",<br> \"drills\" : [<br>  {<br>    \"id\" : 1,<br>    \"plateau\" : \"Echauffement\",<br>    \"duration\" : 600,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 2,<br>    \"plateau\" : \"A\",<br>    \"duration\" : 900,<br>    \"coachs\" : [4,7]<br>  },<br>  {<br>    \"id\" : 3,<br>    \"plateau\" : \"B\",<br>    \"duration\" : 900,<br>    \"coachs\" : [6,8]<br>  },<br>  {<br>    \"id\" : 4,<br>    \"plateau\" : \"C\",<br>    \"duration\" : 900,<br>    \"coachs\" : [3,5]<br>  },<br>  {<br>    \"id\" : 5,<br>    \"plateau\" : \"Match\",<br>    \"duration\" : 1800,<br>    \"coachs\" : [0]<br>  }<br> ]<br>}",
-  "start":1652205600000,
-  "end":1652211000000,
-  "location_id":4
- },
- {
-  "id":8,
-  "title":"CDC#1 Dimanche 2012M",
-  "description":null,
-  "session":"{<br> \"id\": 0,<br> \"theme\" : \"La Conduite de balle\",<br> \"themeTactique\" : \"Phase Offensive\",<br> \"drills\" : [<br>  {<br>    \"id\" : 1,<br>    \"plateau\" : \"Echauffement\",<br>    \"duration\" : 600,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 2,<br>    \"plateau\" : \"A\",<br>    \"duration\" : 900,<br>    \"coachs\" : [6,8]<br>  },<br>  {<br>    \"id\" : 3,<br>    \"plateau\" : \"B\",<br>    \"duration\" : 900,<br>    \"coachs\" : [3,5]<br>  },<br>  {<br>    \"id\" : 4,<br>    \"plateau\" : \"C\",<br>    \"duration\" : 900,<br>    \"coachs\" : [4,7]<br>  },<br>  {<br>    \"id\" : 5,<br>    \"plateau\" : \"Match\",<br>    \"duration\" : 1800,<br>    \"coachs\" : [0]<br>  }<br> ]<br>}",
-  "start":1652626800000,
-  "end":1652632200000,
-  "location_id":4
- },
- {
-  "id":9,
-  "title":"CDC#2 Mardi 2012M",
-  "description":null,
-  "session":"{<br> \"id\": 0,<br> \"theme\" : \"La Conduite de balle\",<br> \"themeTactique\" : \"Phase Offensive\",<br> \"drills\" : [<br>  {<br>    \"id\" : 6,<br>    \"plateau\" : \"Echauffement\",<br>    \"duration\" : 600,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 7,<br>    \"plateau\" : \"A\",<br>    \"duration\" : 900,<br>    \"coachs\" : [3,7, 10]<br>  },<br>  {<br>    \"id\" : 8,<br>    \"plateau\" : \"B\",<br>    \"duration\" : 900,<br>    \"coachs\" : [6,4]<br>  },<br>  {<br>    \"id\" : 9,<br>    \"plateau\" : \"C\",<br>    \"duration\" : 900,<br>    \"coachs\" : [9,8]<br>  },<br>  {<br>    \"id\" : 5,<br>    \"plateau\" : \"Match\",<br>    \"duration\" : 1800,<br>    \"coachs\" : [0]<br>  }<br> ]<br>}",
-  "start":1652810400000,
-  "end":1652815800000,
-  "location_id":4
- },
- {
-  "id":10,
-  "title":"CDC#2 Dimanche 2012M",
-  "description":null,
-  "session":"{<br> \"id\": 0,<br> \"theme\" : \"La Conduite de balle\",<br> \"themeTactique\" : \"Phase Offensive\",<br> \"drills\" : [<br>  {<br>    \"id\" : 6,<br>    \"plateau\" : \"Echauffement\",<br>    \"duration\" : 600,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 7,<br>    \"plateau\" : \"A\",<br>    \"duration\" : 900,<br>    \"coachs\" : [3,7, 10]<br>  },<br>  {<br>    \"id\" : 8,<br>    \"plateau\" : \"B\",<br>    \"duration\" : 900,<br>    \"coachs\" : [6,4]<br>  },<br>  {<br>    \"id\" : 9,<br>    \"plateau\" : \"C\",<br>    \"duration\" : 900,<br>    \"coachs\" : [9,8]<br>  },<br>  {<br>    \"id\" : 5,<br>    \"plateau\" : \"Match\",<br>    \"duration\" : 1800,<br>    \"coachs\" : [0]<br>  }<br> ]<br>}",
-  "start":1653231600000,
-  "end":1653237000000,
-  "location_id":4
- },
- {
-  "id":11,
-  "title":"CDC#3 Mardi 2012M",
-  "description":null,
-  "session":"{<br> \"id\": 0,<br> \"theme\" : \"La Conduite de balle\",<br> \"themeTactique\" : \"Phase Offensive\",<br> \"drills\" : [<br>  {<br>    \"id\" : 10,<br>    \"plateau\" : \"Echauffement\",<br>    \"duration\" : 600,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 11,<br>    \"plateau\" : \"A\",<br>    \"duration\" : 900,<br>    \"coachs\" : [3,4,12,13]<br>  },<br>  {<br>    \"id\" : 12,<br>    \"plateau\" : \"B\",<br>    \"duration\" : 900,<br>    \"coachs\" : [6,7,11]<br>  },<br>  {<br>    \"id\" : 13,<br>    \"plateau\" : \"C\",<br>    \"duration\" : 900,<br>    \"coachs\" : [9,8,10]<br>  },<br>  {<br>    \"id\" : 5,<br>    \"plateau\" : \"Match\",<br>    \"duration\" : 1800,<br>    \"coachs\" : [0]<br>  }<br> ]<br>}",
-  "start":1653415200000,
-  "end":1653420600000,
-  "location_id":4
- },
- {
-  "id":12,
-  "title":"CDC#3 Dimanche 2012M",
-  "description":null,
-  "session":"{<br> \"id\": 0,<br> \"theme\" : \"La Conduite de balle\",<br> \"themeTactique\" : \"Phase Offensive\",<br> \"drills\" : [<br>  {<br>    \"id\" : 10,<br>    \"plateau\" : \"Echauffement\",<br>    \"duration\" : 600,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 11,<br>    \"plateau\" : \"A\",<br>    \"duration\" : 900,<br>    \"coachs\" : [3,4,12,13]<br>  },<br>  {<br>    \"id\" : 12,<br>    \"plateau\" : \"B\",<br>    \"duration\" : 900,<br>    \"coachs\" : [6,7,11]<br>  },<br>  {<br>    \"id\" : 13,<br>    \"plateau\" : \"C\",<br>    \"duration\" : 900,<br>    \"coachs\" : [9,8,10]<br>  },<br>  {<br>    \"id\" : 5,<br>    \"plateau\" : \"Match\",<br>    \"duration\" : 1800,<br>    \"coachs\" : [0]<br>  }<br> ]<br>}",
-  "start":1653836400000,
-  "end":1653841800000,
-  "location_id":4
- },
- {
-  "id":13,
-  "title":"CDC#4 Mardi 2012M",
-  "description":null,
-  "session":"{<br> \"id\": 0,<br> \"theme\" : \"La Conduite de balle\",<br> \"themeTactique\" : \"Phase Offensive\",<br> \"drills\" : [<br>  {<br>    \"id\" : 14,<br>    \"plateau\" : \"Echauffement\",<br>    \"duration\" : 600,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 15,<br>    \"plateau\" : \"A\",<br>    \"duration\" : 900,<br>    \"coachs\" : [3,4,12,13]<br>  },<br>  {<br>    \"id\" : 7,<br>    \"plateau\" : \"B\",<br>    \"duration\" : 900,<br>    \"coachs\" : [7,10]<br>  },<br>  {<br>    \"id\" : 17,<br>    \"plateau\" : \"C\",<br>    \"duration\" : 900,<br>    \"coachs\" : [6,8,9,11]<br>  },<br>  {<br>    \"id\" : 5,<br>    \"plateau\" : \"Match\",<br>    \"duration\" : 1800,<br>    \"coachs\" : [0]<br>  }<br> ]<br>}",
-  "start":1654020000000,
-  "end":1654025400000,
-  "location_id":4
- },
- {
-  "id":14,
-  "title":"CDC#4 Dimanche 2012M",
-  "description":null,
-  "session":"{<br> \"id\": 0,<br> \"theme\" : \"La Conduite de balle\",<br> \"themeTactique\" : \"Phase Offensive\",<br> \"drills\" : [<br>  {<br>    \"id\" : 14,<br>    \"plateau\" : \"Echauffement\",<br>    \"duration\" : 600,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 15,<br>    \"plateau\" : \"A\",<br>    \"duration\" : 900,<br>    \"coachs\" : [3,4,12,13]<br>  },<br>  {<br>    \"id\" : 7,<br>    \"plateau\" : \"B\",<br>    \"duration\" : 900,<br>    \"coachs\" : [7,10]<br>  },<br>  {<br>    \"id\" : 17,<br>    \"plateau\" : \"C\",<br>    \"duration\" : 900,<br>    \"coachs\" : [6,8,9,11]<br>  },<br>  {<br>    \"id\" : 5,<br>    \"plateau\" : \"Match\",<br>    \"duration\" : 1800,<br>    \"coachs\" : [0]<br>  }<br> ]<br>}",
-  "start":1654441200000,
-  "end":1654446600000,
-  "location_id":4
- },
- {
-  "id":15,
-  "title":"CDC#5 Mardi 2012M",
-  "description":null,
-  "session":"{<br> \"id\": 0,<br> \"theme\" : \"Les Dribbles et duels\",<br> \"themeTactique\" : \"Transition Défensive\",<br> \"drills\" : [<br>  {<br>    \"id\" : 18,<br>    \"plateau\" : \"Echauffement\",<br>    \"duration\" : 600,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 19,<br>    \"plateau\" : \"A\",<br>    \"duration\" : 900,<br>    \"coachs\" : [11,13,3]<br>  },<br>  {<br>    \"id\" : 20,<br>    \"plateau\" : \"B\",<br>    \"duration\" : 900,<br>    \"coachs\" : [6,8,4,10]<br>  },<br>  {<br>    \"id\" : 21,<br>    \"plateau\" : \"C\",<br>    \"duration\" : 900,<br>    \"coachs\" : [7,9]<br>  },<br>  {<br>    \"id\" : 5,<br>    \"plateau\" : \"Match\",<br>    \"duration\" : 1800,<br>    \"coachs\" : [0]<br>  }<br> ]<br>}",
-  "start":1654624800000,
-  "end":1654630200000,
-  "location_id":4
- },
- {
-  "id":16,
-  "title":"CDC#5 Dimanche 2012M",
-  "description":null,
-  "session":"{<br> \"id\": 0,<br> \"theme\" : \"Les Dribbles et duels\",<br> \"themeTactique\" : \"Transition Défensive\",<br> \"drills\" : [<br>  {<br>    \"id\" : 18,<br>    \"plateau\" : \"Echauffement\",<br>    \"duration\" : 600,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 19,<br>    \"plateau\" : \"A\",<br>    \"duration\" : 900,<br>    \"coachs\" : [11,13,3]<br>  },<br>  {<br>    \"id\" : 20,<br>    \"plateau\" : \"B\",<br>    \"duration\" : 900,<br>    \"coachs\" : [6,8,4,10]<br>  },<br>  {<br>    \"id\" : 21,<br>    \"plateau\" : \"C\",<br>    \"duration\" : 900,<br>    \"coachs\" : [7,9]<br>  },<br>  {<br>    \"id\" : 5,<br>    \"plateau\" : \"Match\",<br>    \"duration\" : 1800,<br>    \"coachs\" : [0]<br>  }<br> ]<br>}",
-  "start":1655046000000,
-  "end":1655051400000,
-  "location_id":4
- },
- {
-  "id":17,
-  "title":"CDC#6 Mardi 2012M",
-  "description":null,
-  "session":"{<br> \"id\": 0,<br> \"theme\" : \"Les Dribbles et duels\",<br> \"themeTactique\" : \"Transition Défensive\",<br> \"drills\" : [<br>  {<br>    \"id\" : 18,<br>    \"plateau\" : \"Echauffement\",<br>    \"duration\" : 600,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 19,<br>    \"plateau\" : \"A\",<br>    \"duration\" : 720,<br>    \"coachs\" : [1]<br>  },<br>  {<br>    \"id\" : 23,<br>    \"plateau\" : \"B\",<br>    \"duration\" : 720,<br>    \"coachs\" : [3,13]<br>  },<br>  {<br>    \"id\" : 24,<br>    \"plateau\" : \"C\",<br>    \"duration\" : 720,<br>    \"coachs\" : [6,8]<br>  },<br>  {<br>    \"id\" : 22,<br>    \"plateau\" : \"D\",<br>    \"duration\" : 720,<br>    \"coachs\" : [11,10,4]<br>  },<br>  {<br>    \"id\" : 5,<br>    \"plateau\" : \"Match\",<br>    \"duration\" : 1500,<br>    \"coachs\" : [0]<br>  }<br> ]<br>}",
-  "start":1655229600000,
-  "end":1655235000000,
-  "location_id":4
- },
- {
-  "id":18,
-  "title":"CDC#6 Dimanche 2012M",
-  "description":null,
-  "session":"{<br> \"id\": 0,<br> \"theme\" : \"Les Dribbles et duels\",<br> \"themeTactique\" : \"Transition Défensive\",<br> \"drills\" : [<br>  {<br>    \"id\" : 18,<br>    \"plateau\" : \"Echauffement\",<br>    \"duration\" : 600,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 19,<br>    \"plateau\" : \"A\",<br>    \"duration\" : 720,<br>    \"coachs\" : [1]<br>  },<br>  {<br>    \"id\" : 23,<br>    \"plateau\" : \"B\",<br>    \"duration\" : 720,<br>    \"coachs\" : [3,13]<br>  },<br>  {<br>    \"id\" : 24,<br>    \"plateau\" : \"C\",<br>    \"duration\" : 720,<br>    \"coachs\" : [6,8]<br>  },<br>  {<br>    \"id\" : 22,<br>    \"plateau\" : \"D\",<br>    \"duration\" : 720,<br>    \"coachs\" : [11,10,4]<br>  },<br>  {<br>    \"id\" : 5,<br>    \"plateau\" : \"Match\",<br>    \"duration\" : 1500,<br>    \"coachs\" : [0]<br>  }<br> ]<br>}",
-  "start":1655649000000,
-  "end":1655654400000,
-  "location_id":5
- },
- {
-  "id":19,
-  "title":"CDC#7 Mardi 2012M",
-  "description":null,
-  "session":"{<br> \"id\": 0,<br> \"theme\" : \"Les Dribbles et duels\",<br> \"themeTactique\" : \"Transition Défensive\",<br> \"drills\" : [<br>  {<br>    \"id\" : 25,<br>    \"plateau\" : \"Echauffement\",<br>    \"duration\" : 900,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 26,<br>    \"plateau\" : \"B\",<br>    \"duration\" : 900,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 27,<br>    \"plateau\" : \"C\",<br>    \"duration\" : 900,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 28,<br>    \"plateau\" : \"D\",<br>    \"duration\" : 900,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 5,<br>    \"plateau\" : \"Match\",<br>    \"duration\" : 1800,<br>    \"coachs\" : [0]<br>  }<br> ]<br>}",
-  "start":1655834400000,
-  "end":1655839800000,
-  "location_id":4
- },
- {
-  "id":20,
-  "title":"CDC#7 Dimanche 2012M",
-  "description":null,
-  "session":"{<br> \"id\": 0,<br> \"theme\" : \"Les Dribbles et duels\",<br> \"themeTactique\" : \"Transition Défensive\",<br> \"drills\" : [<br>  {<br>    \"id\" : 25,<br>    \"plateau\" : \"Echauffement\",<br>    \"duration\" : 900,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 26,<br>    \"plateau\" : \"B\",<br>    \"duration\" : 900,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 27,<br>    \"plateau\" : \"C\",<br>    \"duration\" : 900,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 28,<br>    \"plateau\" : \"D\",<br>    \"duration\" : 900,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 5,<br>    \"plateau\" : \"Match\",<br>    \"duration\" : 1800,<br>    \"coachs\" : [0]<br>  }<br> ]<br>}",
-  "start":1656253800000,
-  "end":1656259200000,
-  "location_id":5
- },
- {
-  "id":21,
-  "title":"CDC#8 Mardi 2012M",
-  "description":null,
-  "session":"{<br> \"id\": 0,<br> \"theme\" : \"Les Dribbles et duels\",<br> \"themeTactique\" : \"Transition Défensive\",<br> \"drills\" : [<br>  {<br>    \"id\" : 29,<br>    \"plateau\" : \"Echauffement\",<br>    \"duration\" : 900,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 30,<br>    \"plateau\" : \"B\",<br>    \"duration\" : 900,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 31,<br>    \"plateau\" : \"C\",<br>    \"duration\" : 900,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 32,<br>    \"plateau\" : \"D\",<br>    \"duration\" : 900,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 5,<br>    \"plateau\" : \"Match\",<br>    \"duration\" : 1800,<br>    \"coachs\" : [0]<br>  }<br> ]<br>}",
-  "start":1656439200000,
-  "end":1656444600000,
-  "location_id":4
- },
- {
-  "id":22,
-  "title":"CDC#8 Dimanche 2012M",
-  "description":null,
-  "session":"{<br> \"id\": 0,<br> \"theme\" : \"Les Dribbles et duels\",<br> \"themeTactique\" : \"Transition Défensive\",<br> \"drills\" : [<br>  {<br>    \"id\" : 29,<br>    \"plateau\" : \"Echauffement\",<br>    \"duration\" : 900,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 30,<br>    \"plateau\" : \"B\",<br>    \"duration\" : 900,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 31,<br>    \"plateau\" : \"C\",<br>    \"duration\" : 900,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 32,<br>    \"plateau\" : \"D\",<br>    \"duration\" : 900,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 5,<br>    \"plateau\" : \"Match\",<br>    \"duration\" : 1800,<br>    \"coachs\" : [0]<br>  }<br> ]<br>}",
-  "start":1656858600000,
-  "end":1656864000000,
-  "location_id":5
- },
- {
-  "id":23,
-  "title":"CDC#9 Mardi 2012M",
-  "description":null,
-  "session":"{<br> \"id\": 0,<br> \"theme\" : \"Les Dribbles et duels\",<br> \"themeTactique\" : \"Transition Défensive\",<br> \"drills\" : [<br>  {<br>    \"id\" : 33,<br>    \"plateau\" : \"Echauffement\",<br>    \"duration\" : 900,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 34,<br>    \"plateau\" : \"B\",<br>    \"duration\" : 900,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 35,<br>    \"plateau\" : \"C\",<br>    \"duration\" : 900,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 36,<br>    \"plateau\" : \"D\",<br>    \"duration\" : 900,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 5,<br>    \"plateau\" : \"Match\",<br>    \"duration\" : 1800,<br>    \"coachs\" : [0]<br>  }<br> ]<br>}",
-  "start":1657044000000,
-  "end":1657049400000,
-  "location_id":4
- },
- {
-  "id":24,
-  "title":"CDC#9 Dimanche 2012M",
-  "description":null,
-  "session":"{<br> \"id\": 0,<br> \"theme\" : \"Les Dribbles et duels\",<br> \"themeTactique\" : \"Transition Défensive\",<br> \"drills\" : [<br>  {<br>    \"id\" : 33,<br>    \"plateau\" : \"Echauffement\",<br>    \"duration\" : 900,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 34,<br>    \"plateau\" : \"B\",<br>    \"duration\" : 900,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 35,<br>    \"plateau\" : \"C\",<br>    \"duration\" : 900,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 36,<br>    \"plateau\" : \"D\",<br>    \"duration\" : 900,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 5,<br>    \"plateau\" : \"Match\",<br>    \"duration\" : 1800,<br>    \"coachs\" : [0]<br>  }<br> ]<br>}",
-  "start":1657463400000,
-  "end":1657468800000,
-  "location_id":5
- },
- {
-  "id":25,
-  "title":"CDC#10 Mardi 2012M",
-  "description":null,
-  "session":"{<br> \"id\": 0,<br> \"theme\" : \"Attaquer en 2 contre 1\",<br> \"themeTactique\" : \"Phase défensive\",<br> \"drills\" : [<br>  {<br>    \"id\" : 41,<br>    \"plateau\" : \"Echauffement\",<br>    \"duration\" : 900,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 42,<br>    \"plateau\" : \"A\",<br>    \"duration\" : 900,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 43,<br>    \"plateau\" : \"B\",<br>    \"duration\" : 900,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 44,<br>    \"plateau\" : \"C\",<br>    \"duration\" : 900,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 5,<br>    \"plateau\" : \"Match\",<br>    \"duration\" : 1800,<br>    \"coachs\" : [0]<br>  }<br> ]<br>}",
-  "start":1657648800000,
-  "end":1657654200000,
-  "location_id":4
- },
- {
-  "id":26,
-  "title":"CDC#10 Dimanche 2012M",
-  "description":null,
-  "session":"{<br> \"id\": 0,<br> \"theme\" : \"Attaquer en 2 contre 1\",<br> \"themeTactique\" : \"Phase défensive\",<br> \"drills\" : [<br>  {<br>    \"id\" : 41,<br>    \"plateau\" : \"Echauffement\",<br>    \"duration\" : 900,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 42,<br>    \"plateau\" : \"A\",<br>    \"duration\" : 900,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 43,<br>    \"plateau\" : \"B\",<br>    \"duration\" : 900,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 44,<br>    \"plateau\" : \"C\",<br>    \"duration\" : 900,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 5,<br>    \"plateau\" : \"Match\",<br>    \"duration\" : 1800,<br>    \"coachs\" : [0]<br>  }<br> ]<br>}",
-  "start":1658068200000,
-  "end":1658073600000,
-  "location_id":5
- },
- {
-  "id":27,
-  "title":"CDC#11 Mardi 2012M",
-  "description":null,
-  "session":"{<br> \"id\": 0,<br> \"theme\" : \"Attaquer en 2 contre 1\",<br> \"themeTactique\" : \"Phase défensive\",<br> \"drills\" : [<br>  {<br>    \"id\" : 41,<br>    \"plateau\" : \"Echauffement\",<br>    \"duration\" : 900,<br>    \"coachs\" : [1]<br>  },<br>  {<br>    \"id\" : 42,<br>    \"plateau\" : \"A\",<br>    \"duration\" : 900,<br>    \"coachs\" : [13]<br>  },<br>  {<br>    \"id\" : 46,<br>    \"plateau\" : \"B\",<br>    \"duration\" : 900,<br>    \"coachs\" : [10]<br>  },<br>  {<br>    \"id\" : 47,<br>    \"plateau\" : \"C\",<br>    \"duration\" : 900,<br>    \"coachs\" : [11]<br>  },<br>  {<br>    \"id\" : 5,<br>    \"plateau\" : \"Match\",<br>    \"duration\" : 1800,<br>    \"coachs\" : [0]<br>  }<br> ]<br>}",
-  "start":1658253600000,
-  "end":1658259000000,
-  "location_id":4
- },
- {
-  "id":28,
-  "title":"CDC#11 Dimanche 2012M",
-  "description":null,
-  "session":"{<br> \"id\": 0,<br> \"theme\" : \"Attaquer en 2 contre 1\",<br> \"themeTactique\" : \"Phase défensive\",<br> \"drills\" : [<br>  {<br>    \"id\" : 41,<br>    \"plateau\" : \"Echauffement\",<br>    \"duration\" : 900,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 42,<br>    \"plateau\" : \"A\",<br>    \"duration\" : 900,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 46,<br>    \"plateau\" : \"B\",<br>    \"duration\" : 900,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 47,<br>    \"plateau\" : \"C\",<br>    \"duration\" : 900,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 5,<br>    \"plateau\" : \"Match\",<br>    \"duration\" : 1800,<br>    \"coachs\" : [0]<br>  }<br> ]<br>}",
-  "start":1658673000000,
-  "end":1658678400000,
-  "location_id":5
- },
- {
-  "id":29,
-  "title":"CDC#12 Mardi 2012M",
-  "description":null,
-  "session":"{<br> \"id\": 0,<br> \"theme\" : \"Les contrôles sur ballons au sol\",<br> \"themeTactique\" : \"Transition offensive\",<br> \"drills\" : [<br>  {<br>    \"id\" : 63,<br>    \"plateau\" : \"Echauffement\",<br>    \"duration\" : 900,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 48,<br>    \"plateau\" : \"A\",<br>    \"duration\" : 900,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 49,<br>    \"plateau\" : \"B\",<br>    \"duration\" : 900,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 50,<br>    \"plateau\" : \"C\",<br>    \"duration\" : 900,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 5,<br>    \"plateau\" : \"Match\",<br>    \"duration\" : 1800,<br>    \"coachs\" : [0]<br>  }<br> ]<br>}",
-  "start":1658858400000,
-  "end":1658863800000,
-  "location_id":4
- },
- {
-  "id":30,
-  "title":"CDC#12 Dimanche 2012M",
-  "description":null,
-  "session":"{<br> \"id\": 0,<br> \"theme\" : \"Les contrôles sur ballons au sol\",<br> \"themeTactique\" : \"Transition offensive\",<br> \"drills\" : [<br>  {<br>    \"id\" : 63,<br>    \"plateau\" : \"Echauffement\",<br>    \"duration\" : 900,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 48,<br>    \"plateau\" : \"A\",<br>    \"duration\" : 900,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 49,<br>    \"plateau\" : \"B\",<br>    \"duration\" : 900,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 50,<br>    \"plateau\" : \"C\",<br>    \"duration\" : 900,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 5,<br>    \"plateau\" : \"Match\",<br>    \"duration\" : 1800,<br>    \"coachs\" : [0]<br>  }<br> ]<br>}",
-  "start":1659277800000,
-  "end":1659283200000,
-  "location_id":5
- },
- {
-  "id":31,
-  "title":"CDC#13 Mardi 2012M",
-  "description":null,
-  "session":"{<br> \"id\": 0,<br> \"theme\" : \"Les contrôles sur ballons au sol\",<br> \"themeTactique\" : \"Transition offensive\",<br> \"drills\" : [<br>  {<br>    \"id\" : 63,<br>    \"plateau\" : \"Echauffement\",<br>    \"duration\" : 900,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 52,<br>    \"plateau\" : \"A\",<br>    \"duration\" : 900,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 53,<br>    \"plateau\" : \"B\",<br>    \"duration\" : 900,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 54,<br>    \"plateau\" : \"C\",<br>    \"duration\" : 900,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 5,<br>    \"plateau\" : \"Match\",<br>    \"duration\" : 1800,<br>    \"coachs\" : [0]<br>  }<br> ]<br>}",
-  "start":1659463200000,
-  "end":1659468600000,
-  "location_id":4
- },
- {
-  "id":32,
-  "title":"CDC#13 Dimanche 2012M",
-  "description":null,
-  "session":"{<br> \"id\": 0,<br> \"theme\" : \"Les contrôles sur ballons au sol\",<br> \"themeTactique\" : \"Transition offensive\",<br> \"drills\" : [<br>  {<br>    \"id\" : 63,<br>    \"plateau\" : \"Echauffement\",<br>    \"duration\" : 900,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 52,<br>    \"plateau\" : \"A\",<br>    \"duration\" : 900,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 53,<br>    \"plateau\" : \"B\",<br>    \"duration\" : 900,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 54,<br>    \"plateau\" : \"C\",<br>    \"duration\" : 900,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 5,<br>    \"plateau\" : \"Match\",<br>    \"duration\" : 1800,<br>    \"coachs\" : [0]<br>  }<br> ]<br>}",
-  "start":1659882600000,
-  "end":1659888000000,
-  "location_id":5
- },
- {
-  "id":33,
-  "title":"CDC#14 Mardi 2012M",
-  "description":null,
-  "session":"{<br> \"id\": 0,<br> \"theme\" : \"Les contrôles sur ballons au sol\",<br> \"themeTactique\" : \"Transition offensive\",<br> \"drills\" : [<br>  {<br>    \"id\" : 63,<br>    \"plateau\" : \"Echauffement\",<br>    \"duration\" : 900,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 55,<br>    \"plateau\" : \"A\",<br>    \"duration\" : 900,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 56,<br>    \"plateau\" : \"B\",<br>    \"duration\" : 900,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 57,<br>    \"plateau\" : \"C\",<br>    \"duration\" : 900,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 5,<br>    \"plateau\" : \"Match\",<br>    \"duration\" : 1800,<br>    \"coachs\" : [0]<br>  }<br> ]<br>}",
-  "start":1660068000000,
-  "end":1660073400000,
-  "location_id":4
- },
- {
-  "id":34,
-  "title":"CDC#14 Dimanche 2012M",
-  "description":null,
-  "session":"{<br> \"id\": 0,<br> \"theme\" : \"Les contrôles sur ballons au sol\",<br> \"themeTactique\" : \"Transition offensive\",<br> \"drills\" : [<br>  {<br>    \"id\" : 63,<br>    \"plateau\" : \"Echauffement\",<br>    \"duration\" : 900,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 55,<br>    \"plateau\" : \"A\",<br>    \"duration\" : 900,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 56,<br>    \"plateau\" : \"B\",<br>    \"duration\" : 900,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 57,<br>    \"plateau\" : \"C\",<br>    \"duration\" : 900,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 5,<br>    \"plateau\" : \"Match\",<br>    \"duration\" : 1800,<br>    \"coachs\" : [0]<br>  }<br> ]<br>}",
-  "start":1660487400000,
-  "end":1660492800000,
-  "location_id":5
- },
- {
-  "id":35,
-  "title":"CDC#15 Mardi 2012M",
-  "description":null,
-  "session":"{<br> \"id\": 0,<br> \"theme\" : \"Les contrôles sur ballons au sol\",<br> \"themeTactique\" : \"Transition offensive\",<br> \"drills\" : [<br>  {<br>    \"id\" : 63,<br>    \"plateau\" : \"Echauffement\",<br>    \"duration\" : 900,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 59,<br>    \"plateau\" : \"A\",<br>    \"duration\" : 900,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 49,<br>    \"plateau\" : \"B\",<br>    \"duration\" : 900,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 60,<br>    \"plateau\" : \"C\",<br>    \"duration\" : 900,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 5,<br>    \"plateau\" : \"Match\",<br>    \"duration\" : 1800,<br>    \"coachs\" : [0]<br>  }<br> ]<br>}",
-  "start":1660672800000,
-  "end":1660678200000,
-  "location_id":4
- },
- {
-  "id":36,
-  "title":"CDC#15 Dimanche 2012M",
-  "description":null,
-  "session":"{<br> \"id\": 0,<br> \"theme\" : \"Les contrôles sur ballons au sol\",<br> \"themeTactique\" : \"Transition offensive\",<br> \"drills\" : [<br>  {<br>    \"id\" : 63,<br>    \"plateau\" : \"Echauffement\",<br>    \"duration\" : 900,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 59,<br>    \"plateau\" : \"A\",<br>    \"duration\" : 900,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 49,<br>    \"plateau\" : \"B\",<br>    \"duration\" : 900,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 60,<br>    \"plateau\" : \"C\",<br>    \"duration\" : 900,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 5,<br>    \"plateau\" : \"Match\",<br>    \"duration\" : 1800,<br>    \"coachs\" : [0]<br>  }<br> ]<br>}",
-  "start":1661092200000,
-  "end":1661097600000,
-  "location_id":5
- },
- {
-  "id":37,
-  "title":"CDC#16 Mardi 2012M",
-  "description":null,
-  "session":"{<br> \"id\": 0,<br> \"theme\" : \"Les contrôles sur ballons au sol\",<br> \"themeTactique\" : \"Transition offensive\",<br> \"drills\" : [<br>  {<br>    \"id\" : 63,<br>    \"plateau\" : \"Echauffement\",<br>    \"duration\" : 900,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 53,<br>    \"plateau\" : \"A\",<br>    \"duration\" : 900,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 61,<br>    \"plateau\" : \"B\",<br>    \"duration\" : 900,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 62,<br>    \"plateau\" : \"C\",<br>    \"duration\" : 900,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 5,<br>    \"plateau\" : \"Match\",<br>    \"duration\" : 1800,<br>    \"coachs\" : [0]<br>  }<br> ]<br>}",
-  "start":1661277600000,
-  "end":1661283000000,
-  "location_id":4
- },
- {
-  "id":38,
-  "title":"CDC#16 Dimanche 2012M",
-  "description":null,
-  "session":"{<br> \"id\": 0,<br> \"theme\" : \"Les contrôles sur ballons au sol\",<br> \"themeTactique\" : \"Transition offensive\",<br> \"drills\" : [<br>  {<br>    \"id\" : 63,<br>    \"plateau\" : \"Echauffement\",<br>    \"duration\" : 900,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 53,<br>    \"plateau\" : \"A\",<br>    \"duration\" : 900,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 61,<br>    \"plateau\" : \"B\",<br>    \"duration\" : 900,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 62,<br>    \"plateau\" : \"C\",<br>    \"duration\" : 900,<br>    \"coachs\" : [0]<br>  },<br>  {<br>    \"id\" : 5,<br>    \"plateau\" : \"Match\",<br>    \"duration\" : 1800,<br>    \"coachs\" : [0]<br>  }<br> ]<br>}",
-  "start":1661697000000,
-  "end":1661702400000,
-  "location_id":5
+  "title":"Semaine 6",
+  "session":206,
+  "assignation":[
+    {
+      "id":45,
+      "persons":[1,2,3]
+    },
+    {
+      "id":208,
+      "persons":[1,2,3]
+    },
+    {
+      "id":209,
+      "persons":[1,2,3]
+    },
+    {
+      "id":210,
+      "persons":[1,2,3]
+    },
+    {
+      "id":211,
+      "persons":[1,2,3]
+    },
+    {
+      "id":200,
+      "persons":[1,2,3]
+    }
+  ]
  }
 ],
 "Locations" : [
@@ -1309,9 +998,9 @@
  },
  {
   "id":2,
-  "firstName":"Tevin",
-  "lastName":"Pathareddy",
-  "email":"tevin@tevin.ca",
+  "firstName":"Simon Mohammed",
+  "lastName":"Sabounji",
+  "email":"sisabounji@gmail.com",
   "pswd":"0226dfd2c86fadd930e861738559ba94"
  },
  {
@@ -1323,9 +1012,9 @@
  },
  {
   "id":4,
-  "firstName":"Alex",
-  "lastName":"Lopez",
-  "email":"johnalexlopez@gmail.com",
+  "firstName":"Anthony",
+  "lastName":"Armendariz",
+  "email":"armendariz_anthony@hotmail.com",
   "pswd":"0226dfd2c86fadd930e861738559ba94"
  },
  {
@@ -1344,23 +1033,23 @@
  },
  {
   "id":7,
-  "firstName":"Guillaume",
-  "lastName":"Cavalli",
-  "email":"guillaume_cavalli@hotmail.com",
+  "firstName":"Noureddine",
+  "lastName":"Benfarhat",
+  "email":"nounoustyl3@gmail.com",
   "pswd":"0226dfd2c86fadd930e861738559ba94"
  },
  {
   "id":8,
-  "firstName":"Jean-Francois",
-  "lastName":"Filion",
-  "email":"filionjf@gmail.com",
+  "firstName":"Leonard",
+  "lastName":"Briere",
+  "email":"briere.leonard@gmail.com",
   "pswd":"0226dfd2c86fadd930e861738559ba94"
  },
  {
   "id":9,
-  "firstName":"Anis Ali",
-  "lastName":"Benali",
-  "email":"alibenala@gmail.com",
+  "firstName":"Thomas",
+  "lastName":"Dubroca",
+  "email":"dubrocat6@gmail.com",
   "pswd":"0226dfd2c86fadd930e861738559ba94"
  },
  {
@@ -1372,23 +1061,23 @@
  },
  {
   "id":11,
-  "firstName":"Nelson",
-  "lastName":"Pereira",
-  "email":"ncpereira@live.ca",
+  "firstName":"Jean-Sebastien",
+  "lastName":"Michaud",
+  "email":"jeansebastien.michaud@gmail.com",
   "pswd":"0226dfd2c86fadd930e861738559ba94"
  },
  {
   "id":12,
-  "firstName":"Dave",
-  "lastName":"Leblanc",
-  "email":"dave514@live.ca",
+  "firstName":"khaled",
+  "lastName":"ABDELFATTAH",
+  "email":"khaled@mindtripagency.com",
   "pswd":"0226dfd2c86fadd930e861738559ba94"
  },
  {
   "id":13,
-  "firstName":"Claudine-Noemie",
-  "lastName":"Labelle",
-  "email":"claudine-noemie@hotmail.com",
+  "firstName":"Kurt",
+  "lastName":"",
+  "email":"kurtolando77@gmail.com",
   "pswd":"0226dfd2c86fadd930e861738559ba94"
  }
 ],

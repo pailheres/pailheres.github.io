@@ -13,87 +13,112 @@
      
 			function () {
         const queryString = window.location.search;
-        //console.log(queryString);
+        console.log(queryString);
         const urlParams = new URLSearchParams(queryString);
 
         const ID = urlParams.get('ID')
-        //console.log(ID);
+        console.log(ID);
         //document.getElementById('Title').innerHTML = ID;
 
 
-        $.getJSON("cdc.json", function(json_resp) {
-          //console.log(json_resp['Sessions']);
+        $.ajax({
+          cache: false,  //will force resend of the file
+          dataType: "json",
+          url: "cdc.json",
+          success: function(json_resp) {
+            console.log(json_resp['Sessions']);
 
-          var found_session = getSessionByID(ID);
-          found_session = found_session[0];  //get first
-          //console.log(found_session);
+            var found_session = getSessionByID(ID);
+            found_session = found_session[0];  //get first
+            //console.log(found_session);
 
-          var found_theme_tech = getThemeTechByID(found_session.theme_tech);
-          found_theme_tech = found_theme_tech[0];  //get first
-          //console.log(found_theme_tech);
+            var found_theme_tech = getThemeTechByID(found_session.theme_tech);
+            found_theme_tech = found_theme_tech[0];  //get first
+            //console.log(found_theme_tech);
 
-          var found_theme_tact = getThemeTactByID(found_session.theme_tact);
-          found_theme_tact = found_theme_tact[0];  //get first
-          //console.log(found_theme_tact);
+            var found_theme_tact = getThemeTactByID(found_session.theme_tact);
+            found_theme_tact = found_theme_tact[0];  //get first
+            //console.log(found_theme_tact);
 
-          function getSessionByID(a_ID) {
-            return json_resp['Sessions'].filter(
-              function(myRecord){ return myRecord.id == a_ID }
-            );
-          }
+            function getSessionByID(a_ID) {
+              return json_resp['Sessions'].filter(
+                function(myRecord){ return myRecord.id == a_ID }
+              );
+            }
 
-          function getThemeTechByID(a_ID) {
-            return json_resp['Themes_tech'].filter(
-              function(myRecord){ return myRecord.id == a_ID }
-            );
-          }
-          
-          function getThemeTactByID(a_ID) {
-            return json_resp['Themes_tact'].filter(
-              function(myRecord){ return myRecord.id == a_ID }
-            );
-          }
+            function getThemeTechByID(a_ID) {
+              return json_resp['Themes_tech'].filter(
+                function(myRecord){ return myRecord.id == a_ID }
+              );
+            }
+            
+            function getThemeTactByID(a_ID) {
+              return json_resp['Themes_tact'].filter(
+                function(myRecord){ return myRecord.id == a_ID }
+              );
+            }
 
-          function getDrillByID(a_ID) {
-            return json_resp['Drills'].filter(
-              function(myRecord){ return myRecord.ID == a_ID }
-            );
-          }
-          
-          document.getElementById('PageTitle').innerHTML = "Session ID : " + found_session.id;
-          document.getElementById('PageTitle2').innerHTML = document.getElementById('PageTitle').innerHTML;
+            function getDrillByID(a_ID) {
+              return json_resp['Drills'].filter(
+                function(myRecord){ return myRecord.ID == a_ID }
+              );
+            }
+            
+            document.getElementById('PageTitle').innerHTML = "Session ID : " + found_session.id;
+            document.getElementById('PageTitle2').innerHTML = document.getElementById('PageTitle').innerHTML;
 
-          document.getElementById('SessionThemeTech').innerHTML = found_theme_tech.technique;
-          document.getElementById('SessionThemeTact').innerHTML = found_theme_tact.tactique;
-          document.getElementById('SessionThemeObj').innerHTML = found_theme_tech.objectif;
+            document.getElementById('SessionThemeTech').innerHTML = found_theme_tech.technique;
+            document.getElementById('SessionThemeTact').innerHTML = found_theme_tact.tactique;
+            document.getElementById('SessionThemeObj').innerHTML = found_theme_tech.objectif;
 
-          var table_drills = document.getElementById("myTableDrills");
-          let tableRef = document.getElementById("myTableDrills");
-          for (const [key, value] of Object.entries(found_session.drills)) {
-            //console.log(key);
-            //console.log(value);
-            let newRow = tableRef.insertRow(-1);
-            // Insert a cell in the row at index 0
-            let newCell1 = newRow.insertCell(-1);
-            // Append a text node to the cell
-            var a = document.createElement('a');
-            var linkText1 = document.createTextNode(value.id);
-            a.appendChild(linkText1);
-            a.title = value.id;
-            a.href = 'drill.html?ID='+value.id;
-            //let newText = document.createTextNode('<a href="drill.html?ID=</a>');
-            newCell1.appendChild(a);
-            let newCell2 = newRow.insertCell(-1);
-            newCell2.appendChild(document.createTextNode(value.duration/60));
+            var table_drills = document.getElementById("myTableDrills");
+            let tableRef = document.getElementById("myTableDrills");
+            for (const [key, value] of Object.entries(found_session.drills)) {
+              //console.log(key);
+              //console.log(value);
+              let newRow = tableRef.insertRow(-1);
+              // Insert a cell in the row at index 0
+              let newCell1 = newRow.insertCell(-1);
+              // Append a text node to the cell
+              var a = document.createElement('a');
+              var linkText1 = document.createTextNode(value.id);
+              a.appendChild(linkText1);
+              a.title = value.id;
+              a.href = 'drill.html?ID='+value.id;
+              //let newText = document.createTextNode('<a href="drill.html?ID=</a>');
+              newCell1.appendChild(a);
+              let newCell2 = newRow.insertCell(-1);
+              newCell2.appendChild(document.createTextNode(value.duration/60));
 
-            var found_drill = getDrillByID(value.id);
-            found_drill = found_drill[0];  //get first
-            //console.log(found_drill);
+              var found_drill = getDrillByID(value.id);
+              found_drill = found_drill[0];  //get first
+              //console.log(found_drill);
 
-            let newCell3 = newRow.insertCell(-1);
-            newCell3.appendChild(document.createTextNode(found_drill.Title));
-            let newCell4 = newRow.insertCell(-1);
-            newCell4.appendChild(document.createTextNode(found_drill.Category));
+              let newCell3 = newRow.insertCell(-1);
+              newCell3.appendChild(document.createTextNode(found_drill.Title));
+              let newCell4 = newRow.insertCell(-1);
+              newCell4.appendChild(document.createTextNode(found_drill.Category));
+            }
+          },
+          error: function (jqXHR, exception) {
+            console.log("error");
+            var msg = '';
+            if (jqXHR.status === 0) {
+                msg = 'Not connect.\n Verify Network.';
+            } else if (jqXHR.status == 404) {
+                msg = 'Requested page not found. [404]';
+            } else if (jqXHR.status == 500) {
+                msg = 'Internal Server Error [500].';
+            } else if (exception === 'parsererror') {
+                msg = 'Requested JSON parse failed.';
+            } else if (exception === 'timeout') {
+                msg = 'Time out error.';
+            } else if (exception === 'abort') {
+                msg = 'Ajax request aborted.';
+            } else {
+                msg = 'Uncaught Error.\n' + jqXHR.responseText;
+            }
+            $('#post').html(msg);
           }
         });
 			}
