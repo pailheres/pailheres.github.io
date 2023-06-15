@@ -902,6 +902,36 @@
   "Image":"00211.png"
  },
  {
+  "ID":212,
+  "Source":"ElMehdi",
+  "Title":"Exercice technique",
+  "Category":"Echauffement",
+  "Material":"ballons<br>plots",
+  "CoachingPoints":"Exercice technique :<br>Conduire le ballon<br>Prendre ses informations<br>Contrôle<br>Passe",
+  "Description":"Conduite + Passe :<br>Diviser l’ensemble des joueurs en groupes de 6 joueurs ou plus.<br>Les joueurs forment un cercle d’environ 12m de diamètre.<br>Un joueur a un ballon.<br>Le joueur qui a le ballon conduit sur quelques mètres, passe à un partenaire sans ballon puis prend sa place.<br>Celui-ci contrôle le ballon, conduit, passe à un autre joueur et prend sa place.<br>Ajouter un deuxième puis troisième ballon (ou plus) pour obliger les joueurs à lever la tête lorsqu'ils conduisent le ballon.<br><br>Variantes :<br>- demander au joueur d’effectuer une feinte avant de passer<br>- 2 touches (contrôle + passe)",
+  "Image":"00212.png"
+ },
+ {
+  "ID":213,
+  "Source":"ElMehdi",
+  "Title":"Vitesse",
+  "Category":"Physique",
+  "Material":"piquets.<br>cônes.",
+  "CoachingPoints":"Vitesse :<br>Vitesse de réaction",
+  "Description":"Vitesse de réaction :<br>Par groupes de 2 joueurs puis 3 joueurs.<br>Deux joueurs se trouvant à 3m l’un de l’autre tiennent chacun un piquet.<br>Au signal, lâcher son piquet et rattraper celui de l’autre avant qu’il ne tombe.<br>Même jeu par 3.<br><br>Variantes :<br>- signal sonore (au top)<br>- signal visuel : au départ d’un joueur déterminé et dans le sens qu’il a choisi",
+  "Image":"00213.png"
+ },
+ {
+  "ID":214,
+  "Source":"ElMehdi",
+  "Title":"Les techniques de dribble et de débordement",
+  "Category":"Technique",
+  "Material":"ballons",
+  "CoachingPoints":"Les techniques de dribble et de débordement :<br>Les feintes<br>Insister sur les notions de faire croire, faire semblant.<br>Prétendre d’aller dans une direction et aller dans une autre.<br>Déséquilibrer l'adversaire.<br><br>Feintes à réaliser :<br>feinte de corps<br>feinte de frappe<br>passement de jambe<br>passement de jambe inversé<br>double passement de jambe<br>etc.<br><br>A faire pied droit et pied gauche.",
+  "Description":"Feintes :<br>Par groupes de 2 joueurs. Un ballon pour 2.<br>A conduit le ballon et effectue une feinte devant B.<br>B est défenseur passif, il fait juste opposition et marche dans la feinte.<br>A fait quelques passages puis passe le ballon à B.<br><br>Consignes :<br>- ne pas faire sa feinte ni trop tôt ni trop tard (à environ 2m de l’adversaire)<br>- accélération après la feinte",
+  "Image":"00214.png"
+ },
+ {
   "ID":10000,
   "Source":"ElMehdi",
   "Title":"",
@@ -1748,7 +1778,34 @@
   "theme_tech":2,
   "theme_tact":2,
   "drills":[
-  ]
+   {
+    "id":45,
+    "duration":720
+   },
+   {
+    "id":212,
+    "duration":720
+   },
+   {
+    "id":213,
+    "duration":720
+   },
+   {
+    "id":30,
+    "duration":720
+   },
+   {
+    "id":31,
+    "duration":720
+   },
+   {
+    "id":214,
+    "duration":720
+   },
+   {
+    "id":200,
+    "duration":1800
+   }  ]
  },
  {
   "id":208,
