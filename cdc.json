@@ -784,11 +784,11 @@
  {
   "ID":200,
   "Source":"ElMehdi",
-  "Title":"Les contrôles",
+  "Title":"General",
   "Category":"Match",
   "Material":"ballons<br>chasubles (2 couleurs).",
-  "CoachingPoints":"Les contrôles :<br>La passe<br>Le tir",
-  "Description":"Match 8 contre 8 :<br>7 joueurs + 1 gardien par équipe.<br>S'appliquer sur les prises de balle.<br>Qualité dans les enchaînements contrôle + passe et contrôle + tir.",
+  "CoachingPoints":"Respecter le theme de la session",
+  "Description":"Match 8 contre 8 :<br>7 joueurs + 1 gardien par équipe.<br>Respecter le theme de la session",
   "Image":"00200.png"
  },
  {
@@ -868,7 +868,7 @@
   "Category":"Physique",
   "Material":"ballons<br>plots<br>chasubles (2 couleurs).",
   "CoachingPoints":"Vitesse :<br>Vivacité<br>Maîtrise des appuis<br>Vitesse",
-  "Description":"Duel pour le ballon :<br>Former 2 équipes de joueurs. Intervalles de 5m<br>entre les coupelles.<br>Au signal sonore, les joueurs sprintent en allant toucher les coupelles du slalom avec la main : le premier arrivé au ballon tire.<br>1 point rapporté à l’équipe par tir et un point de bonus par but marqué.<br><br>Variantes :<br>- départ debout<br>- départ assis<br>- départ allongé",
+  "Description":"Duel pour le ballon :<br>Former 2 équipes de joueurs.<br>Intervalles de 5m entre les coupelles.<br>Au signal sonore, les joueurs sprintent en allant toucher les coupelles du slalom avec la main<br>le premier arrivé au ballon tire.<br>1 point rapporté à l’équipe par tir et un point de bonus par but marqué.<br><br>Variantes :<br>- départ debout<br>- départ assis<br>- départ allongé",
   "Image":"00208.png"
  },
  {
@@ -930,6 +930,126 @@
   "CoachingPoints":"Les techniques de dribble et de débordement :<br>Les feintes<br>Insister sur les notions de faire croire, faire semblant.<br>Prétendre d’aller dans une direction et aller dans une autre.<br>Déséquilibrer l'adversaire.<br><br>Feintes à réaliser :<br>feinte de corps<br>feinte de frappe<br>passement de jambe<br>passement de jambe inversé<br>double passement de jambe<br>etc.<br><br>A faire pied droit et pied gauche.",
   "Description":"Feintes :<br>Par groupes de 2 joueurs. Un ballon pour 2.<br>A conduit le ballon et effectue une feinte devant B.<br>B est défenseur passif, il fait juste opposition et marche dans la feinte.<br>A fait quelques passages puis passe le ballon à B.<br><br>Consignes :<br>- ne pas faire sa feinte ni trop tôt ni trop tard (à environ 2m de l’adversaire)<br>- accélération après la feinte",
   "Image":"00214.png"
+ },
+ {
+  "ID":215,
+  "Source":"ElMehdi",
+  "Title":"Coordination",
+  "Category":"Physique",
+  "Material":"aucun",
+  "CoachingPoints":"Coordination :<br>Techniques de course<br>Appuis<br>Sauts<br>Latéralisation",
+  "Description":"Techniques de course :<br>Deux (ou trois) lignes de joueurs l’une derrière l’autre.<br>L’entraîneur court avec les joueurs et donne les consignes en alternant les techniques de course.<br><br>Techniques de courses :<br>- montées de genoux ; talons aux fesses<br>- pas chassés (en avant ; en arrière)<br>- pas croisés (en avant ; en arrière)<br>- course arrière + course avant + course arrière, etc.<br>- cloche pied : PD - PG (en avant ; en arrière)<br>- roulade avant ; flexion ; extension<br>- etc.",
+  "Image":"00215.png"
+ },
+ {
+  "ID":216,
+  "Source":"ElMehdi",
+  "Title":"Les techniques de dribble et de débordement",
+  "Category":"Technique",
+  "Material":"ballons<br>plots",
+  "CoachingPoints":"Les techniques de dribble et de débordement :<br>Les râteaux<br>Insister sur la rapidité d’exécution du geste du râteau.<br>Râteaux à réaliser : semelle pied droit et emmener intérieur pied droit<br>semelle pied droit et emmener intérieur pied droit derrière la jambe d'appuis<br>semelle pied droit et emmener intérieur pied gauche<br>roulette à Zidane<br>etc<br>Idem pied gauche",
+  "Description":"Râteaux :<br>Un ballon par joueur.<br>Les joueurs conduisent leur ballon et effectuent les râteaux demandés par l’entraîneur.<br><br>Consignes :<br>- conduire le ballon en levant la tête<br>- s'appliquer sur chaque râteau",
+  "Image":"00216.png"
+ },
+ {
+  "ID":217,
+  "Source":"ElMehdi",
+  "Title":"Les techniques de dribble et de débordement",
+  "Category":"Technique",
+  "Material":"ballons<br>plots",
+  "CoachingPoints":"Les techniques de dribble et de débordement :<br>Les râteaux<br>Insister sur la rapidité d’exécution du geste du râteau.<br>Râteaux à réaliser : semelle pied droit et emmener intérieur pied droit<br>semelle pied droit et emmener intérieur pied droit derrière la jambe d'appuis<br>semelle pied droit et emmener intérieur pied gauche<br>roulette à Zidane<br>etc<br>Idem pied gauche",
+  "Description":"Râteaux :<br>4 joueurs maximum par atelier.<br>Un ballon par joueur.<br>Le joueur conduit son ballon et effectue le geste technique demandé par l'entraîneur devant les coupelles jaunes (coupelle = adversaire).<br>Mettre en place plusieurs parcours.<br><br>Consignes :<br>- s'appliquer sur chaque râteau<br>- rapidité dans l'exécution des râteaux",
+  "Image":"00217.png"
+ },
+ {
+  "ID":218,
+  "Source":"ElMehdi",
+  "Title":"Les techniques de dribble et de débordement",
+  "Category":"Technique",
+  "Material":"ballons<br>plots",
+  "CoachingPoints":"Les techniques de dribble et de débordement :<br>Les râteaux<br>Insister sur la rapidité d’exécution du geste du râteau.<br>Râteaux à réaliser : semelle pied droit et emmener intérieur pied droit<br>semelle pied droit et emmener intérieur pied droit derrière la jambe d'appuis<br>semelle pied droit et emmener intérieur pied gauche<br>roulette à Zidane<br>etc<br>Idem pied gauche",
+  "Description":"Râteau + tir :<br>Le joueur conduit son ballon puis effectue un râteau devant chaque coupelle et tire au but à la sortie du dernier râteau.<br><br>Variantes :<br>- râteau libre<br>- râteau demandé par l'entraîneur<br>- râteau différent à chaque coupelle<br><br>Consignes :<br>- enchaînement rapide râteau + frappe à la dernière coupelle",
+  "Image":"00218.png"
+ },
+ {
+  "ID":219,
+  "Source":"ElMehdi",
+  "Title":"Coordination",
+  "Category":"Physique",
+  "Material":"lattes ou coupelles.",
+  "CoachingPoints":"Coordination :<br>Appuis<br>Fréquence",
+  "Description":"Exercices d'appuis :<br>Premier exercice :<br>deux lignes (lignes ou lattes) parallèles espacées d’environ 50 cm<br>Alterner appuis pied gauche + pied droit à l’extérieur des lignes et appuis pied gauche + pied droit à l’intérieur des lignes (voir dessin)<br><br>Deuxième exercice :<br>utiliser la ligne de touche ou des lattes<br>Alterner appuis pied gauche + pied droit à l’intérieur du terrain + appuis pied gauche + pied droit à l’extérieur du terrain (voir dessin)<br><br>Consignes :<br>- vivacité<br>- dynamisme",
+  "Image":"00219.png"
+ },
+ {
+  "ID":220,
+  "Source":"ElMehdi",
+  "Title":"Le dribble et les duels",
+  "Category":"Tactique",
+  "Material":"ballons<br>plots<br>chasubles (3 couleurs)",
+  "CoachingPoints":"Le dribble et les duels :<br>Le dribble est associé aux notions de tromperie, de faire semblant.<br>Le joueur fait croire à l'adversaire qu'il va dans une direction et va dans une autre.<br>- apprécier la position, la vitesse et l'angle de course de l'adversaire<br>- ne pas déclencher son dribble trop tard<br>- apporter vitesse et changement de rythme pour déséquilibrer l'adversaire<br>- protéger son ballon (avec les épaules, le buste, les pieds, ...)",
+  "Description":"Match 3 contre 3 + gardiens :<br>Trois équipes de 3 joueurs.<br>Terrain de 26x20m avec buts rapprochés.<br>Match 3 contre 3 + les gardiens.<br>Une équipe en attente.<br>Matchs de 3’.<br>Surface réduite avec buts rapprochés.<br>Les joueurs se trouvent constamment en zone de finition où on accorde une priorité au tir et au dribble.<br><br>Consignes :<br>- quand il y a corner, le gardien de l’équipe qui a le corner relance à la main<br>- quand il y a 6m, le gardien relance à la main<br>- après un but, le gardien relance à la main<br>- inciter les joueurs à prendre des risques : tirer au but et dribbler, jouer les situations de 1 contre 1",
+  "Image":"00220.png"
+ },
+ {
+  "ID":221,
+  "Source":"ElMehdi",
+  "Title":"Vitesse",
+  "Category":"Physique",
+  "Material":"lattes ou coupelles.",
+  "CoachingPoints":"Vitesse :<br>Vitesse de réaction<br>Vitesse de course",
+  "Description":"Duel pour le ballon :<br>Former 2 équipes de joueurs. Intervalles de 5m entre les coupelles.<br>Au signal sonore, le premier joueur de chaque équipe sprinte en contournant les coupelles du slalom<br>le premier arrivé au ballon tire.<br>1 point rapporté à l’équipe par tir et un point de bonus par but marqué.<br>Un duel à la fois (pas de relais).<br><br>Variantes :<br>- départ debout<br>- départ assis<br>- départ allongé",
+  "Image":"00221.png"
+ },
+ {
+  "ID":222,
+  "Source":"ElMehdi",
+  "Title":"Le démarquage",
+  "Category":"Tactique",
+  "Material":"ballons<br>plots",
+  "CoachingPoints":"Le démarquage :<br>Insister sur la notion d’aide au porteur du ballon<br>- Se placer de telle sorte qu'il n'y ait pas de risque d'interception.<br>- Etre à distance de jeu : ni trop loin, ni trop près du porteur du ballon.<br>- Se donner, se créer un espace de liberté.<br>- Créer de l'espace pour le porteur du ballon ou un autre partenaire.",
+  "Description":"Taureau 3 contre 1 :<br>Par groupes de 4 joueurs.<br>Un ballon pour 4.<br>Un terrain de 10x10m par groupe.<br>Trois joueurs tentent de conserver collectivement la maîtrise du ballon contre un joueur taureau qui tente de le récupérer.<br>Le joueur qui perd le ballon ou qui effectue une mauvaise passe devient taureau.<br><br>Consignes :<br>- guider les joueurs dans leurs déplacements si<br>besoin est - aider le porteur du ballon",
+  "Image":"00222.png"
+ },
+ {
+  "ID":223,
+  "Source":"ElMehdi",
+  "Title":"Le démarquage",
+  "Category":"Tactique",
+  "Material":"ballons<br>plots<br>chasubles (2 couleurs)",
+  "CoachingPoints":"Le démarquage :<br>Insister sur la notion d’aide au porteur du ballon<br>- Se placer de telle sorte qu'il n'y ait pas de risque d'interception.<br>- Etre à distance de jeu : ni trop loin, ni trop près du porteur du ballon.<br>- Se donner, se créer un espace de liberté.<br>- Créer de l'espace pour le porteur du ballon ou un autre partenaire.",
+  "Description":"Le damier :<br>Terrain de 20x15m découpé en carrés de 5x5m.<br>Deux équipes de 6 joueurs occupent le terrain comme sur le dessin.<br>Chaque joueur doit rester dans son carré délimité par les coupelles.<br>L’équipe en possession du ballon tente de le conserver.<br>L’équipe qui réussit à faire 10 passes consécutives marque 1 point.<br><br>Variantes :<br>- jeu libre<br>- le joueur a 4’’ pour donner le ballon<br>- communication orale interdite",
+  "Image":"00223.png"
+ },
+ {
+  "ID":224,
+  "Source":"ElMehdi",
+  "Title":"Vitesse-coordination",
+  "Category":"Physique",
+  "Material":"aucun.",
+  "CoachingPoints":"Vitesse-coordination :<br>Maîtrise des appuis<br>Vivacité<br>Vitesse<br>Coordination",
+  "Description":"Courses en slalom :<br>Par groupes de 5 ou 6 joueurs.<br>Deux variantes (voir dessin) :<br><br>En rouge :<br>les joueurs trottinent doucement l’un derrière l’autre en laissant un intervalle de 2-3m entre eux.<br>Au signal sonore, le dernier coureur (E) slalome le plus vite possible entre les joueurs et se place devant A.<br>Au deuxième signal sonore D fait de même<br>etc.<br><br>En bleu :<br>même principe qu’avant mais les joueurs trottinent en arrière.<br>Au premier signal sonore, c’est A qui slalome en arrière le plus vite possible entre les joueurs et se place derrière E<br>etc.",
+  "Image":"00224.png"
+ },
+ {
+  "ID":225,
+  "Source":"ElMehdi",
+  "Title":"Le démarquage",
+  "Category":"Tactique",
+  "Material":"ballons<br>plots",
+  "CoachingPoints":"Le démarquage :<br>Insister sur la notion d’aide au porteur du ballon<br>- Se placer de telle sorte qu'il n'y ait pas de risque d'interception.<br>- Etre à distance de jeu : ni trop loin, ni trop près du porteur du ballon.<br>- Se donner, se créer un espace de liberté.<br>- Créer de l'espace pour le porteur du ballon ou un autre partenaire.",
+  "Description":"Taureau 4 contre 2 :<br>Par groupes de 6 joueurs.<br>Un ballon pour 6.<br>Un terrain de 20x10m (deux carrés de 10x10m accolés) par groupe.<br>Quatre joueurs (se trouvant à l’extérieur des carrés) tentent de conserver collectivement la maîtrise du ballon contre deux joueurs taureaux qui tentent de le récupérer.<br>Les passes entre les joueurs extérieurs doivent obligatoirement se faire à travers au moins un des deux carrés.<br>Chaque taureau doit rester dans son carré.<br>Le joueur qui perd le ballon ou qui effectue une mauvaise passe devient taureau.<br><br>Variantes :<br>- jeu libre<br>- limiter à 2 ou 3 touches de balle",
+  "Image":"00225.png"
+ },
+ {
+  "ID":226,
+  "Source":"ElMehdi",
+  "Title":"Le démarquage",
+  "Category":"Tactique",
+  "Material":"ballons<br>plots<br>chasubles (2 couleurs)",
+  "CoachingPoints":"Le démarquage :<br>Insister sur la notion d’aide au porteur du ballon<br>- Se placer de telle sorte qu'il n'y ait pas de risque d'interception.<br>- Etre à distance de jeu : ni trop loin, ni trop près du porteur du ballon.<br>- Se donner, se créer un espace de liberté.<br>- Créer de l'espace pour le porteur du ballon ou un autre partenaire.",
+  "Description":"Taureau 4 contre 2 :<br>Par groupes de 6 joueurs. Un ballon pour 6.<br>Un terrain de 15x15m (divisé en 3 zones) par groupe.<br>Quatre joueurs tentent de conserver collectivement la maîtrise du ballon contre deux joueurs taureaux qui tentent de le récupérer.<br>Le terrain est divisé en trois zones. 2 joueurs se trouvent dans la zone A et 2 dans la zone B.<br>Les taureaux se trouvent dans la zone du milieu.<br>Quand le ballon se situe dans la zone A, un des deux taureaux peut pénétrer dans la zone A (idem si le ballon est dans la zone B).<br><br>Variantes :<br>- l’équipe (équipes de 2 joueurs) dont le joueur perd le ballon ou effectue une mauvaise passe devient taureau.<br>- seul le joueur qui perd le ballon devient taureau",
+  "Image":"00226.png"
  },
  {
   "ID":10000,
@@ -1805,13 +1925,42 @@
    {
     "id":200,
     "duration":1800
-   }  ]
+   }  
+  ]
  },
  {
   "id":208,
   "theme_tech":2,
   "theme_tact":2,
   "drills":[
+   {
+    "id":45,
+    "duration":720
+   },
+   {
+    "id":25,
+    "duration":720
+   },
+   {
+    "id":215,
+    "duration":720
+   },
+   {
+    "id":216,
+    "duration":720
+   },
+   {
+    "id":217,
+    "duration":720
+   },
+   {
+    "id":218,
+    "duration":720
+   },
+   {
+    "id":200,
+    "duration":1800
+   }
   ]
  },
  {
@@ -1819,6 +1968,30 @@
   "theme_tech":2,
   "theme_tact":3,
   "drills":[
+   {
+    "id":45,
+    "duration":720
+   },
+   {
+    "id":219,
+    "duration":720
+   },
+   {
+    "id":27,
+    "duration":720
+   },
+   {
+    "id":28,
+    "duration":720
+   },
+   {
+    "id":220,
+    "duration":720
+   },
+   {
+    "id":200,
+    "duration":1800
+   }
   ]
  },
  {
@@ -1826,6 +1999,30 @@
   "theme_tech":2,
   "theme_tact":3,
   "drills":[
+   {
+    "id":45,
+    "duration":720
+   },
+   {
+    "id":208,
+    "duration":720
+   },
+   {
+    "id":209,
+    "duration":720
+   },
+   {
+    "id":210,
+    "duration":720
+   },
+   {
+    "id":211,
+    "duration":720
+   },
+   {
+    "id":200,
+    "duration":1800
+   }
   ]
  },
  {
@@ -1833,6 +2030,26 @@
   "theme_tech":5,
   "theme_tact":3,
   "drills":[
+   {
+    "id":45,
+    "duration":720
+   },
+   {
+    "id":221,
+    "duration":720
+   },
+   {
+    "id":222,
+    "duration":720
+   },
+   {
+    "id":223,
+    "duration":720
+   },
+   {
+    "id":200,
+    "duration":1800
+   }
   ]
  },
  {
@@ -1840,6 +2057,26 @@
   "theme_tech":5,
   "theme_tact":3,
   "drills":[
+   {
+    "id":45,
+    "duration":720
+   },
+   {
+    "id":224,
+    "duration":720
+   },
+   {
+    "id":225,
+    "duration":720
+   },
+   {
+    "id":226,
+    "duration":720
+   },
+   {
+    "id":200,
+    "duration":1800
+   }
   ]
  },
  {
