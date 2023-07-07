@@ -1052,6 +1052,56 @@
   "Image":"00226.png"
  },
  {
+  "ID":227,
+  "Source":"ElMehdi",
+  "Title":"Exercice technique",
+  "Category":"Echauffement",
+  "Material":"ballons<br>plots",
+  "CoachingPoints":"Exercice technique :<br>Conduire le ballon<br>Passe<br>Remise en une touche de balle",
+  "Description":"Remise sans contrôle :<br>Les joueurs évoluent sur un terrain de 20x20m.<br>La moitié des joueurs a un ballon.<br>Les joueurs avec ballon conduisent et passent aux joueurs sans ballon qui leur remettent dans les pieds en une touche de balle.<br>Changer les rôles régulièrement.<br><br>Consignes :<br>- passes dosées et précises<br>- les joueurs sans ballon trottinent<br>- application dans les remises sans contrôle<br><br>Variantes :<br>- passer et remiser du deuxième pied",
+  "Image":"00227.png"
+ },
+ {
+  "ID":228,
+  "Source":"ElMehdi",
+  "Title":"Vitesse",
+  "Category":"Physique",
+  "Material":"plots.",
+  "CoachingPoints":"Vitesse :<br>Vitesse de réaction<br>Vitesse de course",
+  "Description":"Course par élimination :<br>Tous les joueurs se trouvent à l’intérieur d’un cercle (6m de diamètre).<br>Des plots se trouvent à 10 m autour du cercle où se trouvent les joueurs.<br>Il y a 2 plots de moins qu’il n'y a de joueurs.<br>Au signal sonore, les joueurs courent jusqu’à un plot et s’arrêtent à ce plot.<br>Les 2 joueurs qui ne sont pas à un plot sont éliminés.<br>On recommence le jeu en enlevant 2 plots supplémentaires.<br>Les joueurs restant à la fin gagnent.<br>Faire plusieurs manches.<br><br>Variantes :<br>- les joueurs trottinent dans le cercle<br>- les joueurs se déplacent à quatre pattes<br>- les joueurs rampent",
+  "Image":"00228.png"
+ },
+ {
+  "ID":229,
+  "Source":"ElMehdi",
+  "Title":"Le jeu sans contrôle",
+  "Category":"Technique",
+  "Material":"ballons",
+  "CoachingPoints":"Le jeu sans contrôle :<br>Passe sans contrôle<br>Insister sur la qualité des passes (dosage + précision) et sur les avantages du jeu sans contrôle<br>- gain de temps<br>- prendre l’adversaire de vitesse<br>- accélérer le jeu",
+  "Description":"Passe sans contrôle :<br>Par groupes de 2 joueurs. Un ballon pour 2.<br>Face à face : échange de passes sans contrôler le ballon.<br>Consignes :<br>- distance entre les joueurs : 7-8 m<br>- être sur ses appuis<br>- attaquer son ballon<br>- garder le ballon au sol",
+  "Image":"00229.png"
+ },
+ {
+  "ID":230,
+  "Source":"ElMehdi",
+  "Title":"Le jeu sans contrôle",
+  "Category":"Technique",
+  "Material":"ballons",
+  "CoachingPoints":"Le jeu sans contrôle :<br>Passe sans contrôle<br>Insister sur la qualité des passes (dosage + précision) et sur les avantages du jeu sans contrôle<br>- gain de temps<br>- prendre l’adversaire de vitesse<br>- accélérer le jeu",
+  "Description":"Passe sans contrôle :<br>Par groupes de 3 joueurs. Un ballon pour 3.<br>En triangle : échange de passes sans contrôler le ballon.<br><br>Consignes :<br>- distance entre les joueurs : 7-8 m<br>- être sur ses appuis<br>- attaquer son ballon<br>- garder le ballon au sol",
+  "Image":"00230.png"
+ },
+ {
+  "ID":231,
+  "Source":"ElMehdi",
+  "Title":"Le jeu sans contrôle",
+  "Category":"Technique",
+  "Material":"ballons",
+  "CoachingPoints":"Le jeu sans contrôle :<br>Passe sans contrôle<br>Insister sur la qualité des passes (dosage + précision) et sur les avantages du jeu sans contrôle<br>- gain de temps<br>- prendre l’adversaire de vitesse<br>- accélérer le jeu",
+  "Description":"Tir sans contrôle :<br>A passe à B ; B attaque le ballon et tire sans contrôle.<br>Variantes :<br>Variante 1 : le ballon vient de la gauche + frappe pied droit (voir dessin)<br>Variante 2 : le ballon vient de la droite + frappe pied gauche<br><br>Consignes :<br>- attaquer le ballon<br>- être attentif à la position du corps<br>- qualité de la frappe de balle",
+  "Image":"00231.png"
+ },
+ {
   "ID":10000,
   "Source":"ElMehdi",
   "Title":"",
@@ -2084,6 +2134,34 @@
   "theme_tech":6,
   "theme_tact":4,
   "drills":[
+   {
+    "id":45,
+    "duration":720
+   },
+   {
+    "id":227,
+    "duration":720
+   },
+   {
+    "id":228,
+    "duration":720
+   },
+   {
+    "id":229,
+    "duration":720
+   },
+   {
+    "id":230,
+    "duration":720
+   },
+   {
+    "id":231,
+    "duration":720
+   },
+   {
+    "id":200,
+    "duration":1800
+   }
   ]
  },
  {
@@ -2153,17 +2231,17 @@
  {
   "id":5,
   "technique":"Démarquage",
-  "objectif":""
+  "objectif":"Insister sur la notion d’aide au porteur du ballon<br>- Se placer de telle sorte qu'il n'y ait pas de risque d'interception.<br>- Etre à distance de jeu : ni trop loin, ni trop près du porteur du ballon.<br>- Se donner, se créer un espace de liberté.<br>- Créer de l'espace pour le porteur du ballon ou un autre partenaire."
  },
  {
   "id":6,
   "technique":"Jeu sans controle",
-  "objectif":""
+  "objectif":"Passe sans contrôle<br>Insister sur la qualité des passes (dosage + précision) et sur les avantages du jeu sans contrôle<br>- gain de temps<br>- prendre l’adversaire de vitesse<br>- accélérer le jeu"
  },
  {
   "id":7,
   "technique":"Orientation de jeu",
-  "objectif":""
+  "objectif":"La relation appui-soutien.<br>Priorités dans l'orientation du jeu<br>- choisir en priorité la solution vers l'avant<br>- s'il n'y a pas de solution vers l'avant : jouer latéralement<br>- s’il n’y a toujours pas de solution, ne pas hésiter à jouer en soutien. Le porteur du ballon doit toujours disposer d'un soutien.<br>Rechercher la supériorité numérique dans la réorientation du jeu."
  }
 ],
 "Themes_tact" : [
