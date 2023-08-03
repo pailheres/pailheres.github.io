@@ -1096,10 +1096,30 @@
   "Source":"ElMehdi",
   "Title":"Le jeu sans contrôle",
   "Category":"Technique",
-  "Material":"ballons",
-  "CoachingPoints":"Le jeu sans contrôle :<br>Passe sans contrôle<br>Insister sur la qualité des passes (dosage + précision) et sur les avantages du jeu sans contrôle<br>- gain de temps<br>- prendre l’adversaire de vitesse<br>- accélérer le jeu",
+  "Material":"ballons<br>plots",
+  "CoachingPoints":"Le jeu sans contrôle :<br>Tir sans contrôle<br>Insister sur la qualité de la frappe et être attentif à la position du corps lors de la frappe.",
   "Description":"Tir sans contrôle :<br>A passe à B ; B attaque le ballon et tire sans contrôle.<br>Variantes :<br>Variante 1 : le ballon vient de la gauche + frappe pied droit (voir dessin)<br>Variante 2 : le ballon vient de la droite + frappe pied gauche<br><br>Consignes :<br>- attaquer le ballon<br>- être attentif à la position du corps<br>- qualité de la frappe de balle",
   "Image":"00231.png"
+ },
+ {
+  "ID":232,
+  "Source":"ElMehdi",
+  "Title":"Vitesse de course",
+  "Category":"Physique",
+  "Material":"ballons<br>plots<br>chasubles (3 couleurs)",
+  "CoachingPoints":"Vitesse :<br>Vitesse de course",
+  "Description":"Course - Relais :<br>Former des équipes de 4 joueurs.<br>Chaque joueur se trouve à un plot.<br>Les plots sont distancés de 7m.<br>L’équipe qui gagne est celle qui a amené le ballon du premier plot (plot 1) au dernier plot (plot 5) le plus rapidement selon les consignes suivantes.<br><br>Consignes :<br>au signal sonore, A, qui se trouve au plot 2, part récupérer le ballon (avec les mains) au plot 1 et le ramène au plot 2.<br>Quand A dépose le ballon au plot 2, B, qui se trouve au plot 3, part le récupèrer et l’amène au plot 3<br>etc.<br>jusqu’à ce que D ramène le ballon au plot 5.<br>Changer les postes.<br>Faire plusieurs manches.<br>Variante :<br>Idem mais déplacement en course arrière.",
+  "Image":"00232.png"
+ },
+ {
+  "ID":233,
+  "Source":"ElMehdi",
+  "Title":"Le jeu sans contrôle",
+  "Category":"Technique",
+  "Material":"ballons",
+  "CoachingPoints":"Le jeu sans contrôle :<br>Passe sans contrôle<br>Insister sur la qualité des passes (dosage + précision) et sur les avantages du jeu sans contrôle<br>- gain de temps<br>- prendre l’adversaire de vitesse<br>- accélérer le jeu",
+  "Description":"Passe et va sans contrôle :<br>Par groupes de 4 joueurs.<br>Un ballon pour 4.<br>Passe et va sans contrôle : les joueurs sont limités à une touche de balle.<br>Le joueur passe le ballon et va se placer derrière le joueur en face de lui.<br>Consignes :<br>- garder le ballon au sol<br>- utiliser le pied droit et le pied gauche",
+  "Image":"00233.png"
  },
  {
   "ID":10000,
@@ -2169,6 +2189,30 @@
   "theme_tech":6,
   "theme_tact":4,
   "drills":[
+   {
+    "id":45,
+    "duration":720
+   },
+   {
+    "id":232,
+    "duration":720
+   },
+   {
+    "id":229,
+    "duration":720
+   },
+   {
+    "id":233,
+    "duration":720
+   },
+   {
+    "id":231,
+    "duration":720
+   },
+   {
+    "id":200,
+    "duration":1800
+   }
   ]
  },
  {
