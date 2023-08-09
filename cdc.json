@@ -1122,6 +1122,56 @@
   "Image":"00233.png"
  },
  {
+  "ID":234,
+  "Source":"ElMehdi",
+  "Title":"Exercice technique",
+  "Category":"Echauffement",
+  "Material":"ballons<br>plots",
+  "CoachingPoints":"Exercice technique :<br>Une-deux<br>Appel de balle<br>Remise en une touche de balle",
+  "Description":"Le une-deux :<br>Les joueurs évoluent sur un terrain de 30x20m.<br>La moitié des joueurs a un ballon.<br>Les porteurs de balle sollicitent des une-deux auprès des joueurs sans ballon.<br>A passe à B puis fait un appel de balle en sprintant<br>B lui remet dans la course en une touche de balle.<br>Si après sa passe le joueur (C) ne fait pas d'appel de balle, son partenaire (D) conserve le ballon etdevient joueur porteur de balle.<br>(exemple : C et D sur le dessin)<br><br>Consignes :<br>- passes dosées et précises<br>- les joueurs sans ballon trottinent et sollicitent le ballon<br>- application dans les remises sans contrôle",
+  "Image":"00234.png"
+ },
+ {
+  "ID":235,
+  "Source":"ElMehdi",
+  "Title":"Coordination",
+  "Category":"Physique",
+  "Material":"lattes ou coupelles",
+  "CoachingPoints":"Coordination :<br>Appuis<br>Fréquence",
+  "Description":"Exercices d'appuis :<br>Des barres (ou coupelles) sont disposées sur le terrain à intervalles réguliers (environ 50cm).<br>Consignes de course :<br>2 appuis (1 pied droit + 1 pied gauche) entre les coupelles<br>avancer de 2 coupelles puis reculer d’une<br>avancer de 2 coupelles puis reculer d’une<br>etc.<br><br>Variantes :<br>Premier exercice : le joueur fait face au parcours<br>Deuxième exercice : le joueur se déplace latéralement",
+  "Image":"00235.png"
+ },
+ {
+  "ID":236,
+  "Source":"ElMehdi",
+  "Title":"Le jeu sans contrôle",
+  "Category":"Technique",
+  "Material":"ballons",
+  "CoachingPoints":"Le jeu sans contrôle :<br>Passe sans contrôle<br>Insister sur la qualité des passes (dosage + précision) et sur les avantages du jeu sans contrôle<br>- gain de temps<br>- prendre l’adversaire de vitesse<br>- accélérer le jeu",
+  "Description":"Passe sans contrôle :<br>Par groupes de 3 joueurs. Un ballon pour 3.<br>En triangle : échange de passes sans contrôler le ballon.<br>Les joueurs peuvent changer le sens de circulation du ballon quand ils le souhaitent.<br><br>Consignes :<br>- distance entre les joueurs : 7-8m<br>- être sur ses appuis<br>- et attaquer son ballon<br>- garder le ballon au sol",
+  "Image":"002236.png"
+ },
+ {
+  "ID":237,
+  "Source":"ElMehdi",
+  "Title":"Le jeu sans contrôle",
+  "Category":"Technique",
+  "Material":"ballons<br>plots",
+  "CoachingPoints":"Le jeu sans contrôle :<br>Passe sans contrôle<br>Insister sur la qualité des passes (dosage + précision) et sur les avantages du jeu sans contrôle<br>- gain de temps<br>- prendre l’adversaire de vitesse<br>- accélérer le jeu",
+  "Description":"Passe sans contrôle :<br>Par groupes de 5 joueurs. Un ballon pour 5.<br>A passe à B qui remise dans la course de A<br>A passe à C qui remise dans la course de A<br>A passe à D et se place derrière D.<br>D effectue le même parcours que A dans le sens inverse.<br>Changer les postes régulièrement.<br><br>Consignes :<br>- sans contrôle (une touche de balle)<br>- être sur ses appuis au moment de recevoir le ballon<br>- attaquer son ballon",
+  "Image":"002237.png"
+ },
+ {
+  "ID":238,
+  "Source":"ElMehdi",
+  "Title":"Le jeu sans contrôle",
+  "Category":"Technique",
+  "Material":"ballons<br>plots",
+  "CoachingPoints":"Le jeu sans contrôle :<br>Passe et remise sans contrôle<br>Tir sans contrôle<br>Insister sur la qualité de la frappe et être attentif à la position du corps lors de la frappe.",
+  "Description":"Tir sans contrôle :<br>A passe à B<br>B remise dans la course de A<br>A passe à C qui remise dans la course de A<br>A frappe au but.<br><br>Consignes :<br>- les joueurs sont limités à une touche de balle<br>- utiliser le pied droit et le pied gauche pour passer et tirer<br>- changer les postes régulièrement",
+  "Image":"00238.png"
+ },
+ {
   "ID":10000,
   "Source":"ElMehdi",
   "Title":"",
@@ -2220,6 +2270,34 @@
   "theme_tech":6,
   "theme_tact":4,
   "drills":[
+   {
+    "id":45,
+    "duration":720
+   },
+   {
+    "id":234,
+    "duration":720
+   },
+   {
+    "id":235,
+    "duration":720
+   },
+   {
+    "id":236,
+    "duration":720
+   },
+   {
+    "id":237,
+    "duration":720
+   },
+   {
+    "id":238,
+    "duration":720
+   },
+   {
+    "id":200,
+    "duration":1800
+   }
   ]
  },
  {
