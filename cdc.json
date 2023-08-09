@@ -1149,7 +1149,7 @@
   "Material":"ballons",
   "CoachingPoints":"Le jeu sans contrôle :<br>Passe sans contrôle<br>Insister sur la qualité des passes (dosage + précision) et sur les avantages du jeu sans contrôle<br>- gain de temps<br>- prendre l’adversaire de vitesse<br>- accélérer le jeu",
   "Description":"Passe sans contrôle :<br>Par groupes de 3 joueurs. Un ballon pour 3.<br>En triangle : échange de passes sans contrôler le ballon.<br>Les joueurs peuvent changer le sens de circulation du ballon quand ils le souhaitent.<br><br>Consignes :<br>- distance entre les joueurs : 7-8m<br>- être sur ses appuis<br>- et attaquer son ballon<br>- garder le ballon au sol",
-  "Image":"002236.png"
+  "Image":"00236.png"
  },
  {
   "ID":237,
@@ -1159,7 +1159,7 @@
   "Material":"ballons<br>plots",
   "CoachingPoints":"Le jeu sans contrôle :<br>Passe sans contrôle<br>Insister sur la qualité des passes (dosage + précision) et sur les avantages du jeu sans contrôle<br>- gain de temps<br>- prendre l’adversaire de vitesse<br>- accélérer le jeu",
   "Description":"Passe sans contrôle :<br>Par groupes de 5 joueurs. Un ballon pour 5.<br>A passe à B qui remise dans la course de A<br>A passe à C qui remise dans la course de A<br>A passe à D et se place derrière D.<br>D effectue le même parcours que A dans le sens inverse.<br>Changer les postes régulièrement.<br><br>Consignes :<br>- sans contrôle (une touche de balle)<br>- être sur ses appuis au moment de recevoir le ballon<br>- attaquer son ballon",
-  "Image":"002237.png"
+  "Image":"00237.png"
  },
  {
   "ID":238,
