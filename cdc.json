@@ -1172,6 +1172,56 @@
   "Image":"00238.png"
  },
  {
+  "ID":239,
+  "Source":"ElMehdi",
+  "Title":"Exercice technique",
+  "Category":"Echauffement",
+  "Material":"ballons<br>plots<br>chasubles (2 couleurs)",
+  "CoachingPoints":"Jeux réduits :<br>- effectifs réduits<br>- surface réduite",
+  "Description":"Match 4 contre 4 :<br>Terrain de 25x25m avec 4 buts (2m ou plus grand suivant la catégorie) :<br>un but au milieu de chacun des côtés du terrain.<br>On peut marquer sur tous les buts.<br>Match à 4c4<br>3’ par match<br>Changer d’adversaire s'il y a plusieurs terrains.<br><br>Consignes :<br>- jeu libre<br>- remplacer les touches par des corners",
+  "Image":"00239.png"
+ },
+ {
+  "ID":240,
+  "Source":"ElMehdi",
+  "Title":"Vitesse",
+  "Category":"Physique",
+  "Material":"ballons<br>plots",
+  "CoachingPoints":"Vitesse :<br>Vitesse de course<br>Vitesse gestuelle",
+  "Description":"Sprint + tir :<br>2 buts face à face (26m) avec gardiens.<br>Former 2 équipes de joueurs.<br>A passe le ballon à travers un petit but (2m) puis sprinte pour récupérer son ballon en contournant le petit but et tire au but.<br>B fait de même de l’autre côté.<br>Un point pour le joueur dont le ballon rentre dans le but en premier. Après le tir, A va derrière les bleus et B derrière les rouges.<br><br>Variantes :<br>- tir PD<br>- tir PG",
+  "Image":"00240.png"
+ },
+ {
+  "ID":241,
+  "Source":"ElMehdi",
+  "Title":"Le jeu sans contrôle",
+  "Category":"Technique",
+  "Material":"ballons",
+  "CoachingPoints":"Le jeu sans contrôle :<br>Passe sans contrôle<br>Insister sur la qualité des passes (dosage + précision) et sur les avantages du jeu sans contrôle<br>- gain de temps<br>- prendre l’adversaire de vitesse<br>- accélérer le jeu",
+  "Description":"Passe sans contrôle :<br>Par groupes de 3 joueurs. Deux ballons pour 3.<br>A et C ont chacun un ballon.<br>A passe a B qui remet en une touche à A puis se retourne<br>C passe alors à B qui remet en une touche à C puis se retourne<br>etc.<br>B doit être constamment sur ses appuis.<br>Changer B régulièrement.<br><br>Consignes :<br>- une touche de balle (sans contrôle)<br>- qualité dans les passes : dosage et précision<br>- être sur ses appuis",
+  "Image":"00241.png"
+ },
+ {
+  "ID":242,
+  "Source":"ElMehdi",
+  "Title":"Le jeu sans contrôle",
+  "Category":"Technique",
+  "Material":"ballons<br>plots",
+  "CoachingPoints":"Le jeu sans contrôle :<br>Passe sans contrôle<br>Insister sur la qualité des passes (dosage + précision) et sur les avantages du jeu sans contrôle<br>- gain de temps<br>- prendre l’adversaire de vitesse<br>- accélérer le jeu",
+  "Description":"Passe sans contrôle :<br>Par groupes de 4 joueurs.<br>Un ballon pour 4.<br>En carré : A passe à B qui passe à C qui passe à D.<br>Les joueurs sont limités à une touche de balle.<br>L'entraîneur annonce quel pied utiliser : pied droit ou pied gauche.<br><br>Consignes :<br>- distance entre les joueurs : 7-8 m<br>- être sur ses appuis<br>- attaquer son ballon<br>- garder le ballon au sol",
+  "Image":"00242.png"
+ },
+ {
+  "ID":243,
+  "Source":"ElMehdi",
+  "Title":"Le jeu sans contrôle",
+  "Category":"Technique",
+  "Material":"ballons<br>plots",
+  "CoachingPoints":"Le jeu sans contrôle :<br>Passe sans contrôle<br>Tir sans contrôle<br>Insister sur la qualité des passes<br>(dosage+précision) et sur la qualité des frappes de balle.",
+  "Description":"Tir sans contrôle :<br>A passe à B puis court en passant dans le dos de B<br>B passe à C<br>C passe à A qui tire au but.<br><br>Variantes :<br>Variante 1 : frappe pied droit (voir dessin)<br>Variante 2 : de l'autre côté : frappe pied gauche<br><br>Consignes :<br>- les joueurs sont limités à une touchede balle<br>- précision et dosage dans les passes<br>- changer les postes régulièrement : tireurs ; remiseurs ; ramasseurs",
+  "Image":"00243.png"
+ },
+ {
   "ID":10000,
   "Source":"ElMehdi",
   "Title":"",
@@ -2305,6 +2355,34 @@
   "theme_tech":6,
   "theme_tact":4,
   "drills":[
+   {
+    "id":45,
+    "duration":720
+   },
+   {
+    "id":239,
+    "duration":720
+   },
+   {
+    "id":240,
+    "duration":720
+   },
+   {
+    "id":241,
+    "duration":720
+   },
+   {
+    "id":242,
+    "duration":720
+   },
+   {
+    "id":243,
+    "duration":720
+   },
+   {
+    "id":200,
+    "duration":1800
+   }
   ]
  },
  {
