@@ -1222,6 +1222,36 @@
   "Image":"00243.png"
  },
  {
+  "ID":244,
+  "Source":"ElMehdi",
+  "Title":"L’orientation du jeu",
+  "Category":"Tactique",
+  "Material":"ballons<br>plots",
+  "CoachingPoints":"L’orientation du jeu :<br>La relation appui-soutien. Priorités dans l'orientation du jeu<br>- choisir en priorité la solution vers l'avant<br>- s'il n'y a pas de solution vers l'avant :<br>jouer latéralement<br>- s’il n’y a toujours pas de solution, ne pas hésiter à jouer en soutien.<br>Le porteur du ballon doit toujours disposer d'un soutien.<br>Rechercher la supériorité numérique dans la réorientation du jeu.",
+  "Description":"Taureau 4 contre 2 :<br>Terrain de 20x10m (2 carrés accolés de 10x10m).<br>Quatre joueurs (se trouvant à l’extérieur des carrés) tentent de conserver collectivement la maîtrise du ballon contre deux joueurs taureaux qui tentent de le récupérer.Les passes entre les joueurs extérieurs doivent obligatoirement se faire à travers au moins un des deux carrés.<br>Chaque taureau doit rester dans son carré.<br>Le joueur qui perd le ballon ou qui effectue une mauvaise passe devient taureau.<br>Pour marquer, transmettre le ballon de A à B ou de B à A avec ou sans l’aide de C et D.<br><br>Variantes :<br>- jeu libre<br>- limiter à 2 ou 3 touches de balle",
+  "Image":"00244.png"
+ },
+ {
+  "ID":245,
+  "Source":"ElMehdi",
+  "Title":"L’orientation du jeu",
+  "Category":"Tactique",
+  "Material":"ballons<br>plots<br>chasubles (2 couleurs)",
+  "CoachingPoints":"L’orientation du jeu :<br>La relation appui-soutien. Priorités dans l'orientation du jeu<br>- choisir en priorité la solution vers l'avant<br>- s'il n'y a pas de solution vers l'avant :<br>jouer latéralement<br>- s’il n’y a toujours pas de solution, ne pas hésiter à jouer en soutien.<br>Le porteur du ballon doit toujours disposer d'un soutien.<br>Rechercher la supériorité numérique dans la réorientation du jeu.",
+  "Description":"Le damier :<br>Terrain de 20x15m divisé en carré de 5x5m (voir dessin).<br>Deux équipes de 6 joueurs dans le damier et 2 joueurs extérieurs (A et B).<br>Pour marquer, transmettre le ballon de A à B ou de B à A.<br>Chaque joueur doit rester dans son carré délimité par les coupelles.<br>Si une équipe récupère le ballon, elle garde la possession du ballon mais le jeu recommence à A ou B.<br><br>Variantes :<br>- jeu libre<br>- le joueur a 4’’ pour donner le ballon",
+  "Image":"00245.png"
+ },
+ {
+  "ID":246,
+  "Source":"ElMehdi",
+  "Title":"L’orientation du jeu",
+  "Category":"Tactique",
+  "Material":"ballons<br>plots<br>chasubles (2 couleurs)",
+  "CoachingPoints":"L’orientation du jeu :<br>La relation appui-soutien. Priorités dans l'orientation du jeu<br>- choisir en priorité la solution vers l'avant<br>- s'il n'y a pas de solution vers l'avant :<br>jouer latéralement<br>- s’il n’y a toujours pas de solution, ne pas hésiter à jouer en soutien.<br>Le porteur du ballon doit toujours disposer d'un soutien.<br>Rechercher la supériorité numérique dans la réorientation du jeu.",
+  "Description":"Jeu des capitaines 5 contre 5 :<br>Terrain de 35x20m avec 2 zones (3m) se trouvant aux extrémités.<br>Match 4 contre 4 à l’intérieur du terrain.<br>Pour marquer, l’équipe doit passer le ballon à son cinquième joueur (le capitaine) situé dans la zone opposée.<br>L’équipe marque un point si le joueur maîtrise le ballon à l’intérieur de sa zone.<br>Changer le capitaine régulièrement.<br>Quand une équipe marque le capitaine relance pour l’équipe adverse.<br><br>Consigne :<br>- choisir la solution vers l’avant en priorité",
+  "Image":"00246.png"
+ },
+ {
   "ID":10000,
   "Source":"ElMehdi",
   "Title":"",
@@ -2397,6 +2427,26 @@
   "theme_tech":7,
   "theme_tact":5,
   "drills":[
+   {
+    "id":45,
+    "duration":720
+   },
+   {
+    "id":244,
+    "duration":720
+   },
+   {
+    "id":245,
+    "duration":720
+   },
+   {
+    "id":246,
+    "duration":720
+   },
+   {
+    "id":200,
+    "duration":1800
+   }
   ]
  },
  {
